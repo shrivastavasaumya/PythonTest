@@ -1,0 +1,87 @@
+
+                                                                 CONTROL FLOW
+                                                                 ------------
+                             (It helps to get the control on the flow of the output, basis on various conditions.)
+                     We do not need control flow in sequencial flow because there the information flows in a straight way
+                                                                    
+                                                           TYPES OF CONTROL FLOW
+                                                                       |
+                                    |----------------------------------|---------------------------------|
+                          Making decisions                   Repeating actions                  Jumping to different parts of the program
+
+In other languages we use brackets to define a CODE BLOCK8BBBBBBBBBB                
+Here, we use INDENTATION ---> equal / same spacing / Tab i.e 4 spaces.
+ Example: 
+          age = int(input())
+          if age >= 18:                            ---------------
+             print("You're an adult")                            |--->> This is a single block of code because of the same INDENTATION  in 
+             print("You are eligible for")  ---------------       the lines, this is uder certain condition to work
+          print("You are welcome")   ---------->> This is unconditional, so will run directly.(General line)
+
+          # The lines under conditions will run adhereing to the applied set of condition, if the condition is met than only the codes will run
+otherwise it will be skipped or will give the output as per condition
+
+--->> (If the age is 3) ---->>> age = int(input(3))
+  Output  === 3                  -----       Notice: the after lines are not printed because the given age does not satisfies the condition
+              You are welcome    -----       And as this (the last line) was unconditional, hence got printed
+ 
+              
+--->> (If the age is 19) ---->>> age = int(input(19))
+Output  ===  19
+             You're an adult                       Notice: Lines satisfying the condition are printed in addition to the general line.
+             You are eligible for driving
+             You are welcome
+
+         
+      
+                                               ********** HOW TO PUT TWO- CONDITIONS IN BLOCK **********
+
+                                     By using the same INDENTATION we can add one condition in the exixting one.
+                                    
+Example-                          temp = 5
+                                  is_snowing = True
+
+                                  if temp < 10:
+                                     print('It is freezing')
+                                     print('Wear a heavy coat')
+                                     if is_snowing:             ------------>>>     [Here we added another condition in the same block itself]
+                                     print('And don't forget your boots!')
+                                 print('Have a nice day!')      ------------>>>     [This is the general line]
+                              
+It is freezing
+Wear a heavy coat
+And don't forget your boots! -------------------------->>> Output [because both the conditions were satisfied]
+Have a nice day!
+
+       
+But ****************       
+     The 1st condition only is not satisfied, than the whole block will not be printed because of the inter-dependency of the conditions
+                             (if) temp = 5
+                                  is_snowing = True
+
+                                  if temp < 10:
+                                     print('It is freezing')
+                                     print('Wear a heavy coat')
+                                     if is_snowing:     
+                                     print('And don't forget your boots!')
+                                  print('Have a nice day!') 
+
+     Have a nice day! -------------------------->>> Output [because both the condition was not satisfied]
+__________________________________________________________________________________________________________________________________________________________
+
+                                                 ****** TO LEAVE AN EMPTY CONDITION ******
+
+                                                if_score > 90:
+                                                   print('Excellent!')
+ 
+                                                if score < 60:
+                                                print('study more')         ----------->> This will give INDENTATION error because the 'print' line is 
+                                              ----------------------                      not aligned in proper spacing [LIKE] --->  if score < 60:
+                                                                                                                                         print('study more')    
+
+            But, if you do not want to print the line with respect to the condition, and want TO LEAVE AN EMPTY CONDITION 
+            than put 'PASS' otherwise it will raise an error --->                                               
+                                               if score < 60:
+                                                  pass       ------> THIS IS USED TO IGNORE BECAUSE IT HAS NOTHING
+                                               print('study more') 
+      We can use anything insted of 'pass'or "" or a = 1 or 3..etc , but to avoid unnecessary clutter simply use 'pass'

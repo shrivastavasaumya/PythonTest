@@ -1,0 +1,63 @@
+                                                                    ***** ELSE ***** 
+
+ This is used when we have two things, 'this or that'
+
+  Example-                                                                  
+height = int(input())
+if height >= 165:
+   print('you are tall')
+else : print('drink more milk')
+                                    Now, If height = 170 ==== you are tall
+                                         if height = 150 ==== drink more milk [satisfied Else condition ]
+
+Example-
+
+
+password = input('Enter your password: ')
+if len(password) >= 8:
+   print('Valid password')                                                                     [ CORRECT INDENTATION]
+else: 
+   print('password is too short, must have 8 characters')
+
+
+**********************  NOTE : THE INDENTATION OF 'IF' AND 'ELSE' SHOULD BE SAME **************************
+
+password = input('Enter your password: ')
+if len(password) >= 8:
+   print('Valid password')
+   else:                                                                                         [ ICORRECT INDENTATION]
+   print('password is too short, must have 8 characters')
+ 
+                                                                   OR
+password = input('Enter your password: ')
+if len(password) >= 8:
+   print('Valid password')
+   else:                                                                                           [ ICORRECT INDENTATION]
+       print('password is too short, must have 8 characters') 
+
+
+       If password = ab12                  {OUTPUT}        password is too short, must have 8 characters
+          password = adhbndi565366                         Valid password
+
+
+__________________________________________________________________________________________________________________________________________________________
+
+                                    ************** HOW TO PUT CONDITION IN AN 'IF ELSE' CONDITION ***************
+
+
+
+age = 9
+password = 'etwer6566'
+if age >= 18:
+    if len(password) >= 8:
+       print('Valid password')                                           ---> If the 1st condition is fulfilled than only it will run otherwise                         
+    else:                                                                      directly will run the 'else' condition.
+       print('password is too short, must have 8 characters')
+else: 
+    print('You are too young for this')
+
+
+OUTPUTS BASED ON DIFFERENT INPUTS
+    If age = 21                                     If age = 12 
+    Valid password                                  You are too young for this 
+

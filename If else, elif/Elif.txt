@@ -1,0 +1,74 @@
+
+                                                    *********** Elif ***********
+
+                                       When we have multiple conditions, to check them we use 'Elif'
+                                       It checks the condition till does not get a 'True' condition.
+
+Example - 
+        temperature = 45
+        if temperature < 32:
+             print('It's freezing.Wear coat')
+        elif temperature < 50:
+             print('It's cold. wear jacket')
+        elif temperature < 70:
+             print('It is cool. Bring sewaters.')
+        elif temperature < 85:
+             print('It is warm')
+        else:
+             print('it is hot')                         ----------------::>> line fulfilling the condition gets printed
+
+             OUTPUTS BASED ON INPUTS 
+             temperature = 96    ---------->      it is hot
+                           64    ---------->      It is cool. Bring sewaters
+
+ ********** If the 1st condition is fulfilled than the left are ignored, even if the left one are also correct, so CORRECT ORDER / SEQUENCING is vital.
+
+ Example :                                                 if 0 <  number <= 9
+                                                               print("Positive")
+                                                               if number > 0:
+                                                               print("Positive single digit")
+                                                           else: 
+                                                               print("zero or negative")
+
+    And the INPUT = 1
+    Output =   Positive  ------------> But the output should be "Positive single digit" , this happened because of the incorrect order / sequencing which lead to                                                        
+                                              the 1st condition which got fulfilled and ignored others.
+        
+        
+        SO TO GET THE CORRECT AND DESIRED OUTPUT THE CORRECT SEQUENCING IS ---                                       
+                                                        
+                                                        
+                                                           if 0 <  number <= 9
+                                                               print("Positive single digit")
+                                                               if number > 0:
+                                                               print("Positive")
+                                                           else: 
+                                                               print("zero or negative")
+
+      INPUT = 1
+      Output =  Positive single digit          
+
+
+__________________________________________________________________________________________________________________________________________________________
+                                                   WAYS TO WRITE CONDITIONS
+
+if a == 6 or a == 7 or a == 9:
+  print('lucky')
+else: 
+  print ('unlucky')
+                    
+                     OR
+
+** BY USING 'IN' OPERATOR **
+
+if a in [6,7,9]:
+   print('lucky')
+else:
+   print('unlucky')                    
+
+NOTE: Do not write in the form of  
+if a == 6 or 7 or 9:
+  print('lucky')
+else: 
+  print ('unlucky') -----> Wrong because here we have not any condition, we just had put the literal value of 'a'
+  And if we will any value in it it will give the output as 'lucky'

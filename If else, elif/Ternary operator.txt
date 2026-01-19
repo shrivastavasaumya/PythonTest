@@ -1,0 +1,37 @@
+
+                                              *************** TERNARY OPERATOR ***************
+
+    if condition:
+       variable = value_if_true
+    else: 
+       variable = value_if_false
+                                             CAN BE WRITTEN IN THE FORM
+
+   variable = value_if_true if condition else value_if_false
+
+   age = 20
+   if age >= 18:
+      status = 'adult'
+   else: 
+      status = 'minor'
+   print(status)
+
+CAN BE WRITTEN IN THE FORM    
+     age = 20
+     status = 'adult' if age >= 18 else 'minor'              -----------> THIS FORM IS CALLED TERNARY OPERATOR
+     print(status)
+__________________________________________________________________________________________________________________________________________________________
+
+Example -  number = 17
+           divisor = 7
+
+           if divisor != 0:
+              result = number/divisor
+           else:
+              result = 'cannot divide by zero'
+
+    IN TERNARY OPERATOR ---  
+                        result = number / divisor if divisor != 0 else 'cannot divide by zero'         
+
+
+__________________________________________________________________________________________________________________________________________________________
