@@ -1,0 +1,18 @@
+
+                                                ****QUOTING****
+                        
+ 1.) Use double quotes if your string includes single quotes in it 
+ Example- "Don't worry about errors."
+
+ 2.) Use single quotes if your string includes double quotes in it 
+ Example- 'She said, "Python is amazing!"'
+
+                ~~~~~~~~But if you want to use quotes irrespective of your string than
+                                        use ESCAPE CHARACTER 
+                        Examples- ' Dont\'t worry about errors.' ----------> By putting a back slash before the quote
+ 
+                                 "She said, \"Python is amazing!\"" ---------> Here 2 backslashes because we want to print the dialogue
+                                                                                          in the quoted statement
+
+ Back slash ------>  This will help to IGNORE / ESCAPE the quote
+

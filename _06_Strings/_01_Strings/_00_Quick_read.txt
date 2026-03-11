@@ -1,0 +1,55 @@
+                 STRINGS IN PYTHON
+                        │
+                        ▼
+               What is a String?
+        (Text data inside " " or ' ')
+                        │
+                        ▼
+                 Creating Strings
+        ┌──────────────┼──────────────┐
+        │                  │                  │
+     Single " "     Double ' '        Triple ''' '''
+                        │
+                        ▼
+
+                Accessing Characters
+        ┌──────────────┼──────────────┐
+        │                  │                  │
+      Indexing      Negative Indexing         Slicing
+                        │
+                        ▼
+
+                String Operations
+        ┌──────────────┼──────────────┬──────────────┐
+        │                  │                  │                   │
+  Concatenation     Repetition           Membership              Length
+     (+)               (*)              (in / not in)             len()
+                             │
+                             ▼
+
+                         String Methods
+        ┌──────────────┼──────────────┬──────────────┬
+        │                  │                   │                  │
+   upper()             lower()              strip()            replace()
+   title()             capitalize()         split()            join()
+                            │
+                            ▼
+
+                  String Formatting
+        ┌──────────────┼──────────────┐
+        │                  │                   │
+        % formatting     format()           f-strings
+                        │
+                        ▼
+
+                 String Checking
+        ┌──────────────┼──────────────┬──────────────┐
+        │                  │                   │                  |
+      isalpha()        isdigit()              isalnum()        sisspace()
+                        │
+                        ▼
+                  Advanced Topics
+        ┌──────────────┼──────────────┬
+        │                  │                   │
+   Escape Characters   Raw Strings        String Iteration
+      (\n, \t)                              using loops

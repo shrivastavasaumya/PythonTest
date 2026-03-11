@@ -1,0 +1,19 @@
+
+
+                                                                       Negative Indexing
+								     ---------------------
+
+
+In all programming languages indexing starts with 0
+
+ Example:  p     y    t    h    o     n -----> string 
+         [0]  [1]  [2]   [3]   [4]   [5]-----> position /indices / index
+         -6   -5   -4    -3    -2    -1 -----> Negative index
+
+    print(txt[len(txt)])---> 6 (the length which is '6' - no number is on 6th place---'ERROR'
+    
+     So to avoid this syntax ERROR
+                               print(txt[len(txt)-1])--->5 ---'n'
+
+    print(txt[-3])---> 3 ---'h'.
+    rint(txt[-7])--->no number is on -7th place---'ERROR'

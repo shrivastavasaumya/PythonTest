@@ -1,0 +1,57 @@
+'''                                                       
+         
+          
+
+                                                         *******  BOOLEAN  *******
+                                                         
+# name="Python"                                                  
+Name="Python"       
+print(name == Name)----> True
+
+name="python"
+name="Python"
+print(name == name)----> True                                               Double equality (==) is to check the condition
+                                                                            Single equality (=) is for initialization
+name1="python"
+name2="Python"
+print(name1 == name2)----> False
+
+
+
+print('apple'== "Apple')----> False (Because both have different casing)    
+print('apple'!= 'orange')----> True
+print('15<=8')---> False 
+
+
+
+OPERATORS  :                                                               SIGNS                               IN PYTHON       
+                                                                NOT EQUALS TO                                      !=
+                                                                GREATER THAN EQUALS TO                             >=
+                                                                LESS THAN EQUALS TO                                <=
+                                                                TO VERIFY / CHECK                                  ==
+
+#### To use these operators in strings, python uses lexicography---> checks each word as in the sequence of dictionary.
+Example- 
+         print('apple'<'banana')---> True, because 'a'= 1 and 'b'= 2, so (a < b)
+         
+         print('apple'>'Apple')----> True, because 'A'is < 'a', Uppercase (Capital) is smaller than lower case (cursive).
+        
+         print('apple'<'ape')----> False, Lexicographically 'p > e'
+
+#### To know the value or ASCII of the character use 
+                 ASCII of 'a'  <--- print(ord('a'))----> 97
+                 ASCII of 'A'  <--- print(ord('A'))----> 65 ,  Via this you can find value of any character
+                             also vice versa----> print('\u0061')----> [Note-unicode of 97--->\u0061]----> output= 'a'
+                                               OR print(chr(97))---> 'a'
+
+      [ FACT    ====      There are total 143,000 characters 
+                        and in that 128 characters are ---> ASCII --->> A-Z, a-z, 0-9, Punctuation, controls (the keyboard characters)]
+                
+
+____________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+                

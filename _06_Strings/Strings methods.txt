@@ -1,0 +1,139 @@
+                                                         Strings methods
+                                              
+                                                Method is just like a function
+print(txt.upper())------> Here, to call the method we put (  )-----> ( . ) it indicates on what you need to run the method
+                        While this is for UPPERCASING
+print(txt.lower())------> LOWERCASING
+print(txt.title())------> TITLECASE (CAPITALIZE 1st letter of each word irrespective of spaces between words)
+print(txt.capitalize())------> CAPITALIZE 1st letter only, (if there is a space in the start of the string than, it capitalizes the space and not the nxt character)
+
+ TO REMOVE THE SPACES FROM THE STRING
+  Example = txt = '    hello python programming   '--- to remove such spaces
+  
+print(text.lstrip("*")) --- Removes space from left side ----- L-strip          
+print(text.rstrip("*")) --- Removes space from right side ------ R-strip   
+print(text.strip("*"))  --- Removes space from Both sides ----- S-strip
+ 
+                                                                
+                                                              
+                                                                TO FIND 
+ 
+ Example----          "python is amazing, python is fun"
+              string.find(substring, start, end)--- syntax of find
+                            to find the word python  ====  txt.find("python") 
+                            output ---- '0' -----> it will provide the code of the initial letter of the word 'python' i.e. the word given to find.
+              
+              and if, txt.find("Python") === output---> (-1)----> no such word exist ( due to difference in cases)
+            
+             'to find index of 'is' ==== print(txt.find('is')) ----> '7' ( this is the index of the first occured 'is')
+              to get index of 2nd instance of 'is'  ==== 
+                                                       get the index of any character which is not repeated in the whole string after the 1st 'is'
+                                                       here it is ( , ) ---> the index of the comma here is ==== 17
+                                                       we had put 17 to indicate python that to count instance occured after 17
+            NOW,
+            print(txt.find('is',17)) ----> '26' is the index of 2nd ' is' 
+                                        
+
+
+                                                              TO COUNT
+
+
+ print(txt.count('python')) ----> 2 (output)
+ print(txt.count('Python')) ----> 0 (output, due to uppercase)
+ string.count(substring, start, end)--- syntax
+                                                             TO GET INDEX
+                                                            
+ The .index() method is similar to .find() but raises a value error if the substring is not found.   
+ string.index(substring, start, end)--- syntax  
+  print(txt.index('Python')) ----> Error  (output, due to uppercase)
+
+                                                            
+                                                              TO REPLACE     
+
+string.replace(old, new, count)--- syntax
+txt = 'Hello World'
+print(txt.replace('World','Python'))-----> Hello Python
+print(txt.replace('world','Python'))-----> Hello World (No change , because incorrect casing of 'w' and 'W')
+
+[NOTE : Python is case sensitive, so be careful of casing and characters]
+
+
+The role of ' COUNT ' in the syntax of 'REPLACE' is
+Example- txt = 'banana, banana, banana'  ------ (want to replace 2 of them with 'apple')
+         print(txt.replace('banana', 'apple', 2)) ----- apple apple banana
+         print(txt.replace('banana', 'apple')) ----- apple apple apple (To replace all)
+         print(txt.replace('banana', 'apple', 0)) ----- banana, banana, banana ( no change because of '0')
+
+
+                                                              TO CHECK THE NATURE OF THE TEXT
+                                                              
+TEXT IS FULLY ALPHABETICAL OR NOT ----> print(text.isalpha()) 
+                        Example- text1 = 'PYTHON'
+                                 text2 = 'PYTHON3'       --------------> print(text1.isalpha())    ------> True
+                                                                         print(text2.isalpha())    ------> False (Because it has a number also)
+
+TEXT IS FULLY NUMERICAL OR NOT ----> print(text.isdigit())                                                                    
+                        Example- text1 = '2322'
+                                 text2 = '2python'       --------------> print(text1.isdigit())    ------> True
+                                                                         print(text2.isdigit())    ------> False (Because it has alphabets also)
+
+TEXT IS ALPHA-NUMERIC OR NOT ----> print(text.isalnum())                                    [NOTE:THESE EMPTY BRACKETS ARE THERE IN THE FUNCTION TO CALL]         
+  (LETTERS AND NUMBERS)                                                           
+                        Example- text1 = '2322'
+                                 text2 = '2python'      --------------> print(text1.isalnum())    ------> True
+                                                                        print(text2.isalnum())    ------> True      
+                But, if -------> text3 = '2 python      --------------> print(text3.isalnum())    ------> False (Because alphanumeric includes numbers and alphabets only
+                                                                                               and does not consider 'SPACES' given in the string as alphanumeric so --- False)  
+
+                                                                     TO CHECK SPACE     
+
+  print(txt.isspace())          
+  Exampl - txt = "    "  or ' \n   ' or "   \t\n   "                          |              txt = " .  " 
+          print(txt.isspace()) ------> True                                   |              print(txt.isspace()) ------> False (Bcause of the dot / full stop)
+         
+          
+                                                                  STARTS WITH / ENDS WITH
+
+
+                                                  Example:    text = 'Python is amazing'
+                                                
+Does the string starts with a certain mentioned character ---> print(text.startswith('Python')) ---> True
+
+Does the string ends with a certain mentioned character --->  print(text.endswith('is')) ---> False
+
+Does the string starts / ends with a certain mentioned character with a definite start and end ---> print(text.endswith('is',0,9)) --->('9' is ending index = exclusive)
+
+
+                                                            WANTS TO SPLIT THE STRING (WANTS TO CONVERT STRING INTO LIST)
+
+      text = ' dog, cat, mouse '
+      print(text.split(","))   ----------------> 'dog', 'cat', 'mouse'                                                   
+                                                          
+      sentence = ' python is fun '
+      print(text.split()) ==============(BY DEFAULT THE COMMAND HAS SPLIT /SPACE IN IT , NO NEED TO EXPLICITLY PUT IT)  ----------------> 'python', 'is', 'fun'
+            
+          
+                                                           WANTS TO JOIN THE STRING (WANTS TO CONVERT LIST TO STRING)
+
+      list/li =  ['dog', 'cat', 'mouse' ] 
+      print("".join(li))  ----------->  dog, cat, mouse                                               
+      (CAN PUT , /.| \ etc. in the separator) 
+
+      __________________________________________________________________________________________________________________________________________________________
+      
+                                                     ********** FORMAT METHOD **********
+                                          
+      name = ' Vipul ' 
+      message = ' Hello, my name is {0} and my age is {1} '.format(name,70) ---------->>>>>(put curly brackets in places of variable and in syntax(.format(...))
+         OR    ' Hello, my name is {} and my age is {} '.format(name,70)                                                                        put the variables according to the sequence)
+      print(message) -----> Hello, my name is Vipul and my age is 70 ------- (output)
+      
+  BTS OF THIS METHOD ------   message = ' Hello, my name is {} and my age is {} '.format(name, 70)-----------> THIS IS PLACE HOLDER WITH INDEX
+                                                             |                |           |     |
+                                                            (0)              (1)         (0)    (1)
+ 
+  If , message = ' Hello, my name is {2} and my age is {1} '.format(name, 70) -----------> Hello, my name is 70 and my age is Vipul ------- (output)
+                                                                      |    |
+                                                                    (1)   (2)
+                  (Interchanged the places, so the sequence of the method will fill in that sequence )                   
+                                    

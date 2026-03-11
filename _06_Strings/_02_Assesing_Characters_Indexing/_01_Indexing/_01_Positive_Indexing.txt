@@ -1,0 +1,17 @@
+                                                                            STRING INDEXING
+
+
+                                                                       Positive Indexing
+                                                                     ---------------------
+
+
+
+                                      In all programming languages indexing starts with 0
+
+Example: p     y    t    h    o     n  
+        [0]  [1]  [2]   [3]   [4]   [5]----->position /indices
+
+print(language[3]) ----> h = output
+
+
+ 

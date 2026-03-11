@@ -1,0 +1,12 @@
+
+        ## A NEGATIVE STEP TRAVERSES THE STRING IN REVERSE DIRECTION ##
+
+                        string[start:end:steps]
+          
+                 print(txt[::-2])----  gimropnhy
+                 print(txt[::-1])---- gnimmargorp nohtyp ----> TO REVERSE THE STRING---('1' was default '-1' is just reversing the string)
+
+__________________________________________________________________________________________________________________________________________________________
+
+                                                             
+                

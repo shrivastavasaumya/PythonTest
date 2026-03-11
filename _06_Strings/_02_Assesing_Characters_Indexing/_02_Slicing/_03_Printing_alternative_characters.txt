@@ -1,0 +1,11 @@
+                                                     PRINT WITH ALTERNATIVE CHARACTERS--- STEPS
+
+
+                                                          
+      Steps- determine interval between characters , by default the value is '1' which means every character will be included
+             if the value is '2'= every 2nd character will be included.             (number of jumps to take from the start)                                   
+                                                           string[start:end:steps]
+                                                 
+        txt= 'python programming
+       print(txt[:6:2]) --- pto
+       print(txt[:6:3]) --- ph

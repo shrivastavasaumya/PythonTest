@@ -1,0 +1,30 @@
+____________________________________________________________________________________________________________________________________________________________                                         
+                                             
+                                                
+                                                          ****MULTI-LINE STRING****
+                                         
+                                          HOW TO SAVE A MULTI-LINE STRING
+     
+           Example- "PDP is another political part like BJP and
+             INC ,and is politically active in Jammu and                  --------> By quoting it in quotes, but this is wrong because it won't 
+             Kashimr area only."                                                      generate the string in the way yo want. 
+             
+
+WAYS TO SAVE ------1.) Use \n = New line
+      
+        Example- "PDP is another political part like BJP and INC,\n and is politically active in Jammu and Kashimr area only."
+        
+        Output= PDP is another political part like BJP and INC,
+                and is politically active in Jammu and Kashimr area only. ----> this line as a result of "\n" came in new line. 
+    
+                   
+                   2.) To get the string AS IT IS use -----> Triple quotes
+                   Triple quotes of any type either single('''x''') or ("""x""")
+
+                       Example= """DP is another political part like BJP and INC,
+                              and is politically active in Jammu and Kashimr area only"""
+                    
+                       Output=  DP is another political part like BJP and INC,
+                              and is politically active in Jammu and Kashimr area only
+
+                              Here, things will reserved as it is                                                       

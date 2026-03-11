@@ -1,0 +1,80 @@
+                                                             String Concatenation
+
+                                       Aligning one string after another
+
+Examples-                                    Input                                          Output
+               a= 1                   1)  print(a+b)                                          3---> Because values of both 'a' and 'b'
+               b= 2                                                                                  are numbers
+                                                                                                         _____________________________________________
+         Now, if   a="1"              2) print(a+b)                                           12--->     |  Because values of both "a" and "b"       |
+                   b="2"                                                                                 | are in the form of string, hence we will  |
+                                                                                                  /----> | get the output as it is.                  |
+                                                                                                 /       |___________________________________________|
+                                                                                                /
+     Here we are CONCATENATING THE STRING, that is aligning the strings together       <-------/
+
+
+----To add a space between your strings in the input   
+
+a="14"                         
+b="25"                      print(a+" " +b)------------> 14 25
+
+                                        
+                                              ***** HOW TO RUN A FUNCTION WITH ONE STRING AND ONE VARIABLE IN IT *****
+                                             
+     Example 1:  age= "45"
+               message: "My age is " + age   ---------> print(message) -----> Error   (Because the 'message' input has a string & a variable in it)
+               So to run the input,
+                                     age= "45"
+                                     message: "My age is " + str(age) ------> print(message) -----> My age is 45
+                                                            ---------
+                         Here we have converted variable into a string by putting it into a string function.---->>>> str( )
+
+               
+     Example 2 :                                                  city = "New york"
+                                                                  temp = 75
+(Here underscore between the characters                 / ------  weather_report = "The tempreature in" + city +  "is" + temp + "degrees"
+   just for visual clarity & not for any other use)     \ ------  print(weather_report)
+                                                                  Output----> Error
+                                                  So, convert the 'temp' into a string  ===== print("The tempreature in" + str(city) +  "is" + str(temp) + "degrees")
+                                                  Now the output will be ==== The tempreature in New york is 75 degrees
+
+                    
+                                                ******* And for this purpose we use F- STRING0 ******
+
+     To run the same input we can use the F-STRING METHOD ------> weather_report = 
+                                                                           print(f"The tempreature in {city} is {temp}  degrees")---->>>> will give the same output as 
+                                                                                              above because F-STRING automatically converts any expression which is in 
+                                                                                              CURLY BRACKETS to a STRING
+                                                                                          
+     NOTE:----->> To print a curly brace in an output 
+                  print(f'This is a curly brace: {}')------>> Same as what we do with back slash to get in output, that is double back slash (\\)
+                                                             here we will put double curly brackets either({}) or this ({})
+
+_______________________________________________________________________________________________________________________________________________________________________________
+
+*** When we multiply a string with a number(Integer), then that string gets printed that many times as the number.
+Example: 
+  A]      a = "Python"
+        res = a * 3
+        print(res)  -------------> PythonPythonPython (OUTPUT)
+        
+
+  B]      To print a star with 5*5 ------ star = "*"
+                                          print((star*5 + "\n") * 5) 
+
+                                        
+  C]      print('py'* 2 + 'thon'* 2) -----> pypythonthon
+
+  ~~~~~~~ MULTIPLYING STRING OR ANY CHARACTER WITH '0' OR '-VE' INTEGER WILL GIVE NO OUTPUT. 
+
+______________________________________________________________________________________________________________________________________________________________________________
+
+# LENGTH OF THE STRING
+Using = len(a) --- function
+ 
+ Example--- a = "python"  ;  length= len(a)
+                print(lenght)==== 6
+
+            print(len('hello\nworld')) ==== 11 (because '\n' will be considered as 1 character)
+
