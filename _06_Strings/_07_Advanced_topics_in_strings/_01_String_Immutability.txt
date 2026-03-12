@@ -1,0 +1,23 @@
+
+
+                                                                ********** STRING IMMUTABILITY **********
+
+
+
+In Python strings are immutable ---> the contents of the strings cannot be changed, and if you are modifying it then a new string will be created, the 
+                                    main string is not modified it creates a new one.
+     
+     Example- s = 'Hello'
+      print(id(s)) ----> The output will give memory location of the variable ,also whenever you will run the program the memory address will always be different
+      because the whole progam will run from start to end many times so will give different memory locations  
+      here 's' is not 'Hello' , in BTS 's' is indicating towards 'Hello' because address / memory location is there in 's'
+      If you want to change string, it cannot be done directly ----> Error
+      Slicing--> String concatenation--> change done
+      Example - s = " Hello"
+                print(id(s))  [for address] 
+                ------> Now, want to make the string "Mello"
+   SLICING  >>>          print("M"+ s[1:])
+   CONCATENATING  >>>    s = "M" + s[1:] -------> Done 'Hello' to 'Mello'
+               check the id of 'Mello' -------> print(is(s))----> last digits will be interchanged of the addressed 
+                                                                 's' is same the location is now different
+

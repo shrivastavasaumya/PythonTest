@@ -1,0 +1,12 @@
+
+                                                                            TO COUNT
+
+
+
+
+Example----          "python is amazing, python is fun"
+
+
+ print(txt.count('python')) ----> 2 (output)
+ print(txt.count('Python')) ----> 0 (output, due to uppercase)
+ string.count(substring, start, end)--- syntax

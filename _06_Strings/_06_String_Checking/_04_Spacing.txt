@@ -1,0 +1,7 @@
+
+
+TEXT HAS SPACE OR NOT -----> print(txt.isspace())   
+
+            
+  Example - txt = "    "  or ' \n   ' or "   \t\n   "                         |              txt = " .  " 
+          print(txt.isspace()) ------> True                                   |              print(txt.isspace()) ------> False (Because of the dot / full stop)

@@ -1,0 +1,6 @@
+
+                                                           WANTS TO JOIN THE STRING (WANTS TO CONVERT LIST TO STRING)
+
+      list/li =  ['dog', 'cat', 'mouse' ] 
+      print("".join(li))  ----------->  dog, cat, mouse                                               
+      (CAN PUT , /.| \ etc. in the separator) 

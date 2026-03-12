@@ -1,0 +1,4 @@
+TEXT IS FULLY ALPHABETICAL OR NOT ----> print(text.isalpha()) 
+                        Example- text1 = 'PYTHON'
+                                 text2 = 'PYTHON3'       --------------> print(text1.isalpha())    ------> True
+                                                                         print(text2.isalpha())    ------> False (Because it has a number also)

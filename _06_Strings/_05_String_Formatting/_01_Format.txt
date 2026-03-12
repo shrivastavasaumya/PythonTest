@@ -1,0 +1,17 @@
+                                                                  ********** FORMAT METHOD **********
+
+                                          
+      name = ' Vipul ' 
+      message = ' Hello, my name is {0} and my age is {1} '.format(name,70) ---------->>>>>(put curly brackets in places of variable and in syntax(.format(...))
+         OR    ' Hello, my name is {} and my age is {} '.format(name,70)                                                                        put the variables according to the sequence)
+      print(message) -----> Hello, my name is Vipul and my age is 70 ------- (output)
+      
+  BTS OF THIS METHOD ------   message = ' Hello, my name is {} and my age is {} '.format(name, 70)-----------> THIS IS PLACE HOLDER WITH INDEX
+                                                             |                |           |     |
+                                                            (0)              (1)         (0)    (1)
+ 
+  If , message = ' Hello, my name is {2} and my age is {1} '.format(name, 70) -----------> Hello, my name is 70 and my age is Vipul ------- (output)
+                                                                      |    |
+                                                                    (1)   (2)
+                  (Interchanged the places, so the sequence of the method will fill in that sequence )                   
+                                    

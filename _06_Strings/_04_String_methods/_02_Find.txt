@@ -1,0 +1,19 @@
+                                                                                     TO FIND 
+                                                                                    ----------
+
+ 
+ Example----          "python is amazing, python is fun"
+              string.find(substring, start, end)--- syntax of find
+                            to find the word python  ====  txt.find("python") 
+                            output ---- '0' -----> it will provide the code of the initial letter of the word 'python' i.e. the word given to find.
+              
+              and if, txt.find("Python") === output---> (-1)----> no such word exist ( due to difference in cases)
+            
+             'to find index of 'is' ==== print(txt.find('is')) ----> '7' ( this is the index of the first occured 'is')
+              to get index of 2nd instance of 'is'  ==== 
+                                                       get the index of any character which is not repeated in the whole string after the 1st 'is'
+                                                       here it is ( , ) ---> the index of the comma here is ==== 17
+                                                       we had put 17 to indicate python that to count instance occured after 17
+            NOW,
+            print(txt.find('is',17)) ----> '26' is the index of 2nd ' is' 
+                                        

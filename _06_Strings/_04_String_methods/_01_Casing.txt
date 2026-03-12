@@ -1,0 +1,12 @@
+                                                                              Strings methods
+                                                                             -----------------
+
+                                              
+                                                Method is just like a function
+print(txt.upper())------> Here, to call the method we put (  )-----> ( . ) it indicates on what you need to run the method
+                        While this is for UPPERCASING
+print(txt.lower())------> LOWERCASING
+print(txt.title())------> TITLECASE (CAPITALIZE 1st letter of each word irrespective of spaces between words)
+print(txt.capitalize())------> CAPITALIZE 1st letter only, (if there is a space in the start of the string than, it capitalizes the space and not the nxt character)
+
+ 

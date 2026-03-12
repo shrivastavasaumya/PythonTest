@@ -1,0 +1,18 @@
+
+
+
+                                *** When we multiply a string with a number(Integer), then that string gets printed that many times as the number.
+
+Example: 
+  A]      a = "Python"
+        res = a * 3
+        print(res)  -------------> PythonPythonPython (OUTPUT)
+        
+
+  B]      To print a star with 5*5 ------ star = "*"
+                                          print((star*5 + "\n") * 5) 
+
+                                        
+  C]      print('py'* 2 + 'thon'* 2) -----> pypythonthon
+
+  ~~~~~~~ MULTIPLYING STRING OR ANY CHARACTER WITH '0' OR '-VE' INTEGER WILL GIVE NO OUTPUT. 

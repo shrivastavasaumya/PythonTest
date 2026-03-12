@@ -1,0 +1,6 @@
+
+TEXT IS FULLY NUMERICAL OR NOT ----> print(text.isdigit())                                                                    
+
+                        Example- text1 = '2322'
+                                 text2 = '2python'       --------------> print(text1.isdigit())    ------> True
+                                                                         print(text2.isdigit())    ------> False (Because it has alphabets also)

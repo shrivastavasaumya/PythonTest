@@ -1,0 +1,10 @@
+                                                               STARTS WITH / ENDS WITH
+
+
+                                                  Example:    text = 'Python is amazing'
+                                                
+Does the string starts with a certain mentioned character ---> print(text.startswith('Python')) ---> True
+
+Does the string ends with a certain mentioned character --->  print(text.endswith('is')) ---> False
+
+Does the string starts / ends with a certain mentioned character with a definite start and end ---> print(text.endswith('is',0,9)) --->('9' is ending index = exclusive)

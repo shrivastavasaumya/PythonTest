@@ -1,0 +1,10 @@
+                                                                           # LENGTH OF THE STRING
+
+
+Using = len(a) --- function
+ 
+ Example--- a = "python"  ;  length= len(a)
+                print(lenght)==== 6
+
+            print(len('hello\nworld')) ==== 11 (because '\n' will be considered as 1 character)
+

@@ -1,0 +1,10 @@
+                                                                   TO REMOVE THE SPACES FROM THE STRING
+
+
+
+  Example = txt = '    hello python programming   '--- to remove such spaces
+  
+print(text.lstrip("*")) --- Removes space from left side ----- L-strip          
+print(text.rstrip("*")) --- Removes space from right side ------ R-strip   
+print(text.strip("*"))  --- Removes space from Both sides ----- S-strip
+ 

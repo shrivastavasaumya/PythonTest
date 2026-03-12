@@ -1,0 +1,9 @@
+                                                              WANTS TO SPLIT THE STRING (WANTS TO CONVERT STRING INTO LIST)
+
+
+      text = ' dog, cat, mouse '
+      print(text.split(","))   ----------------> 'dog', 'cat', 'mouse'                                                   
+                                                          
+      sentence = ' python is fun '
+      print(text.split()) ==============(BY DEFAULT THE COMMAND HAS SPLIT /SPACE IN IT , NO NEED TO EXPLICITLY PUT IT)  ----------------> 'python', 'is', 'fun'
+            

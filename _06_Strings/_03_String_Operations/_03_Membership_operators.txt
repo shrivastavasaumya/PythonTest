@@ -1,0 +1,11 @@
+                                                                                   ***** FOR LOOP IN STRING *****
+               
+               
+                Syntax - for variable in sequence:
+                           # Code block (loop body)          
+
+    Example -                                   Output --->   P
+    name = "Popat"                                            o
+    for x in name:                                            p
+        print(x)                                              a
+                                                              t

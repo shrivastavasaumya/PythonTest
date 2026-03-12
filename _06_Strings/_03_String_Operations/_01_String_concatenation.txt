@@ -1,0 +1,24 @@
+ 
+                                                                           String Concatenation
+                                                                         ------------------------
+
+
+
+                                       Aligning one string after another
+
+Examples-                                    Input                                          Output
+               a= 1                   1)  print(a+b)                                          3---> Because values of both 'a' and 'b'
+               b= 2                                                                                  are numbers
+                                                                                                         _____________________________________________
+         Now, if   a="1"              2) print(a+b)                                           12--->     |  Because values of both "a" and "b"       |
+                   b="2"                                                                                 | are in the form of string, hence we will  |
+                                                                                                  /----> | get the output as it is.                  |
+                                                                                                 /       |___________________________________________|
+                                                                                                /
+     Here we are CONCATENATING THE STRING, that is aligning the strings together       <-------/
+
+
+----To add a space between your strings in the input   
+
+a="14"                         
+b="25"                      print(a+" " +b)------------> 14 25

@@ -1,0 +1,17 @@
+                                                                                  TO REPLACE     
+
+
+string.replace(old, new, count)--- syntax
+txt = 'Hello World'
+print(txt.replace('World','Python'))-----> Hello Python
+print(txt.replace('world','Python'))-----> Hello World (No change , because incorrect casing of 'w' and 'W')
+
+[NOTE : Python is case sensitive, so be careful of casing and characters]
+
+
+The role of ' COUNT ' in the syntax of 'REPLACE' is
+Example- txt = 'banana, banana, banana'  ------ (want to replace 2 of them with 'apple')
+         print(txt.replace('banana', 'apple', 2)) ----- apple apple banana
+         print(txt.replace('banana', 'apple')) ----- apple apple apple (To replace all)
+         print(txt.replace('banana', 'apple', 0)) ----- banana, banana, banana ( no change because of '0')
+

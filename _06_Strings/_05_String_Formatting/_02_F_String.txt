@@ -1,0 +1,34 @@
+                                                  ***** HOW TO RUN A FUNCTION WITH ONE STRING AND ONE VARIABLE IN IT *****
+                                             
+     Example 1:  age= "45"
+               message: "My age is " + age   ---------> print(message) -----> Error   (Because the 'message' input has a string & a variable in it)
+               So to run the input,
+                                     age= "45"
+                                     message: "My age is " + str(age) ------> print(message) -----> My age is 45
+                                                            ---------
+                         Here we have converted variable into a string by putting it into a string function.---->>>> str( )
+
+               
+     Example 2 :                                                  city = "New york"
+                                                                  temp = 75
+(Here underscore between the characters                 / ------  weather_report = "The tempreature in" + city +  "is" + temp + "degrees"
+   just for visual clarity & not for any other use)     \ ------  print(weather_report)
+                                                                  Output----> Error
+                                                  So, convert the 'temp' into a string  ===== print("The tempreature in" + str(city) +  "is" + str(temp) + "degrees")
+                                                  Now the output will be ==== The tempreature in New york is 75 degrees
+
+                    
+                                                
+                                                   ******* And for this purpose we use F- STRING0 ******
+
+
+
+
+     To run the same input we can use the F-STRING METHOD ------> weather_report = 
+                                                                           print(f"The tempreature in {city} is {temp}  degrees")---->>>> will give the same output as 
+                                                                                              above because F-STRING automatically converts any expression which is in 
+                                                                                              CURLY BRACKETS to a STRING
+                                                                                          
+     NOTE:----->> To print a curly brace in an output 
+                  print(f'This is a curly brace: {}')------>> Same as what we do with back slash to get in output, that is double back slash (\\)
+                                                             here we will put double curly brackets either({}) or this ({})

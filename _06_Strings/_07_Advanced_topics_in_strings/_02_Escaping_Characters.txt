@@ -1,0 +1,20 @@
+
+                                                                     ******** ESCAPING CHARACTERS *********
+                                    
+
+         ("\")-----> The back slash, which indicates the python to treat the upcoming character specially 
+      
+      Example- print("Hel"p")-----> The double quotes as used by the string within it i.e by ("p) and for quoting the string will confuse python
+                                    to where to end the print function , so it will give output = "Error"
+                    So, we will use "\" for this ====print("Hel\"p")----------------This will ignore the upcoming double quotes after back slash.
+                    and output= Hel"p
+
+
+
+ Back Slash and the upcoming character should have a valid combination (unicode combination) to run. Such as  \t, \n etc
+ Example=  ("HEL\nP") -----HEL           ------  New line
+                           P    
+           ("HEL\tP") -----HEL    P      ------  Tab= 4 spaces
+           ("HEL\"P") -----HEL"P         ------  Ignore the quotes
+           ("HEL\\P") -----HEL\P         ------  Want to print a slash in the string (As a single slash is not a standard combination which will give 'error'
+                                                 as the output, so to rectify it 2 consecutive slashes will print it with a slash in it)

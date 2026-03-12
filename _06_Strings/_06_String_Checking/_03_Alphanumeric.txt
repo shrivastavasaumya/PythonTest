@@ -1,0 +1,10 @@
+
+TEXT IS ALPHA-NUMERIC OR NOT ----> print(text.isalnum())                                    [NOTE:THESE EMPTY BRACKETS ARE THERE IN THE FUNCTION TO CALL]         
+  (LETTERS AND NUMBERS)                                                           
+
+
+                        Example- text1 = '2322'
+                                 text2 = '2python'      --------------> print(text1.isalnum())    ------> True
+                                                                        print(text2.isalnum())    ------> True      
+                But, if -------> text3 = '2 python      --------------> print(text3.isalnum())    ------> False (Because alphanumeric includes numbers and alphabets only
+                                                                                               and does not consider 'SPACES' given in the string as alphanumeric so --- False)  

@@ -1,0 +1,11 @@
+                                                                               TO GET INDEX
+
+
+                                                            
+ The .index() method is similar to .find() but raises a value error if the substring is not found.   
+ 
+Example----          "python is amazing, python is fun"
+
+string.index(substring, start, end)--- syntax  
+ 
+ print(txt.index('Python')) ----> Error  (output, due to uppercase)
