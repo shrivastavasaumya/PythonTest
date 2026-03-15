@@ -597,6 +597,20 @@ Output
 40
 
 
+
+Returns the largest element in the list.
+
+names = ["Alice", "Bob", "Charlie"]
+
+print(min(names))
+
+Output
+
+Alice ----->    It checks it lexicographically
+
+
+
+
 3️⃣ min()
 
 Returns the smallest element.
@@ -644,11 +658,43 @@ print(result)
 Output
 
 ['p', 'y', 't', 'h', 'o', 'n']
+
+
+fruits = ["apple", "banana", "mango"]
+
+fruits.reverse()
+
+print(fruits)
+
+['mango', 'banana', 'apple']
+
+
 Summary Table
 Function	Purpose
 len(list)	Number of elements
 max(list)	Largest value
 min(list)	Smallest value
 sum(list)	Sum of elements
-sorted(list)	Returns sorted list
-list()	Convert to list
+sorted(list) / .sort()	Returns sorted list
+list()	Convert to list 
+reversed()/reverse()
+
+__________________________________________________________
+Important Points ⭐
+
+reverse() modifies the original list. It does not return a new list, reverses the order of elements in the same list.
+reversed() is a built-in function that returns the elements of a sequence in reverse order, it creates new list
+ Unlike reverse(), it does not change the original list.
+
+
+numbers = [1, 2, 3, 2, 4, 2]
+
+result = numbers.count(2)
+
+print(result)
+3
+
+-----------------------------------------------------------
+
+iterating through list
+
