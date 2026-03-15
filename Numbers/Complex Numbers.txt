@@ -1,0 +1,26 @@
+                                                                COMPLEX NUMBERS
+
+                                                                Here i  = j
+                EXAMPLE: z = 1 + 2j
+                   1 = REAL VALUE
+                   2j = IMAGINARY VALUE
+
+                   print(z.real) ==== 1
+                   print(z.imag) ==== 2.0
+                                                        OPERATORS IN COMPLEX NUMBERS
+
+                  z1 = 2 + 3j
+                  z2 = 1 - 2j
+                                sum_z = z1 + z2
+                                print(sum_z) ==== 3 + 1j
+
+                                diff_z = z1 - z2
+                                prod_z = z1 * z2
+                                quot_z = z1 // z2
+                                mag_z1 = abs(z1)
+
+                To create a complex number = z3 = complex(2, 3)
+                                             print(z3) ---> 2 + 3j
+
+                                             z4 = complex(2)
+                                             print(z4) ---> 2 + 0j

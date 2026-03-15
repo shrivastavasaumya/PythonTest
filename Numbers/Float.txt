@@ -1,0 +1,67 @@
+                                                                 FLOAT
+                                         
+                                                   Numbers which are in decimal form       
+
+     EXAMPLE: 1.56, -0.323, .2332, 4.0
+     How to convert integer into float --->  c = 7 ; so c = float(7)    
+                                             print(c) ---> 7.0
+
+                                             d = "7" ---->>( this is in string form)   ; d = float("7")          
+                                             print(d) ---> 7.0
+
+
+    PRECISION IN FLOATS ---> Floats are stored in the form of binary, so some floats cannot be stored with its exact values due to which precision cant't be achieved.
+    
+                            EXAMPLE : result = 0.1 + 0.2
+                                       print(result) ----> 3.0000000004
+
+    But, some floats can be stored with their exact values : THOSE DECIMAL NUMBERS WHOSE DENOMINATOR CAN BE WRITTEN IN THE FORM THE POWER OF "2" 
+                                      
+                                       result = 0.5 + 0.125   :::::::::::::::-->      (0.5 = 1/2 denominator is 2^1     and     0.125 = 1/8 denominator is 2^3)
+                                       print(result) ----> 0.625 (Exact value)  
+
+    For +ve infinity --- print(pos_infinity)
+    For -ve infinity --- print(neg_infinity)
+
+    For rounding off  ---> pi = 3.14159265359
+                           print(f"{pi: .2f}")  ---> 3.14
+                                  --|--   --|--
+                         (Integer part)   (Number of values after decimal)
+
+
+ For instance, a = 0.3            (0.3)
+               b = 0.1 + 0.2      (0.3000000004)
+               print(a==b) ----> False (Both are unequal)      ------------> So to avoid this 'Modules' are used
+
+               EXAMPLE: import math
+                        print(math.isclose(a, b)) ----> Will give the output as 'True' 
+
+                       
+                        import decimal
+                        a = decimal.Decimal('0.1')    [Here the values are given in string]
+                        b = decimal.Decimal('0.2')
+                        print(a + b)              ----> For precision
+
+             
+                        To round-off the values
+                        pi = 3.14159265359
+                        print(round(pi,   2))     ----> 3.14 
+                                  --|--  --|-- 
+                              (variable)   (number of values that should be taken after decimal)
+
+
+Note:                                                     pi = 3.14159265359
+                      print(f"{pi: .3f}")  ---> 3.142                            print(round(pi, 3))     ----> 3.142   
+                      [this will return string]                                  [this will return float]
+
+
+                      
+                                                             { pi = 3.14 }  
+                        print(f"{pi: .3f}")  ---> 3.140                                print(round(pi,   3))     ----> 3.14 
+                                 ^                                                                ^
+                                 |                                                                |
+                                 |                                                                |
+                (This will follow the input as it is, also if the variable has               (This just rounds the value till given and does not adds '0' )
+                less digits, it will add '0'. Like here gave output for 3-digit 
+                regardless of the value of pi = 3.14 and added '0' to give a 3-digit 
+                output )

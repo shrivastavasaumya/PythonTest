@@ -1,0 +1,112 @@
+                                                               ARITHMETIC OPERATORS
+                                                               ---------------------                     NOTE: "a" and "b" ---> opperands (values on which is opperators are applied)
+                                                                                                                  +/-* etc ---> opperator (what is applied)
+                                                                                   
+                                                                                             EXAMPLE - a = 10 and b = 3
+ADDITION           : print(a+b)                                                                       13   
+SUBSTRACTION       : print(a-b)                                                                       7
+MULTIPLICATION     : print(a*b)                                                                       30
+REGULAR DIVISION   : print(a/b)                                                                       3.3333333333335 
+INTEGER DIVISION   : print(a // b)                                                                    3 ( Only integer value )
+POWER              : print(a**b)                                                                      1000
+MODULUS            : print(a % b) -----> (Remainder)                                                  1
+NEGATION           : print(-a)                                                                       -10
+ABSOLUTE VALUE     : print(abs(b-a)) ----> (Only diffrence of values/ magnitude                       7
+                                              without +ve or -ve representation)                                                                 
+
+BODMAS rule in python ---->>  
+                             ()  -->   **  -->   *,/,//,%   -->   +,-
+
+
+
+EXAMPLE: Floor division = Returns largest integer less than or equal to the exact division
+         print(10 // 3)     --> 3
+         print(10.0 // 3)   --> 3.0 (If any of the opperand is a FLOAT, the remainder will also be in the form of FLOAT)
+         print(-10 // 3)    --> -4 (-3.333, now according to floor division, largest integer will be '-4' )
+         print(10 // -3)    --> -4
+         print(2 * 1.0)     --> 2.0
+
+___________________________________________________________________________________________________________________________________________________
+
+                                                            BITWISE OPERATORS
+                                                            -----------------
+
+                                              It works on binary values of the characters 
+
+                                                                                                              EXAMPLE: x = 10 ; 1 0 1 0
+Bitwise AND &                           [output = '1' where both the values has '1' in it]                             y = 6  ; 0 1 1 0           
+bitwise_and = x & y                                                                                                            _|_|_|_|__
+print(f"{x} & {y} = {bitwise_and}")                                                                           (output)   2 <--- 0 0 1 0  
+                                                                                               How?   Base of binary number system = 2
+                                                                                                      1 X 2^1 + 0 X 2^0  ---->>> 2
+
+
+
+
+                                                                                                             EXAMPLE: x = 10 ; 1 0 1 0
+Bitwise OR | (Pipe operator = [ | ])   [output = '1' where one of them has the value as '1' in it]                    y = 6  ; 0 1 1 0           
+bitwise_or = x | y                                                                                                            _|_|_|_|__
+print(f"{x} | {y} = {bitwise_or}")                                                                           (output) 14 <---  1 1 1 0  
+
+
+
+Bitwise XOR                            [output = '1' where both of them has different values]                EXAMPLE: x = 10 ; 1 0 1 0
+bitwise_xor = x ^ y                                                                                                   y = 6  ; 0 1 1 0
+print(f"{x} ^ {y} = {bitwise_xor}")                                                                                           _|_|_|_|__
+                                                                                                             (output) 12 <---  1 1 0 0  
+
+
+Bitwise NOT                           [output = It flips the bits, it needs only one opperand,               EXAMPLE: 00001010 (input) -------|
+bitwise_not = ~X                          in short :it replaces '0' with '1' and vice versa]                  (-11) = 11110101 (output) <-----|
+print(f"~{x} = {bitwise_not}")
+
+                              NOTE: A binary value which starts with "1" holds value of a negative number. 11110101 = (-11)
+                              To convert this -ve value in positive,   1) flip the value ---- 11110101 ---> 00001010 
+                                                                       2) add '1' in it  ----             + 0000000    
+[This whole process of conversion is called Two's complement ]         3) the sum will be the +ve             |----> 00001011 = 11
+                                                                        binary of the -ve number
+
+
+Left shift --------> Shifts binary towards left                                                               EXAMPLE: Binary = 1010 === (10)
+left_shift = x << 1                                                                                           (output) --> 10100 === (20) ---> left shift added a '0' in
+print(f"{x} << 1 = {left_shift}")                                                                                                                   in the binary
+
+
+Right shift --------> Shifts binary towards right                                                             EXAMPLE: Binary = 1010 === (10)                         
+right_shift = x >> 1                                                                                          (output) --> 101 === (5) ---> right shift will destroy the very 
+print(f"{x} >> 1 = {right_shift}")                                                                                          right number, here it is'0' in the binary
+
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+                                                                 ASSIGNMENT OPERATOR
+                                                                 --------------------
+                                                 {'x' is the variable } x  =  "Vipul" {'Vipul' is LITERAL}
+LHS = RHS
+LHS must be a valid variable
+LHS cannot be literal ---> (5 = x) ----> Error
+RHS can be any expression that produces a value 
+
+                     HOW TO SWAP THE VALUES:
+       EXAMPLE: x = 3                 x = 2
+                y = 2   and you want  y = 3   ;   For That Do ---->>  x, y = y, x                                      
+                                                                      print(x, y)
+                                                                                              EXAMPLE: salary = 11
+                                                                                                      (new salary is now double)
+OPERATOR     |        EQUIVALENT TO    |   EXAMPLE                                                   So, salary = 11
+----------------------------------------------------------------                                         salary **= 2  ----> ( '2' because salary is noe double so 11^2 )
++=                      x = x + 5           x += 5                                                       print(salary) ---> 121
+-=                      x = x - 5           x -= 5
+*=                      x = x * 5           x *= 5
+/=                      x = x / 5           x /= 5
+//=                     x = x // 5          x //= 5
+%=                      x = x % 5           x %= 5
+**=                     x = x ** 5          x **= 5
+
+
+
+
+
+
+
+

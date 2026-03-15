@@ -1,0 +1,44 @@
+
+
+
+ 
+                                                              INTEGERS
+
+ 
+ 
+      They are the whole numbers in which decimal part (Float) is not there. They can be positive, negative or zero   
+      # For readability, UNDERSCORES can be used --- (separator will ignore that)     
+      We know that to find the TYPE of value a variable holds is -
+                                                                  print(type(a))    
+      To store a BINARY NUMBER in a variable ==== put "0b" as the PREFIX (in the start) of the value
+      Binary numbers are in the form of " 0 and 1 "                              
+      Example - binary_num = 0b101010 
+               print(type(binary_num)) ----> INT ( The character which holds this binary value is an integer )
+               Also, to know which character holds this value in binary form === print(binary_num) ----> 42         
+
+               Binary numbers are in the form of " 0 and 1 " 
+               Decimal numbers = ' 0 to 9 '
+               Hexadecimal numbers =  ' 0 to 9 ' and ' A to F ' = 16 choices           
+
+      To represent Hexadecimal numbers ----->> Use PREFIX " 0x "
+      (Because a Hexadecimal number consists both NUMBER and ALPHABETS, which will make the value a STRING, so to avoid that ' 0x ' prefix is used )
+      Example - hex_num = 0x2A
+                print(hex_num) --- 42
+
+____________________________________________________________________________________________________________________________________________________________
+ 
+    FACT === HOW A VALUE IS CONVERTED IN THE FORM OF A PARTCULAR NUMBER SYSTEM
+     Example Hexadecimal --  0   1   2   3   4   5   6   7   8   9   A   B   C   D   E   F        (RANGE OF ITS VALUES)
+                             0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15       (VALUE OF A CHARACTER)
+
+                             Now, take base of Hexadecimal which is 16 
+                             So, for instance : hex_num = 0x2AF
+                              [2 = 2]   2 X 16^2 +  [A = 10]  10 X 16^1 + [F = 15] 15 X 16^0 
+                                  2 X 256 + 10 X 16 + 15 X 1 === 687
+
+    STEPS: 1  Assign the values according to RANGE of that particular number system
+           2  Take the value of the base of that number system
+           3  Multilpy the each character with the power of that base in reverse order  starting with ' 0 'than 1 and so on.
+           4  Last,add products of each value 
+       ( In short, follows decimal number system)
+____________________________________________________________________________________________________________________________________________________________
