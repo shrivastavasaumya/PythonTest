@@ -50,3 +50,9 @@ print(2==4)
 
 print(ord('a'))
 print(ord("j"))
+
+name1="python"
+name2="Python"
+
+print(name1 == name2)
+print("Hel"p")

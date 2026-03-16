@@ -1,0 +1,12 @@
+                                                    **********    CONTINUE IN LOOP   *********
+                                           
+                                             When we want to skip the some iterations from the output series. 
+i = 1
+while (i <= 10):
+	if (i % 3 == 0 ):    ----> To skip printing as soon as the number which is multiple of '3' occurs
+		i += 1  
+        	continue     ----> This means that, skip the below steps for any particular given character and continue the other but ,if we will skip
+	print(i)                   the character then the incrementor would not be able to process upcoming values of that series , so for that we wrote  
+	i += 1                     a incrementor before 'continue'
+
+    OUTPUT ---->  1, 2, 4, 5, 7, 8, 10

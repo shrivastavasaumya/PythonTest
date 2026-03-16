@@ -1,0 +1,104 @@
+START
+  │
+  ▼
+What is Python?
+  │
+  ▼
+Installation & Setup
+(Python + IDE)
+  │
+  ▼
+BASICS
+  ├─ Variables
+  ├─ Data Types
+  ├─ Input / Output
+  └─ Comments
+  │
+  ▼
+OPERATORS
+  ├─ Arithmetic
+  ├─ Comparison
+  ├─ Logical
+  └─ Operator Precedence (PEMDAS)
+  │
+  ▼
+CONTROL STATEMENTS
+  ├─ if
+  ├─ if-else
+  └─ elif
+  │
+  ▼
+LOOPS
+  ├─ for loop
+  ├─ while loop
+  ├─ break / continue
+  └─ nested loops
+  │
+  ▼
+DATA STRUCTURES
+  ├─ List
+  ├─ Tuple
+  ├─ Set
+  └─ Dictionary
+  │
+  ▼
+STRINGS
+  ├─ String methods
+  ├─ Indexing & slicing
+  └─ Formatting (f-strings)
+  │
+  ▼
+FUNCTIONS
+  ├─ def keyword
+  ├─ Arguments
+  ├─ Return values
+  ├─ Lambda functions
+  └─ Built-in functions
+  │
+  ▼
+MODULES & PACKAGES
+  ├─ import
+  ├─ math, random
+  └─ user-defined modules
+  │
+  ▼
+FILE HANDLING
+  ├─ Read files
+  ├─ Write files
+  └─ with statement
+  │
+  ▼
+ERROR HANDLING
+  ├─ try
+  ├─ except
+  └─ finally
+  │
+  ▼
+OOP (OBJECT ORIENTED PROGRAMMING)
+  ├─ Class & Object
+  ├─ Constructor
+  ├─ Inheritance
+  ├─ Encapsulation
+  └─ Polymorphism
+  │
+  ▼
+ADVANCED PYTHON
+  ├─ List Comprehension
+  ├─ Generators
+  ├─ Decorators
+  └─ Recursion
+  │
+  ▼
+LIBRARIES (Based on Goal)
+  ├─ Data Science → NumPy, Pandas
+  ├─ Web Dev → Flask, Django
+  └─ Automation → Selenium
+  │
+  ▼
+PROJECTS & PRACTICE
+  ├─ Mini Projects
+  ├─ Real-world Applications
+  └─ Interview Preparation
+  │
+  ▼
+END (PYTHON DEVELOPER)

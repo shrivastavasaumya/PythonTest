@@ -1,0 +1,34 @@
+                                                             ********* WHILE LOOP ********
+                            
+                               They are the part of control flow because loops help to control the flow
+                               
+
+                      x = 1             --------------> Initialiser (The start value) or Counter or Iterator
+                      while x <= 500:   --------------> Condition   (Condition to follow for the output)
+                      print("India")    --------------> Value of input (What to print)
+                      x += 1            --------------> Increment (Helps to change the value as per condition) or updator
+        
+        NOTE : As soon as a loop is started it  ------:::: >>     1st take the value from "Initialiser" 
+                                                                  2nd it checks the condition and if satisfied gets printed
+                                                                  Now, for the next value in the loop it will insert the previous value and will "Increment" 
+                                                                  according to it 
+                   Example =                                                x = 1         
+                                                                            while x <= 500:     -------> ( limit / till where to print)
+                                                                            print("India")
+                                                                            x += 1   
+
+        X = 1 ---> {x += 1} ---> 1+1 ----> 2 (new value)   and the loop goes until the mentioned condition is not fully followed.
+                                 ________________________________________
+        SYNTAX FOR WHILE LOOP ---| while condition:                     |
+                                 |     # code block to be executed      |
+                                 |______________________________________|
+
+
+                                 PROCESS IN SIMPLE TERMS ---
+
+                          1. Python checks the condition
+                          2. If it is True, it executes the intended block
+                          3. After the block runs, it re-checks the condition
+                          4. If it is still True, it repeats       
+                          5. If it becomes False, the loop stops
+

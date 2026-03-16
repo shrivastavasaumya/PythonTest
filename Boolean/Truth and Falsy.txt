@@ -1,0 +1,35 @@
+ 
+                                                                     Truthy and Falsy
+
+        Truthy is equivalent to True                                          Python considers everything as 'Truthy'or 'Falsy'
+        Falsy is equivalent to False 
+                                               Example: print(bool(1))              -->    True
+                                                        print(bool(0))                     False
+                                                        print(bool("effdyjdjh"))           True
+                                                        print(bool())                      False
+
+    # If we will write ANYTHING in boolean, it will give the output as --->  True
+
+# Falsy values in python
+                          print(bool(0))
+                          print(bool(0.0))
+                          print(bool(''))       --- (Empty string)
+                          print(bool({}))       --- (Empty dictionary)
+                          print(bool([]))       --- (Empty list)
+                          print(bool(None))
+# Truthy values in python
+                          print(bool(42))        
+                          print(bool(-1))
+                          print(bool('hello'))
+                          print(bool([1, 2]))
+                          
+# print(True + False + True + 8) ==== 10 --->  because --->>[1 + 0 + 1 + 8]
+
+# Every boolean is an integer ----> True
+ print(isinstance(True, int))
+
+
+# Integers are not boolean -----> False  (After converting boolean into integers they act as integers, but integers are not booleans)
+ print(isinstance(1, bool))
+
+                        

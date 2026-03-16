@@ -1,0 +1,32 @@
+
+                                                                          BOOLEAN
+
+                                            It helps to get the truth value of a condition and uses only (True) and (False)
+                                                  Also is a subclass of integer, EVERY BOOLEAN IS AN INTEGER. 
+                                           
+                                                                        Note:  WRONG WAY                                  RIGHT WAY
+
+(Because this casing will make python to search the word    --------------->   TRUE/true                                   True
+TRUE/true/false/FALSE, because these are variables for python)                 FALSE/false                                 False
+
+           
+            Either we can assign the values of 'True' and 'False' ---> Example:
+                                                                     a = True          print(a) === True
+                                                                     b = False         print(b) === False
+
+                                                             {OR} 
+           it can be the result of an expression for any given condition  ---> Example: age = 17
+                                                                                        is_adult = age >= 18
+                                                                                        print(is_adult) -----> False
+                                                                      
+                                                     
+                                                          **   Boolean as a subclass of integer   **
+     Results of inputs,
+        print(True == 1)   ---> True                That means value of True = 1, and value of False = 0
+        print(False == 0)  ---> True       
+
+
+ Also, if we put                            Output
+                  print(True + True)   ---> 2 
+                  print(int(True))          1 {Converted into integer value}
+                  print(int(False))         0 {Converted into integer value}

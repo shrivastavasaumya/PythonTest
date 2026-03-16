@@ -1,0 +1,37 @@
+                                                                        ***** FOR LOOP *****
+               
+               
+                Syntax - for variable in sequence:
+                           # Code block (loop body)          
+
+    Example -                                   Output --->   P
+    name = "Popat"                                            o
+    for x in name:                                            p
+        print(x)                                              a
+                                                              t
+
+And if we need to print in different case then use, For capital case = print(x.upper()) and similar syntax for other cases
+
+
+In a 'RANGE' function 
+range(start, stop, step)   ---->   Start from start to stop-1, incremented and 'steps' = Values to skip in the flow
+                                                      ---------
+                                                {The stop value is excluding that is why stop value - 1 (substracts - 1 from it)}
+
+Here, the 'start' is default '0'
+
+
+EXAMPLE = 
+ for i in range(5):        ------> '5' is the maximum value of the sequence of numbers             
+    print("Hey Shinchan", i)
+                                      OUTPUT :
+Hey Shinchan 0
+Hey Shinchan 1
+Hey Shinchan 2
+Hey Shinchan 3
+Hey Shinchan 4 
+
+
+And if we need to print from '1' then use     for i in range(5):
+						print("Hey Shinchan", i+1)
+

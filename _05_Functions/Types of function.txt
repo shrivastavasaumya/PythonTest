@@ -1,0 +1,16 @@
+                                                                  TYPES OF FUNCTIONS
+                                                                 --------------------
+                                                                           |
+                                               |----------------------------------------------------------|
+                                        Built-in                                                     User defined
+        
+              Functions which are python's own keywords                                       Formed by the user for frequent use as per need
+              Example:                                                                        Example:
+              print()                                                                          def sum(a, b):
+              len()                                                                                 s = a + b
+              type()                                                                                return s
+              input()
+            
+
+
+                                

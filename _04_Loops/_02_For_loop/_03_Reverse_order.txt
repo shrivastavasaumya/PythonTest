@@ -1,0 +1,22 @@
+ 
+
+                                                        *************** REVERSE FOR- LOOP ***************
+
+i = 10
+for i in range(11,1,-1):
+    print("Hey Shinchan", i)
+                                  OUTPUT :
+Hey Shinchan 11
+Hey Shinchan 10
+Hey Shinchan 9
+Hey Shinchan 8
+Hey Shinchan 7
+Hey Shinchan 6
+Hey Shinchan 5
+Hey Shinchan 4
+Hey Shinchan 3
+Hey Shinchan 2   ---->    Notice, it excluded '1' because it is stop value so, will substracts 1 from it.
+
+########## It does not create a list in memory (unless explicitly converted), but returns a range of objects that produces numbers on demand ##########
+
+Such as,      print(list(range(10)))            -----------> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 

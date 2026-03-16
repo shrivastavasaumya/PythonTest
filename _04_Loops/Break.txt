@@ -1,0 +1,27 @@
+                                                               ***** BREAK *****
+              When is loop is running and we need to stop it at a certain point we use "break" ----> Which means "get out of the loop"
+              
+x = 1 
+while x <= 500:
+    print("Radhe Radhe", x)
+    x += 1
+    if x == 252:
+        break
+
+                           {OR}
+
+x = 1
+while x <= 500:
+    if x == 252:
+        break
+    print("Radhe Radhe", x)
+    x += 1
+
+                         
+                           {OR}
+i = 1
+while (i <= 10):
+	if (i % 6 == 0 ):    ----> To stop printing as soon as the number which is multiple of '6' occurs
+	    break
+	print(i)
+	i += 1          

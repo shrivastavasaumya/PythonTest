@@ -3,6 +3,8 @@
 
 
                                  Sequence of CHARACTERS enclosed within quotes
+                
+                                Ordered, immutable sequences of CHARACTERS        
                              
 1.)  can use both types of quotes single or double 
 2.)  Letters, Numbers, Special Symbols, Whitespace characters and unicode characters           

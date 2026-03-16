@@ -1,0 +1,28 @@
+
+.                                                                        IF 
+                                                                    ---------
+
+
+In other languages we use brackets to define a CODE BLOCK (Set of statements which is formed to work together)
+             
+Here, we use INDENTATION ---> equal / same spacing / Tab i.e 4 spaces. ---> TO FORM A CODE BLOCK
+ Example: 
+          age = int(input())
+          if age >= 18:                     ---------------
+             print("You're an adult")                     |--->> This is a single block of code because of the same INDENTATION  in 
+             print("You are eligible for")  ---------------       the lines, this is under certain condition to work
+          print("You are welcome")   ---------->> This is unconditional, so will run directly.(General line)
+
+          # The lines under conditions will run adhering to the applied set of condition, if the condition is met than only the codes will run
+otherwise it will be skipped or will give the output as per condition
+
+--->> (If the age is 3) ---->>> age = int(input(3))
+  Output  === 3                  -----       Notice: the after lines are not printed because the given age does not satisfies the condition
+              You are welcome    -----       And as this (the last line) was unconditional, hence got printed
+ 
+              
+--->> (If the age is 19) ---->>> age = int(input(19))
+Output  ===  19
+             You're an adult                       Notice: Lines satisfying the condition are printed in addition to the general line.
+             You are eligible for driving
+             You are welcome

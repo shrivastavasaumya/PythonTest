@@ -1,0 +1,13 @@
+
+Tuple- Ordered, immutable collections that can contain mixed data types(simialr to lists)  () repetition allowed
+
+
+Example:
+
+value = (1,)        ---- ONLY IN SINGLE WORD VALUE, PUT COMMA IN END TO RECOGNISE IT AS TUPLE
+print(type(name))        -----> Tuple
+
+
+value = (1, 2, 3, 4)
+print(type(name))      -----> Tuple
+

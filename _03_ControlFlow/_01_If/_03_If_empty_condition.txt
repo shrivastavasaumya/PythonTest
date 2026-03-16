@@ -1,0 +1,57 @@
+__________________________________________________________________________________________________________________________________________________________
+
+                                                        ****** TO LEAVE AN EMPTY CONDITION ******
+
+                                                
+
+
+                                                if_score > 90:
+                                                    print('Excellent!')          (This is the way if you want to put both tha statements based on conditions)
+ 
+                                                if score < 60:
+                                                    print('study more')         
+
+______________________________________________________________________________________________________________________________________________________________________________________
+
+
+                                                if_score > 90:
+                                                   print('Excellent!')
+ 
+                                                if score < 60:
+But, to print an independent statement    ----- print('study more')         ----------->> This will give INDENTATION error because the 'print' line is 
+ while keeping the above condition empty       ----------------------                      not aligned in proper spacing [LIKE] --->  if score < 60:
+                                                                                                                                         print('study more')    
+
+                                               
+           If you do not want to print the line irrespective to the condition, and want TO LEAVE AN EMPTY CONDITION 
+            than put 'PASS' otherwise it will raise an error --->  
+ { Because the [if score < 60:] here, ":" is expecting something to get something to print as per condition, but if we want not to give any input use "pass" = IGNORE 
+
+
+
+                                            ____________________________________________________________________________
+                                           |                                                                            |
+                                           |   if score < 60:                                                           |
+                                           |      pass       ------> THIS IS USED TO IGNORE BECAUSE IT HAS NOTHING      |
+                                           |   print('study more')                                                      |
+      
+ ** We can use anything instead of 'pass' or " " (empty string) or a = 1 or 3..etc , but to avoid unnecessary clutter simply use 'pass'
+                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

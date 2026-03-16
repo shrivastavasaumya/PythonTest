@@ -1,0 +1,49 @@
+
+                                                                 LOGICAL OPERATOR
+
+
+ OPERATOR                     MEANING                            EXAMPLE
+----------                   ---------                          ---------
+'and'                     Logical AND                     'True and False' -> 'False'          output is True when, Both conditions are satisfied
+'or'                      Logical OR                      'True or False' -> 'True'            output is True when, any of the one condition is satisfied 
+'not'                     Logical NOT (negation)          'not True' -> 'False'                output is True when, want to negate the condition
+# Logical = logic in mathematics, logic means something is either true or false.
+    logical operator is used to combine / manipulate boolean expression.
+
+Example: 
+         'not' ----> has_injury = True
+     1)              print(not has_injury) -----> True
+                
+         x = 5
+         y = 10 
+     2)  print(x > 0 and y > 0)         True
+         print(x > 7 and y > 0)         False
+
+         age = 25
+     3)  income = 30000
+         print(age > 18 or income > 50000)         True (any one)
+                                                       
+         print(age < 18 or income > 50000)   -----------   False
+                                                       |                                                   
+                                                       |
+         converting it by using the 'not' case         |
+         print(age < 18 or not(income > 50000))  <------        True
+            ----|----      ----------|---------
+                |                    |
+        [This will be false]      [By putting the condition in bracket, the output will be negated because of the 'not'
+                                    i.e ---> not(false) = True]
+
+
+  # BOOLEAN OPERATOR PRECEDENCE 
+     'not' > 'and' > 'or'  -----> (This is same as BODMAS rule in maths to open up a question, here this is to solve a conditional question)
+
+  Example :  result = (True or False) and (not True)      --- 1st [open 'not' condition]
+                      (True or False) and False           --- 2nd ['and' condition]
+                      ------|-----      ----|----
+                       True           and  False          --- 3rd [ 'or' condition]
+                       False === {What left in the 'and' condition} 
+
+
+            working_age = age >= 18 and age <= 65
+            (can be written in this form also)  -----> working_age =  18 <= age <= 65
+            print(working_age) ----> True

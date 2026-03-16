@@ -1,0 +1,21 @@
+
+Dictionary - unordered , to store keyvalue {}, this is mutable in nature
+             always unique 
+
+            
+info = {
+    "name": "shubman",
+    "marks": 9.2,
+    "subjects": ["english", "hindi"],
+    3.14: "PI"
+}
+print(type(info))  -----------> dictionary
+
+To access a particular value ----:
+print(info["name"])
+
+TO CHANGE A PARTICULAR VALUE ----:
+info["marks"] = 9.6
+print(info["marks"])    ---->  9.6 
+
+

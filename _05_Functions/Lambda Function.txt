@@ -1,0 +1,23 @@
+ 
+  Small anonymous function defined or represented by 'lambda'
+
+  Example:   lambda a,b,c : a+b+c 
+                              |------- (this is an expression)
+                            
+    # Here we can have multiple parameters in this function but CAN ONLY HAVE ONE EXPRESSION 
+    Drawbacks == Can't be used for {complex tasks / multiple condition function / Loops/ multiple variable}
+
+    # Can be helpful for small tasks {Multiplication/ division/averages/addition/subtraction}
+
+   { SYNTAX:             }
+   { lambda a,b: a+b     }
+
+   Example to use this with a variable  ---------   
+
+   avg = lambda a,b : (a+b)/2
+   print(avg(4,5))      ======= 4.5 
+
+
+   USAGE OF LAMBDA FUNCTION
+
+   1) In higher order functions [Takes function value in its parameter or returns a function from itself]

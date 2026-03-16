@@ -1,0 +1,23 @@
+                                                                ***** VARIABLE NAMING CONVENTION AND RULES *****                                   
+            
+                                    
+                    1.)           Can be- Letters (Upper or lower case)                               |        Example- name= "Vipul"
+                                          Digits                                                      |                 Name= "Akshat"
+                                          Underscore                                                  |               Both are different
+                    2.)           Must start with-  underscore or Letter                              |
+                    3.)           Can't start with number                                             |        Also, if name="sun"
+                    4.)           Case sensitive                                                      |         and later you changed it to name= "Moon"
+                    5.)           Can't use python keywords(if, else , while , for , def, class etc.) |             It will give--->  moon
+                                                                                                      |       Will give the last change done as the output
+            
+                                                                                                                   
+                                                                  
+                                                         ***** VARIABLE NAMING CONVENTION*****
+
+                                    Can only use letters (Upper or lower case) , underscore and numbers(conditionally)
+                                 ### To write numbers write in mid or end not in start    example- my_stri56ng_22
+                 
+                
+                                  # Snake case  
+                                 can use underscore for clear understanding for us---> user_name_of_instagram
+                                            can use camelcasing also ----> userNameOfInstagram            

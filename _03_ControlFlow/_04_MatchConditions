@@ -1,0 +1,19 @@
+ 
+                                                         Match Case
+                                                    -------------------
+                                  Alternative for other conditionals ---> if, elif, else
+                Cases where there can be multiple cases of a single input, we can use this match case
+
+color = input('enter color : ')
+
+match color:
+    case "green":
+        print('go')
+    case "red":
+        print('stop')
+    case "yellow":
+        print('look')
+    case_:                       _______________
+        print('wrong color!')    _______________| ----> {This is a 'default case, used when the above cases are not satisfied
+                                                         from the input }             
+                                

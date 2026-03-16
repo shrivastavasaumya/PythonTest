@@ -1,0 +1,27 @@
+_______________________________________________________________________________________________________________________________________________________________________________
+                                            TO COUNT THE NUMBER OF ITERATION OR COUNT OF A CHARACTER IN A SERIES/ SEQUENCE
+
+
+ word = "Artificial Intelligence"
+ count = 0         -----------> we started the count from 'o'
+ for ch in word :             'ch' stand for CHARACTER 
+	 if (ch == 'i'):      ---> A SINGLE CHARACTER (Like here 'I') should be placed in SINGLE QUOTES
+		 count += 1   ------> because we are starting the count from 'o' so we need to add 1 to it to balance
+                                        Otherwise the 1st iteration will be counted as '0'
+
+
+output ---> 5
+
+
+
+NOTE :::: if we want to iterate a integer, We have to convert integer to a string because integers cannot be iterated in a loop, but strings can.
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
+   The 'in' operator in this 'for loop' works as a "membership operator" , it helps to check presence/ existence of any value which we need to find from the given series
+ Example:
+                line = 'Hello'
+                if 'o' in line:
+			print('o exist in the series')           ----> OUTPUT ----> o exist in the series
+
+ 

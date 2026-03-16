@@ -1,0 +1,43 @@
+                                                                             HOW TO WRITE A FUNCTION
+
+                                      To improve efficiency and avoiding repetition of work, a function is formed to be used at that places 
+
+                                                                             It has two parts :
+
+                                                     1) def  ---> Definition, that is to frame a function, to form it
+                                                     2) call ---> To take it in use
+               
+
+    ----->  def work():                -------------------{ This is 'def' definition which is to frame a function
+    |           print("hello chan !")  -------------------{ This is the desired output from the prepared function
+    |	    work() ---------->>>>>  This is calling a function for the output 'call' or 'invoke', whenever we will call it , it will give the same output
+    |                             THE EMPTY BRACKETS INDICATES CALL "()" OF THE FUNCTION
+    |
+The "variable" which is in this example "work" is the "NAME OF THE FUNCTION"
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+                                          **************** FUNCTIONS WHICH TAKES INPUT WHENEVER IT IS CALLED  ****************
+
+ The 'INPUTS' here are called "PARAMETERS"  and the 'OUTPUT' is called "RETURN"
+
+Example: 
+def sum(a, b):   -----> This function will always ask for the value of 'a' and 'b' == PARAMETERS === 'a' & 'b' are just placeholders here
+	s = a + b  ---> here 's' is just a name of operation, it could be anything
+	return s  ----> 'RETURN' is the output of the named function (here it is 's')
+
+
+    The assigned value of "a" and "b"  (here, example 3 , 4) ---> 
+
+ #  "RETURN" helps to save/assign the output in a variable for future use, because "print" funtion just prints (only works) it does't return anything, it cannot 
+     be used as a variable for further operation
+ # 'return' is used at last of the whole function because IT EXITS FROM THE FUNCTION
+
+
+
+
+
+
+
+
+

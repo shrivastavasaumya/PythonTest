@@ -1,0 +1,19 @@
+                                                         Nesting in control flow
+                                                        -------------------------
+
+Use of one conditional statement into another, we can put many "if" conditions in this
+
+
+
+Example:
+
+age = 20
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("You can enter.")
+    else:
+        print("ID required.")
+else:
+    print("You are underage.")

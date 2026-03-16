@@ -1,0 +1,15 @@
+                                    
+                                                             ***** Syntax for default value *****
+
+ 
+ 1) Parameter which has a default value should be put at last {NON-DEFAULT ARGUMENT SHOULD NOT FOLLOW/COME AFTER A DEFAULT ARGUMENT}
+ Example: def sum (a , b = 5) 
+
+ 2) def sum (a , b = 5)   
+        return a + b     ----->   function formation
+    
+    sum(6)   ----->     Call
+                     {It will automatically assign this explicitly given value to 'a' because 'b' already has 'a' default value }
+    output == 11
+
+

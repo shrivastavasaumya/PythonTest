@@ -1,0 +1,18 @@
+                                                                 CONTROL FLOW
+                                                                 ------------
+                                 (It helps to get the control on the flow of the output, basis on various conditions.)
+                         We do not need control flow in sequential flow because there the information flows in a straight way
+                                                                    
+                                                         
+                                                             TYPES OF CONTROL FLOW
+                                                                       |
+                                    |----------------------------------|---------------------------------|
+                          Making decisions                   Repeating actions                  Jumping to different parts of the program
+
+
+
+
+
+                           *   In other languages we use brackets to define a CODE BLOCK (Set of statements which is formed to work together)
+             
+                           *  Here, we use INDENTATION ---> equal / same spacing / Tab i.e 4 spaces. ---> TO FORM A CODE BLOCK

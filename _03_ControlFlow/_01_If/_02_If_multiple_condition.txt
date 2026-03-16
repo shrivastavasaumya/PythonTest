@@ -1,0 +1,34 @@
+                                                ********** HOW TO PUT TWO- CONDITIONS IN BLOCK **********
+
+                                    
+                                     By using the same INDENTATION we can add one condition in the exixting one.
+                                    
+Example-                          temp = 5
+                                  is_snowing = True
+
+                                  if temp < 10:
+                                     print('It is freezing')
+                                     print('Wear a heavy coat')
+                                     if is_snowing:             ------------>>>     [Here we added another condition in the same block itself]
+                                     print('And don't forget your boots!')
+                                 print('Have a nice day!')      ------------>>>     [This is the general line]
+                              
+It is freezing
+Wear a heavy coat
+And don't forget your boots! -------------------------->>> Output [because both the conditions were satisfied]
+Have a nice day!
+
+       
+But ****************       
+     The 1st condition only is not satisfied, than the whole block will not be printed because of the inter-dependency of the conditions
+                             (if) temp = 5
+                                  is_snowing = True
+
+                                  if temp < 10:
+                                     print('It is freezing')
+                                     print('Wear a heavy coat')
+                                     if is_snowing:     
+                                     print('And don't forget your boots!')
+                                  print('Have a nice day!') 
+
+     Have a nice day! -------------------------->>> Output [because both the condition was not satisfied]

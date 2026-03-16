@@ -1,0 +1,51 @@
+                                                                         VARIABLES 
+                                                              
+                                                                Are used to store data in it.
+                                         
+                                               In layman terms= A Variable is just like a box with a label on it
+
+
+                                               
+                                                                          VARIABLE
+                                                                              |
+                           ___________________________________________________|______________________________________________________
+                           |                                  |                                      |                              |
+                         NAME                               VALUE                               TYPE OF DATA                  MEMORY LOCATION
+
+                    
+Example:
+ Person ="Ankit" (Ankit is a string for python so will be in quotes)                        |   x = 1
+                                                                                            |   
+        Here,         Name : Person                                                         | Here,              Name : x                                                         |   
+                    Value  : Ankit                                                          |                   Value : 1
+                 Data Type : String                                                         |               Data type : Number
+           Memory location : Whatever(yet)                                                  |         Memory location : Whatever(yet)
+
+
+   * Decimal= Float = 9999.99
+   * Boolean= True/ False = To know the truth value of a variable
+         
+         To know the type of any variable use
+                   Example-                                 is_adult = True
+                                             print(type(is_adult))-----> The terminal will show it as 'boolean' 
+                                            
+                             "INPUT "                            |          FUNCTION                      "OUTPUT"
+    1.)                          a=1 
+                                 b=2
+                                 c=3                             |     print(a,b,c) ---> 1 2 3
+                                
+                                                                       print(a,b,c, sep = '|')    a b c ---> because there is a separator sep='' you can put , / : / - in it 
+                                                                                  | ----> 1|2|3 (output)
+
+    2.)                d,e,f,g = 3, 2 ,9.9, 7                    |       print(d,e,f,g)      3, 2, 9.9, 7
+
+    
+
+   ***SPACING RELATED  NOTE= Putting space in the function would not give space in the output 
+                             For Example print(a,b,c) or in print(d,e,f,g)
+                             It happens in the string when the space given in it, appears to be in the output.
+        
+          
+                             
+                                         
+                                                                             
