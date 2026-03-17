@@ -5,3 +5,16 @@ TEXT HAS SPACE OR NOT -----> print(txt.isspace())
             
   Example - txt = "    "  or ' \n   ' or "   \t\n   "                         |              txt = " .  " 
           print(txt.isspace()) ------> True                                   |              print(txt.isspace()) ------> False (Because of the dot / full stop)
+
+
+
+TO COUNT SPACING          .count(" ")	    Counts spaces
+                             " "	    represents a space
+Example - Write a program that takes a string from the user and prints the number of spaces in the string.
+
+
+content = input("Enter a string: ")
+
+spaces = content.count(" ")
+
+print("Number of spaces:", spaces)  ----> [she is a new employee, but very punctual.] ---> 7 
