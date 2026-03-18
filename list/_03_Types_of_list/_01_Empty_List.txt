@@ -1,0 +1,6 @@
+1. Empty List
+
+A list with no elements.
+
+my_list = []
+print(my_list)

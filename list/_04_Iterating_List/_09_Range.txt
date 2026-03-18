@@ -1,0 +1,8 @@
+4. Range → List
+
+nums = list(range(5))
+print(nums)
+
+Output:
+
+[0, 1, 2, 3, 4]

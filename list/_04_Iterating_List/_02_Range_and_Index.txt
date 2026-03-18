@@ -1,0 +1,17 @@
+
+2.)  Using range() and index
+fruits = ["apple", "banana", "mango"]
+
+for i in range(len(fruits)):
+    print(fruits[i])
+
+Here:
+
+len(fruits) gives number of items.
+
+i acts as the index.
+                       
+  [OUTPUT]
+apple
+banana
+mango

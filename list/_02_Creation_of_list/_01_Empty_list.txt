@@ -1,0 +1,15 @@
+
+
+1. Empty List
+
+A list with no elements.
+
+my_list = []
+print(my_list)
+
+
+| Feature     | `[]` (Square Brackets) | `list()` (Constructor)   |
+| ----------- | ---------------------- | ------------------------ |
+| Type        | Literal syntax         | Built-in function        |
+| Usage       | Direct list creation   | Convert other data types |
+| Readability | Simple & common        | Useful in specific cases |

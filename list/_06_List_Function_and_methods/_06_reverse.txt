@@ -1,0 +1,61 @@
+
+# reverse() Method in Python Lists 
+
+The reverse() method is used to reverse the order of elements in a list.
+
+It changes the original list (in-place modification).
+
+Syntax - list.reverse()
+
+Example
+numbers = [10, 20, 30, 40]
+numbers.reverse()
+print(numbers)
+
+Output
+[40, 30, 20, 10]
+
+
+
+# reversed() in Python 
+
+reversed() is a built-in function that returns the elements of a sequence in reverse order.
+
+Unlike reverse(), it does not change the original list.
+
+Syntax - reversed(sequence)
+Example 1: Using reversed() with a list
+
+numbers = [10, 20, 30, 40]
+rev = reversed(numbers)
+print(list(rev))
+
+Output
+[40, 30, 20, 10]
+
+The list is reversed without modifying the original list.
+
+
+Example 2: Original List Remains Same
+
+numbers = [1, 2, 3, 4]
+rev = list(reversed(numbers))
+print(rev)
+print(numbers)
+
+Output
+
+[4, 3, 2, 1]
+[1, 2, 3, 4]
+
+ Original list stays unchanged.
+
+
+
+
+
+Important Points -
+
+ reverse() modifies the original list. It does not return a new list, reverses the order of elements in the same list.
+ reversed() is a built-in function that returns the elements of a sequence in reverse order, it creates new list
+ Unlike reverse(), it does not change the original list.

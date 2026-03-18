@@ -1,0 +1,39 @@
+Modifying Lists in Python
+
+A list is mutable, which means you can change, add, or remove elements.
+
+1.) Changing an Element
+
+li = [10, 20, 30, 40]
+li[1] = 25
+print(li)
+
+Output
+
+[10, 25, 30, 40]
+
+
+2.) Changing Multiple Elements (Slicing)
+
+li = [10, 20, 30, 40]
+li[1:3] = [200, 300]
+print(li)
+
+Output
+
+[10, 200, 300, 40]
+
+
+________________________________________
+
+Operation	Method :
+
+Change value	li[index] = value
+Add element     append()
+Insert element	insert()
+Add multiple	extend()
+Remove element	remove()
+Remove by index	pop()
+Delete element	del
+Clear           clear()
+________________________________________

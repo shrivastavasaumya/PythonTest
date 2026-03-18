@@ -1,0 +1,15 @@
+
+# sum()
+
+Returns the sum of all elements.
+
+
+Example- 
+
+numbers = [10, 20, 30]
+
+print(sum(numbers))
+
+Output
+
+60

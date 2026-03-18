@@ -1,0 +1,14 @@
+
+5.)  Using enumerate() (index + value)
+
+
+fruits = ["apple", "banana", "mango"]
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+[Output]
+
+0 apple
+1 banana
+2 mango

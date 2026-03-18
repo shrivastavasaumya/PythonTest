@@ -1,0 +1,9 @@
+2. Inserting an Element (insert)
+
+li = [10, 20, 30]
+li.insert(1, 15)
+print(li)
+
+Output
+
+[10, 15, 20, 30]

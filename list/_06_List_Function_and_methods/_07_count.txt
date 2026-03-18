@@ -1,0 +1,28 @@
+
+# count() Method in Python Lists 
+
+The count() method is used to count how many times an element appears in a list.
+
+Syntax - list.count(element)
+
+element → the value you want to count in the list
+
+Example - 1
+numbers = [1, 2, 3, 2, 4, 2]
+result = numbers.count(2)
+print(result)
+
+Output
+3
+
+The number 2 appears 3 times.
+
+
+Example 2
+fruits = ["apple", "banana", "apple", "mango"]
+print(fruits.count("apple"))
+
+Output
+2
+
+"apple" appears 2 times.

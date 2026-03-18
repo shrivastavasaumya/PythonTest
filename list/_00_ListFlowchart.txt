@@ -1,0 +1,73 @@
+LIST (Basics)
+│
+├── Definition
+│   ├── Ordered collection
+│   ├── Mutable (changeable)
+│   └── Allows duplicate values
+│
+├── Creation of List
+│   ├── [] (empty list)
+│   ├── list() constructor
+│   └── With elements → [1, 2, 3]
+│
+├── Types of Lists
+│   ├── Integer list
+│   ├── String list
+│   ├── Boolean list
+│   ├── Mixed list
+│   └── Nested list
+│
+├── Accessing Elements
+│   ├── Indexing (positive)
+│   ├── Negative indexing
+│   └── Slicing → list[start:end:step]
+│
+├── Iterating Lists
+│   ├── for loop
+│   ├── while loop
+│   └── List comprehension
+│
+├── Modifying Lists
+│   ├── Change value → list[i] = x
+│   ├── Add elements
+│   │   ├── append()
+│   │   ├── insert()
+│   │   └── extend()
+│   └── Remove elements
+│       ├── remove()
+│       ├── pop()
+│       ├── clear()
+│       └── del keyword
+│
+├── List Functions / Methods
+│   ├── len()
+│   ├── max(), min()
+│   ├── sum()
+│   ├── sort()
+│   ├── reverse()
+│   ├── count()
+│   └── index()
+│
+├── Operations on Lists
+│   ├── Concatenation (+)
+│   ├── Repetition (*)
+│   ├── Membership (in / not in)
+│   └── Comparison
+│
+├── Copying Lists
+│   ├── Shallow copy
+│   │   ├── copy()
+│   │   └── list()
+│   └── Deep copy (copy module)
+│
+├── Advanced Concepts
+│   ├── Nested lists
+│   ├── List comprehension
+│   ├── Lambda with lists
+│   └── Map / Filter
+│
+└── Real Use Cases
+    ├── Storing data
+    ├── Searching elements
+    ├── Sorting data
+    └── Removing duplicates

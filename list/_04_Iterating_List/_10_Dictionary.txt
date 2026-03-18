@@ -1,0 +1,12 @@
+Dictionary
+
+Example with dictionary:
+
+d = list({"a":1, "b":2})
+print(d)
+
+Output:
+
+['a', 'b']
+
+(It returns the keys.)

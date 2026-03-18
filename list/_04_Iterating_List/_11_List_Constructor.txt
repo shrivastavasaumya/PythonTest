@@ -1,0 +1,18 @@
+
+ITERABLE:
+
+
+s = {12, 13, 15, 19}
+lst = list(s)
+print(lst)       -----> [19, 12, 13, 15] notice here , that it is arranged in descending order in output
+
+
+
+
+
+
+
+li = list("HELLO")
+print(li)        -----> ['H', 'E', 'L', 'L', 'O']
+
+

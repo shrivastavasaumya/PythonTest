@@ -1,0 +1,20 @@
+                                                                           Iterating through list
+
+
+Iterating through a list means going through each element of the list one by one and performing some action.
+
+In Python, there are several ways to iterate through a list.
+
+1.) Using a for loop (Most common)
+fruits = ["apple", "banana", "mango"]
+
+for fruit in fruits:
+    print(fruit)
+
+[Output]
+
+apple
+banana
+mango
+
+--> The loop picks each element from the list and prints it.

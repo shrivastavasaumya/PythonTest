@@ -1,0 +1,13 @@
+                                                                               LIST :
+
+                                      Ordered, mutable collections that can contain mixed data types   []   repetition allowed
+
+A built-in data structure that stores an ordered, mutable collection of items
+lists can hold items of any type, including other lists
+
+Characteristics of lists:
+
+1) ORDERED - Items have a defined order and can be accessed by their index. {The order is maintained exactly as you wrote it}
+2) MUTABLE - You can change, add, or remove items after the list has been created
+3) HETEROGENEOUS - A single list can contain elements of different data types. {Allows duplicate values}
+4) ITERABLE - lists can be looped over using for loops or comprehensions

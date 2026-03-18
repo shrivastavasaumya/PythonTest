@@ -1,0 +1,13 @@
+
+5.)  Using list comprehension
+
+
+fruits = ["apple", "banana", "mango"]
+
+[print(fruit) for fruit in fruits]
+
+[OUTPUT]
+
+apple
+banana
+mango

@@ -1,0 +1,12 @@
+
+2. Removing by Index (pop)
+
+
+li = [10, 20, 30]
+li.pop(1)
+print(li)
+
+Output
+
+[10, 30]
+

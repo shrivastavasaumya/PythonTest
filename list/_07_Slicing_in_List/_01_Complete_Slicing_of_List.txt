@@ -1,0 +1,89 @@
+                                                              Slicing in Python Lists
+
+                               'Slicing' means extracting a "part (sub-list)" from a list using index positions.
+
+
+Basic Syntax - list[start : end : step]
+
+
+* 'start' → index where slicing begins
+* 'end'   → index where slicing stops ("not included")
+* 'step'  → how many steps to jump
+
+
+1. Basic Slicing
+
+nums = [10, 20, 30, 40, 50, 60]
+print(nums[1:4])
+
+Output:
+[20, 30, 40]
+
+
+2. From Start to End
+
+print(nums[:4])
+
+Output:
+
+[10, 20, 30, 40]
+
+
+3. From Index to End
+
+print(nums[2:])
+
+Output:
+
+[30, 40, 50, 60]
+
+
+4. Full List Copy
+
+print(nums[:])
+
+Output:
+
+[10, 20, 30, 40, 50, 60]
+
+
+5. Using Step
+
+print(nums[0:6:2])
+
+Output:
+
+[10, 30, 50]
+
+
+6. Reverse List
+
+print(nums[::-1])
+
+Output:
+
+[60, 50, 40, 30, 20, 10]
+
+
+7. Negative Index Slicing
+
+
+print(nums[-4:-1])
+
+Output:
+
+[30, 40, 50]
+
+
+ Important Points:
+
+✔ End index is **not included**
+✔ Default values:
+
+* start = 0
+* end = length of list
+* step = 1
+  ✔ Negative index starts from end
+  ✔ Negative step reverses direction
+
+

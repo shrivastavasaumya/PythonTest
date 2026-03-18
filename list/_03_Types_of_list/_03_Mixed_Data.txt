@@ -1,0 +1,7 @@
+3. Mixed Data Type List
+
+A list containing different types of data.
+
+mixed = [10, "apple", 3.5, True]
+print(mixed)
+

@@ -1,0 +1,9 @@
+
+3. Set → List
+
+data = list({1, 2, 3, 4})
+print(data)
+
+Output (order may change):
+
+[1, 2, 3, 4]

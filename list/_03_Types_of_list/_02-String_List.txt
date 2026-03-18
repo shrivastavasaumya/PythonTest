@@ -1,0 +1,6 @@
+2. String List
+
+A list containing text values.
+
+fruits = ["apple", "banana", "mango"]
+print(fruits)

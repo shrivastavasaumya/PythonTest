@@ -1,0 +1,11 @@
+
+4. Deleting Elements (del)
+
+
+li = [1, 2, 3, 4]
+del li[2]
+print(li)
+
+Output
+
+[1, 2, 4]

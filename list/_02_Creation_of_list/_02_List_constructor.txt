@@ -1,0 +1,14 @@
+
+                                                                           # List Using list() Constructor
+
+What is a Constructor?
+
+A constructor is used to create an object.
+
+Syntax - list() → creates a list object
+
+Example- 
+numbers = list((1, 2, 3, 4))
+print(numbers)
+
+

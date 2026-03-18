@@ -1,0 +1,11 @@
+2. String → List
+
+letters = list("python")
+print(letters)
+
+Output:
+
+['p', 'y', 't', 'h', 'o', 'n']
+
+Each character becomes an element in the list.
+

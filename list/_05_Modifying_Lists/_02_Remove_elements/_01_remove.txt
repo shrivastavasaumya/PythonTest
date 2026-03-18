@@ -1,0 +1,11 @@
+
+1. Removing an Element (remove)
+
+
+li = [10, 20, 30]
+li.remove(20)
+print(li)
+
+Output
+
+[10, 30]

@@ -1,0 +1,16 @@
+Iterable in List (Python)
+
+An iterable is any object that can be looped over (iterated).
+The list() function can take any iterable and convert it into a list.
+
+Common iterables used with list():
+
+1. Tuple → List
+numbers = list((1, 2, 3, 4))
+print(numbers)
+
+Output:
+
+[1, 2, 3, 4]
+
+A tuple ( ) is iterable, so it can be converted to a list.

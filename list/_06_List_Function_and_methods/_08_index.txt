@@ -1,0 +1,41 @@
+
+# index() Method in Python Lists 
+
+The index() method is used to find the position (index) of the first occurrence of an element in a list.
+
+Syntax - list.index(element)
+
+element → the value whose position you want to find.
+
+
+Example 1 :
+
+numbers = [10, 20, 30, 40]
+print(numbers.index(30))
+
+Output
+2
+
+Because 30 is at index 2.
+
+
+Example 2 (Repeated Elements) :
+
+numbers = [1, 2, 3, 2, 4]
+print(numbers.index(2))
+
+Output
+1
+
+index() returns the first occurrence only.
+
+
+Example 3 (Using Start Position) :
+
+numbers = [1, 2, 3, 2, 4]
+print(numbers.index(2, 2))
+
+Output
+3
+
+Search starts from index 2.

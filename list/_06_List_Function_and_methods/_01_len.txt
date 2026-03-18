@@ -1,0 +1,27 @@
+Functions for Python Lists 
+
+Python provides several built-in functions and methods to work with lists.
+
+  len()
+
+  Returns the number of elements in the list.
+
+1.)
+numbers = [10, 20, 30, 40]
+
+print(len(numbers))
+
+Output
+
+4
+
+
+2.)
+
+numbers = [14, 22,[ 30, 40]]
+
+print(len(numbers))
+
+Output == 3 {counts the inner list as one element in a whole}
+
+

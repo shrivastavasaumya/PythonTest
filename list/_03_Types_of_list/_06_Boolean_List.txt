@@ -1,0 +1,5 @@
+6. Boolean List Example
+
+flag = [True, False, True, True]
+print(flag)
+

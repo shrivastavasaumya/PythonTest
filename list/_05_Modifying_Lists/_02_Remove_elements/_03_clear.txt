@@ -1,0 +1,19 @@
+
+3. clear() Method in Python List
+
+The clear() method is used to remove all elements from a list.
+After using clear(), the list becomes empty.
+
+Syntax - list_name.clear()  
+
+clear() does not delete the list, it only removes its items.
+
+Example:
+
+li = [1,2,3]
+li.clear()
+print(li)
+
+Output
+
+[]

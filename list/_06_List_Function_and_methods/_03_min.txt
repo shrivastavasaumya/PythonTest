@@ -1,0 +1,26 @@
+
+# min()
+
+Returns the largest element in the list.
+
+
+1.) names = ["Alice", "Bob", "Charlie"]
+
+print(min(names))
+
+Output
+
+Alice ----->    It checks it lexicographically
+
+
+
+
+2.) Returns the smallest element.
+
+numbers = [10, 20, 30, 40]
+
+print(min(numbers))
+
+Output
+
+10

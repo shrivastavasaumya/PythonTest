@@ -1,0 +1,7 @@
+                                                                                String with elements
+
+Elements are the individual items stored inside a list.
+
+Example-
+a = list([10, 20, 30])
+a = [10, "hello", True, 5.5]

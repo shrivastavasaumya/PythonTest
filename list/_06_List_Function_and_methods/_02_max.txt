@@ -1,0 +1,12 @@
+
+#  max()
+
+Returns the largest element in the list.
+
+numbers = [10, 20, 30, 40]
+
+print(max(numbers))
+
+Output6
+
+40
