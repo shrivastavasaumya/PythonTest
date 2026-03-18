@@ -61,6 +61,10 @@
 #Assignment 3
 
 
+
+
+
+
 # word = str(input("enter the word:         "))       #Q1
 # if word == word [::-1]:
 #     print("yes")
@@ -182,6 +186,22 @@
 # duplicates = [i for i in g if z.count(i) > 1]
 
 # print(duplicates)
------------------------------------------------------------
-this = input( "enter the string:     ")
+# -----------------------------------------------------------
+
+s = input( "enter the string:     ") 
+
+freq = {}                                  
+                                    #   freq = {}
+                                    #    This will store character counts
+
+                                    #    Format: {character: frequency}
+                                                                                     #Q10  took help from gpt for duplicate part
+                                                                                    
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1      
+                                        # freq[ch] → stores count of that character
+print("Unique characters:")
+for ch in freq:
+    if freq[ch] == 1:
+        print(ch)
 

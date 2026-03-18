@@ -10,3 +10,103 @@ Example----          "python is amazing, python is fun"
  print(txt.count('python')) ----> 2 (output)
  print(txt.count('Python')) ----> 0 (output, due to uppercase)
  string.count(substring, start, end)--- syntax
+
+________________________________________________________________________________________________________________
+
+Here are simple **Python syntaxes** to count **duplicate** and **unique characters** in a string:
+
+
+
+##  1. Count frequency of each character
+
+
+s = "programming"
+
+freq = {}           -------->                It is a dictionary used to store how many times each character appears
+
+for ch in s:
+    if ch in freq:
+        freq[ch] += 1    ------>            freq[ch] → stores count of that character
+    else:
+        freq[ch] = 1
+
+print(freq)
+
+
+
+##  2. Print duplicate characters
+
+
+s = "programming"
+
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+print("Duplicate characters:")
+for ch in freq:
+    if freq[ch] > 1:
+        print(ch)
+
+
+
+
+##  3. Print unique characters (appear only once)
+
+
+s = "programming"
+
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+print("Unique characters:")
+for ch in freq:
+    if freq[ch] == 1:
+        print(ch)
+
+
+
+
+##  4. Count number of duplicates & uniques
+
+
+s = "programming"
+
+freq = {}
+
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+
+duplicate_count = 0
+unique_count = 0
+
+for ch in freq:
+    if freq[ch] > 1:
+        duplicate_count += 1
+    else:
+        unique_count += 1
+
+print("Duplicate count:", duplicate_count)
+print("Unique count:", unique_count)
+
+
+
+
+##  Shortcut using collections
+
+
+from collections import Counter
+
+s = "programming"
+freq = Counter(s)
+
+duplicates = [ch for ch in freq if freq[ch] > 1]
+unique = [ch for ch in freq if freq[ch] == 1]
+
+print("Duplicates:", duplicates)
+print("Unique:", unique)
+
+
