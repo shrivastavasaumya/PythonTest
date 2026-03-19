@@ -1,0 +1,7 @@
+2. list() constructor
+
+-- Using list.copy()
+new_list = old_list.copy()
+
+a = [1, 2, [3, 4]]
+b = list(a)

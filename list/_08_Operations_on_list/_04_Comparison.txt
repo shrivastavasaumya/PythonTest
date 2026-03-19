@@ -1,0 +1,12 @@
+
+4. Comparison Operators (==, !=, <, >)
+
+---> Compare lists element-wise
+
+a = [1, 2, 3]
+b = [1, 2, 4]
+
+print(a == b)   # False
+print(a < b)    # True
+
+--->  Comparison works lexicographically (like dictionary order)

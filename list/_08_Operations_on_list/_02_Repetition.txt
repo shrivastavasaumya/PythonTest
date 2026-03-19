@@ -1,0 +1,15 @@
+
+2.)  Repetition Operator [for (*) multiplication]
+
+Used to repeat a list multiple times.
+
+list1 = [1, 2]
+
+result = list1 * 3
+print(result)
+
+Output
+
+[1, 2, 1, 2, 1, 2]
+
+-- The list is repeated 3 times.

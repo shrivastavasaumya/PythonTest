@@ -1,5 +1,6 @@
 3. Extending a List (extend)
 
+extend is ( + ) only 
 li = [1, 2]
 li.extend([3, 4])
 print(li)

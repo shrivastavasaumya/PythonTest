@@ -1,0 +1,54 @@
+
+1.) Replacing Elements Using Slicing
+li = [10, 20, 30, 40, 50]
+li[1:3] = [200, 300]
+print(li)
+
+Output
+
+[10, 200, 300, 40, 50]
+
+Explanation
+20, 30 are replaced by 200, 300.
+
+2.) Inserting Elements with Slicing
+li = [1, 2, 5]
+li[2:2] = [3, 4]
+print(li)
+
+Output
+
+[1, 2, 3, 4, 5]
+
+Explanation
+Nothing was replaced; new values were inserted.
+
+3.) Removing Elements with Slicing
+li = [10, 20, 30, 40]
+li[1:3] = []
+print(li)
+
+Output
+
+[10, 40]
+
+Explanation
+20 and 30 are removed.
+
+4.) Replacing with More Elements
+li = [1, 2, 3]
+li[1:2] = [20, 30, 40]
+print(li)
+
+Output
+
+[1, 20, 30, 40, 3]
+
+
+### Slicing in modification can:
+
+Replace elements
+
+Insert elements
+
+Delete elements

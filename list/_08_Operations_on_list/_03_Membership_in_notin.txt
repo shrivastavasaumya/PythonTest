@@ -1,0 +1,17 @@
+
+3.) Membership Operators in and not in
+
+Used to check if an element exists in the list.
+
+numbers = [10, 20, 30, 40]
+
+print(20 in numbers)
+print(50 not in numbers)
+
+Output :
+------
+True
+True
+
+~ in → element present
+~ not in → element not present

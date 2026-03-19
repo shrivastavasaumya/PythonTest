@@ -1,0 +1,16 @@
+4. map() Function
+
+👉 Apply function to every element
+
+```python
+a = [1, 2, 3, 4]
+
+result = list(map(lambda x: x*2, a))
+print(result)   # [2, 4, 6, 8]
+```
+
+👉 Same as:
+
+```python
+[x*2 for x in a]
+```

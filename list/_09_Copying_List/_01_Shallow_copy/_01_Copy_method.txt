@@ -1,0 +1,35 @@
+
+1. Shallow Copy
+
+A shallow copy creates a new list, but elements inside it still refer to the same memory locations as the original 
+
+Outer list = new
+
+Inner objects = SAME (shared in memory)
+
+The outer object is new
+
+The inner objects are shared
+
+Example 1: Simple List
+import copy
+
+original = [1, 2, 3]
+shallow = copy.copy(original)
+
+print(original)
+print(shallow)
+
+Output:
+
+[1, 2, 3]
+[1, 2, 3]
+
+Both lists look the same, but they are different objects.
+
+---------------------------
+
+Methods of Shallow Copy:
+1. copy() method
+   a = [1, 2, [3, 4]]
+   b = a.copy()

@@ -1,0 +1,25 @@
+
+Deep Copy in Python - 
+
+A deep copy creates a completely new object and copies all nested objects inside it.
+So no memory is shared between the original and the copied object.
+
+1) Outer object is new
+2) Inner objects are also new
+
+Example -
+import copy
+
+original = [1, 2, [3, 4]]
+deep = copy.deepcopy(original)
+
+deep[2][0] = 99
+
+print(original)
+print(deep)
+
+Output -
+[1, 2, [3, 4]]
+[1, 2, [99, 4]]
+
+✔ The original list does not change because the inner list was also copied.

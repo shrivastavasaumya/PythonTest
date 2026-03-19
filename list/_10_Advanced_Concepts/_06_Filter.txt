@@ -1,0 +1,22 @@
+
+5. filter() Function
+
+--> Select elements based on condition
+
+
+a = [1, 2, 3, 4, 5]
+
+result = list(filter(lambda x: x % 2 == 0, a))
+print(result)   # [2, 4]
+
+
+
+ Super Short Revision
+----------------------
+
+* Nested → list inside list
+* Comprehension → shortcut loop
+* Lambda → small function
+* map → transform data
+* filter → select data
+

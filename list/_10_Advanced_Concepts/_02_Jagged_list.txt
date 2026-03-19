@@ -1,0 +1,16 @@
+
+Jagged list in Python is a type of nested list where each sub-list can have a different number of elements.
+A jagged list is just a nested list with uneven inner lists/ list of lists with unequal lengths
+
+~ Example :
+jagged = [
+    [1, 2, 3],
+    [4, 5],
+    [6, 7, 8, 9]
+]
+
+print(jagged)
+
+- Output:
+
+[[1, 2, 3], [4, 5], [6, 7, 8, 9]]

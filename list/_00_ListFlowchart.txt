@@ -2,36 +2,36 @@ LIST (Basics)
 │
 ├── Definition
 │   ├── Ordered collection
-│   ├── Mutable (changeable)
+│   ├── Mutable (changeable)          '
 │   └── Allows duplicate values
 │
 ├── Creation of List
 │   ├── [] (empty list)
 │   ├── list() constructor
-│   └── With elements → [1, 2, 3]
+│   └── With elements → [1, 2, 3]         '
 │
 ├── Types of Lists
 │   ├── Integer list
 │   ├── String list
-│   ├── Boolean list
+│   ├── Boolean list            '
 │   ├── Mixed list
 │   └── Nested list
 │
 ├── Accessing Elements
-│   ├── Indexing (positive)
+│   ├── Indexing (positive)        '
 │   ├── Negative indexing
 │   └── Slicing → list[start:end:step]
 │
 ├── Iterating Lists
 │   ├── for loop
 │   ├── while loop
-│   └── List comprehension
+│   └── List comprehension          '
 │
 ├── Modifying Lists
 │   ├── Change value → list[i] = x
 │   ├── Add elements
 │   │   ├── append()
-│   │   ├── insert()
+│   │   ├── insert()            '
 │   │   └── extend()
 │   └── Remove elements
 │       ├── remove()
@@ -41,7 +41,7 @@ LIST (Basics)
 │
 ├── List Functions / Methods
 │   ├── len()
-│   ├── max(), min()
+│   ├── max(), min()             '
 │   ├── sum()
 │   ├── sort()
 │   ├── reverse()
@@ -50,7 +50,7 @@ LIST (Basics)
 │
 ├── Operations on Lists
 │   ├── Concatenation (+)
-│   ├── Repetition (*)
+│   ├── Repetition (*)           '
 │   ├── Membership (in / not in)
 │   └── Comparison
 │

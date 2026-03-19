@@ -1,0 +1,20 @@
+
+2. List Comprehension
+
+ Short way to create lists in **one line**
+
+# Examples :
+
+a = [1, 2, 3, 4]
+
+square = [x**2 for x in a]
+print(square)   # [1, 4, 9, 16]
+
+
+###  With condition:
+
+even = [x for x in a if x % 2 == 0]
+print(even)   # [2, 4]
+
+
+ Purpose - Faster + cleaner than loops

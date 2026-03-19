@@ -1,0 +1,13 @@
+
+3. Lambda with Lists
+
+-->  Anonymous (one-line) function
+
+# Example:
+
+square = lambda x: x**2
+
+print(square(5))   # 25
+
+
+--> Used with list operations like map/filter

@@ -20,10 +20,10 @@
 
 
 
-res = []
-for i in range (1, 11):
-    res.append(i ** 2)
-print(res)
+# res = []
+# for i in range (1, 11):
+#     res.append(i ** 2)
+# print(res)
 
 
 # text = "Python list comprehension is powerful and consise"

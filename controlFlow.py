@@ -67,10 +67,10 @@ else : print("Hey unknown")'''
 # len(fruits) 
                                            
                                         
-fruits = ["apple", "banana", "mango"]
+# fruits = ["apple", "banana", "mango"]
 
-i = 0
-while i < len(fruits):
-    print(fruits[i])
-    i += 1
+# i = 0
+# while i < len(fruits):
+#     print(fruits[i])
+#     i += 1
                                       
