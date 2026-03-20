@@ -1,8 +1,4 @@
-
-
-
- 
-                                                              INTEGERS
+                                                                                   INTEGERS
 
  
  
@@ -38,7 +34,7 @@ ________________________________________________________________________________
 
     STEPS: 1  Assign the values according to RANGE of that particular number system
            2  Take the value of the base of that number system
-           3  Multilpy the each character with the power of that base in reverse order  starting with ' 0 'than 1 and so on.
-           4  Last,add products of each value 
+           3  Multiply the each character with the power of that base in reverse order  starting with ' 0 'than 1 and so on.
+           4  Last, add products of each value 
        ( In short, follows decimal number system)
 ____________________________________________________________________________________________________________________________________________________________

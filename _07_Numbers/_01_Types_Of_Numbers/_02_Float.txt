@@ -1,6 +1,6 @@
-                                                                 FLOAT
+                                                                        FLOAT
                                          
-                                                   Numbers which are in decimal form       
+                                                          Numbers which are in decimal form       
 
      EXAMPLE: 1.56, -0.323, .2332, 4.0
      How to convert integer into float --->  c = 7 ; so c = float(7)    

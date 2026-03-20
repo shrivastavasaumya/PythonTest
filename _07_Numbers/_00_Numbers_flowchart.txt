@@ -1,0 +1,112 @@
+START
+  │
+  ▼
+Introduction to Numbers
+  │
+  ├── What are numbers?
+  ├── Used for calculations
+  ▼
+Types of Numbers
+  │
+  ├── Integer (int)
+  │     └── Example: 10, -5
+  │
+  ├── Float (float)
+  │     └── Example: 3.14, -0.5
+  │
+  ├── Complex (complex)
+  │     └── Example: 2 + 3j
+  ▼
+Type Conversion
+  │
+  ├── int()
+  ├── float()
+  ├── complex()
+  ▼
+Arithmetic Operations
+  │
+  ├── Addition (+)
+  ├── Subtraction (-)
+  ├── Multiplication (*)
+  ├── Division (/)
+  ├── Floor Division (//)
+  ├── Modulus (%)
+  ├── Exponent (**)
+  ▼
+Number Functions
+  │
+  ├── abs()        → absolute value
+  ├── round()      → rounding
+  ├── pow()        → power
+  ├── max() / min()
+  ▼
+Math Module
+  │
+  ├── import math
+  ├── math.sqrt()
+  ├── math.ceil()
+  ├── math.floor()
+  ├── math.pi
+  ▼
+Random Numbers
+  │
+  ├── import random
+  ├── random.randint()
+  ├── random.random()
+  ├── random.choice()
+  ▼
+Number Comparison
+  │
+  ├── >, <, ==
+  ├── !=, >=, <=
+  ▼
+Advanced Concepts
+  │
+  ├── Bitwise Operators
+  │     ├── &, |, ^
+  │     └── <<, >>
+  │
+  ├── Decimal Module
+  ├── Fractions Module
+  ▼
+Practical Use
+  │
+  ├── Calculations
+  ├── Loops with numbers
+  ├── Conditions
+  ▼
+END
+
+
+------------------------------------------
+
+
+Numbers in Python
+│
+├── Types
+│   ├── int
+│   ├── float
+│   └── complex
+│
+├── Operations
+│   ├── Arithmetic
+│   ├── Comparison
+│   └── Bitwise
+│
+├── Functions
+│   ├── abs(), round(), pow()
+│   └── max(), min()
+│
+├── Modules
+│   ├── math
+│   ├── random
+│   ├── decimal
+│   └── fractions
+│
+└── Applications
+    ├── Calculations
+    ├── Loops
+    └── Conditions
+
+
+

@@ -1,7 +1,9 @@
-                                                                COMPLEX NUMBERS
+                                                                               COMPLEX NUMBERS
 
-                                                                Here i  = j
-                EXAMPLE: z = 1 + 2j
+                                                               
+                                                                    Here i (imaginary number/ iota)  = j
+            
+          EXAMPLE: z = 1 + 2j
                    1 = REAL VALUE
                    2j = IMAGINARY VALUE
 

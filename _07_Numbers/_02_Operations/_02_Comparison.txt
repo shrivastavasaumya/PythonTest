@@ -1,0 +1,28 @@
+                                                                     Comparison Operators
+
+
+Comparison operators are used to compare two numbers. They always return a Boolean value → True or False.
+
+~ List of Comparison Operators
+_________________________________________________________
+Operator |	Meaning	          |  Example   |  Result
+_________|________________________|____________|_________
+==	    Equal to	             5 == 5	True
+!=	    Not equal to	     5 != 3	True
+>	    Greater than	     7 > 4	True
+<	    Less than	             2 < 6	True
+>=	    Greater than or equal    5 >= 5	True
+<=	    Less than or equal	     3 <= 2	False
+
+
+Example -
+
+a = 10
+b = 5
+
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # True
+print(a < b)    # False
+print(a >= b)   # True
+print(a <= b)   # False

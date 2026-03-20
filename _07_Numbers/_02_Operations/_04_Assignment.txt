@@ -1,0 +1,30 @@
+
+                                                                 ASSIGNMENT OPERATOR
+                                                                 --------------------
+                                                 {'x' is the variable } x  =  "Vipul" {'Vipul' is LITERAL}
+LHS = RHS
+LHS must be a valid variable
+LHS cannot be literal ---> (5 = x) ----> Error
+RHS can be any expression that produces a value 
+
+                     HOW TO SWAP THE VALUES:
+       EXAMPLE: x = 3                 x = 2
+                y = 2   and you want  y = 3   ;   For That Do ---->>  x, y = y, x                                      
+                                                                      print(x, y)
+                                                                                              EXAMPLE: salary = 11
+                                                                                                      (new salary is now double)
+OPERATOR     |        EQUIVALENT TO    |   EXAMPLE                                                   So, salary = 11
+----------------------------------------------------------------                                         salary **= 2  ----> ( '2' because salary is noe double so 11^2 )
++=                      x = x + 5           x += 5                                                       print(salary) ---> 121
+-=                      x = x - 5           x -= 5
+*=                      x = x * 5           x *= 5
+/=                      x = x / 5           x /= 5
+//=                     x = x // 5          x //= 5
+%=                      x = x % 5           x %= 5
+**=                     x = x ** 5          x **= 5
+
+
+
+
+
+
