@@ -1,0 +1,14 @@
+
+                                                        Creation of Tuple
+
+1.) Using ()               tuple literal with three or more elements
+   t = (1, 2, 3)
+
+2.) Without ()             implicit tuple (no parentheses needed)
+   t = 1, 2, 3
+
+3.) Single element         single-element tuple (NOTE : comma at last of the element will help to make a single element a tuple)
+   t = (5,)
+
+4.) Using tuple()          creating tuple from a list 
+   t = tuple([1,2,3])

@@ -1,0 +1,25 @@
+
+                                                                               Tuple-
+
+                    Ordered, immutable collections that can contain mixed data types(similar to lists) and uses parentheses  ()  repetition allowed
+
+Note = parentheses is optional you can just use ',' comma as a separator
+
+# Tuples are created using commas, not parentheses
+# parentheses improve readability but are not required
+empty tuple = ()
+
+
+Example:
+
+value = (1,)        ---- ONLY IN SINGLE WORD VALUE, PUT COMMA IN END TO RECOGNISE IT AS TUPLE
+print(type(name))        -----> Tuple
+
+
+value = (1, 2, 3, 4)
+print(type(name))      -----> Tuple
+
+diff. b/w tuple and lists
+ the structure of tuple is fixed but if tuple carries mutable objects like lists/ dictionaries inside it those objects can be modified
+________________
+# enumerate - 

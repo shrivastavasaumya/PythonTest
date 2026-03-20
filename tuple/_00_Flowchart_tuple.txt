@@ -1,0 +1,62 @@
+TUPLE (Python)
+│
+├── Definition
+│   ├── Ordered collection
+│   ├── Immutable (cannot change)
+│   └── Allows duplicate values
+│
+├── Creation of Tuple
+│   ├── Using ()
+│   │     t = (1, 2, 3)
+│   ├── Without ()
+│   │     t = 1, 2, 3
+│   ├── Single element
+│   │     t = (5,)
+│   └── Using tuple()
+│         t = tuple([1,2,3])
+│
+├── Types of Elements (Numbers Focus)
+│   ├── Integer → (1, 2, 3)
+│   ├── Float → (1.5, 2.7)
+│   ├── Mixed → (1, 2.5, 3)
+│
+├── Accessing Elements
+│   ├── Indexing
+│   │     t[0], t[1]
+│   ├── Negative Indexing
+│   │     t[-1]
+│   └── Slicing
+│         t[0:2]
+│
+├── Operations on Tuple
+│   ├── Concatenation
+│   │     t1 + t2
+│   ├── Repetition
+│   │     t * 2
+│   ├── Membership
+│   │     2 in t
+│   └── Iteration
+│         for i in t
+│
+├── Functions (Numbers)
+│   ├── len(t)
+│   ├── max(t)
+│   ├── min(t)
+│   ├── sum(t)
+│   └── sorted(t)
+│
+├── Methods (Limited)
+│   ├── count()
+│   └── index()
+│
+├── Immutability
+│   ├── Cannot modify elements
+│   ├── Cannot add/remove elements
+│   └── Only read operations allowed
+│
+├── Nested Tuple
+│   └── t = (1, (2,3), 4)
+│
+└── Conversion
+    ├── Tuple → List → list(t)
+    └── List → Tuple → tuple(l)

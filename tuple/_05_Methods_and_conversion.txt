@@ -1,0 +1,132 @@
+ 
+                                                     Tuple Methods in Python
+
+                      Tuples have **very few methods** because they are **immutable** (cannot be changed).
+
+## 1. count()
+
+ Counts how many times an element appears
+
+
+t = (1, 2, 3, 2, 2, 4)
+print(t.count(2))   # Output: 3
+
+--> Use when you want frequency of an element
+
+
+
+## 2. index()
+
+ Finds the position of an element
+
+
+t = (10, 20, 30, 40)
+
+print(t.index(30))   # Output: 2
+
+
+--> Returns first occurrence only
+--> Error if element not found
+
+
+
+
+                                                      Tuple Conversions in Python
+
+                                  Tuples can be converted into other data types and vice versa.
+
+
+
+## 1. List → Tuple
+
+
+l = [1, 2, 3]
+
+t = tuple(l)
+print(t)   # (1, 2, 3)
+
+
+~ Used when you want **immutable data**
+
+
+
+## 2. Tuple → List
+
+
+t = (4, 5, 6)
+
+l = list(t)
+print(l)   # [4, 5, 6]
+
+
+~ Used when you want to **modify data**
+
+
+
+## 3. String → Tuple
+
+
+s = "hello"
+
+t = tuple(s)
+print(t)   # ('h', 'e', 'l', 'l', 'o')
+
+
+
+
+## 4. Tuple → String
+
+
+t = ('H', 'i')
+
+s = ''.join(t)
+print(s)   # Hi
+
+
+~ Works only if elements are strings
+
+
+
+## 5. Set → Tuple
+
+
+s = {1, 2, 3}
+
+t = tuple(s)
+print(t)
+
+
+~ Order may change (sets are unordered)
+
+
+
+## 6. Tuple Packing & Unpacking
+
+### Packing
+
+
+t = 1, 2, 3
+
+
+### Unpacking
+
+
+a, b, c = t
+print(a, b, c)   # 1 2 3
+
+
+---
+
+#  Quick Summary
+
+| Feature    | Description             |
+| ---------- | ----------------------- |
+| Methods    | `count()`, `index()`    |
+| Immutable  | Cannot modify elements  |
+| Conversion | tuple(), list(), join() |
+| Packing    | `t = 1,2,3`             |
+| Unpacking  | `a,b,c = t`             |
+
+---
+
+
