@@ -102,20 +102,83 @@ print(t)
 
 ## 6. Tuple Packing & Unpacking
 
-### Packing
-
+                                                         ### Packing
+                                 Packing means putting multiple values into a single tuple.
 
 t = 1, 2, 3
 
 
-### Unpacking
+                                                        ### Unpacking 
 
+          (tuple Unpacking allows you to assign tuple elements to individual variables in a single Operation)
+   The unpacking operator in tuples means assigning the elements of a tuple to multiple variables in a single line.
 
 a, b, c = t
 print(a, b, c)   # 1 2 3
 
 
----
+****  Important Rule
+
+The number of variables must match the number of elements:
+
+t = (1, 2)
+
+a, b = t      #  correct
+a, b, c = t   #  Error
+
+
+1. Using * (Star Operator)
+
+The * allows flexible unpacking (collects multiple values):
+
+t = (1, 2, 3, 4, 5)
+
+a, *b, c = t
+
+print(a)  # 1
+print(b)  # [2, 3, 4]
+print(c)  # 5
+
+HERE ==  *b collects remaining values into a list
+
+
+2. Ignoring Values
+
+Use _ (UNDERSCORE) to ignore unwanted elements:
+
+t = (10, 20, 30)
+
+a, _, c = t
+
+print(a)  # 10
+print(c)  # 30
+
+
+3. Nested Tuple Unpacking
+
+You can unpack inside tuples:
+
+t = (1, (2, 3))
+
+a, (b, c) = t
+
+print(a)  # 1
+print(b)  # 2
+print(c)  # 3
+
+
+4. Swapping Using Unpacking
+
+Very useful trick:
+
+a = 5
+b = 10
+
+a, b = b, a
+
+print(a, b)  # 10 5
+
+
 
 #  Quick Summary
 

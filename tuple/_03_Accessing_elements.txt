@@ -1,0 +1,123 @@
+                                                    Accessing Elements in Tuple
+
+Assume:
+t = (10, 20, 30, 40, 50)
+
+
+1️.) Indexing (Normal Index)
+
+~ Access elements using position (starting from 0)
+
+print(t[0])   # 10
+print(t[1])   # 20
+
+ Concept:
+---------
+Index always starts from 0
+
+=> Formula:
+
+first element → index 0
+second element → index 1
+
+=> Representation:
+
+Index:   0   1   2   3   4
+Value:  10  20  30  40  50
+
+
+2️.) Negative Indexing
+
+~ Access elements from the end
+
+print(t[-1])   # 50
+print(t[-2])   # 40
+
+ Concept:
+---------
+Starts from -1 (last element)
+
+=> Representation:
+
+Index:  -5  -4  -3  -2  -1
+Value:  10  20  30  40  50
+
+
+3️.) Slicing
+
+~ Get a range of elements
+
+print(t[0:2])   # (10, 20)
+print(t[1:4])   # (20, 30, 40)
+
+=> Rule:
+
+t[start : end]
+Start → included 
+End → excluded 
+
+=> So:
+
+t[0:2] → index 0 to 1 → (10, 20)
+
+* More Slicing Examples
+print(t[:3])    # (10, 20, 30)
+print(t[2:])    # (30, 40, 50)
+print(t[-3:-1]) # (30, 40)
+
+
+4.) Reversed Tuple (Accessing in Reverse)
+
+~ Tuples don’t have a direct reverse() method (because they are immutable), but you can still access in reverse:
+
+=> Using slicing
+t = (10, 20, 30, 40)
+
+print(t[::-1])   # reverse
+
+=> Output:
+
+(40, 30, 20, 10)
+
+=> Explanation:
+
+start:end:step
+step = -1 → reverse direction
+~ Using reversed()
+t = (10, 20, 30)
+
+print(tuple(reversed(t)))
+
+=> Output:
+
+(30, 20, 10)
+
+
+5.) Nested Tuple (Tuple inside Tuple)
+
+~ A tuple inside another tuple
+
+t = (1, 2, (3, 4), 5)
+ Accessing Nested Elements:
+print(t[2])      # (3, 4)
+print(t[2][0])   # 3
+print(t[2][1])   # 4
+
+=> Structure:
+
+Index:   0   1    2       3
+Value:   1   2  (3,4)     5
+                ↑
+            inner tuple
+
+
+6.) Mixed Data Type Tuple
+
+~ Tuple can store different data types
+
+t = (10, "hello", 3.5, True)
+ Accessing Mixed Elements:
+print(t[0])   # 10 (int)
+print(t[1])   # hello (string)
+print(t[2])   # 3.5 (float)
+print(t[3])   # True (boolean)
