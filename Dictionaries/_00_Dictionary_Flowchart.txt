@@ -1,0 +1,83 @@
+Dictionary (dict)
+│
+├── 1. Creation
+│   ├── Using {}
+│   │     d = {"a": 1, "b": 2}
+│   ├── Using dict()
+│   │     d = dict(a=1, b=2)
+│   └── From list of tuples
+│         d = dict([("a",1), ("b",2)])
+│
+├── 2. Properties
+│   ├── Key-Value pairs
+│   ├── Keys  are unique
+│   ├── Mutable
+│   ├── Unordered (Python <3.7) / Ordered (>=3.7)
+│   └── Keys must be immutable (int, str, tuple)
+│
+├── 3. Accessing Elements
+│   ├── Using key
+│   │     d["a"]
+│   ├── Using get()
+│   │     d.get("a")
+│   └── Nested access
+│         d["a"]["b"]
+│
+├── 4. Adding / Updating
+│   ├── Add new key
+│   │     d["c"] = 3
+│   ├── Update value
+│   │     d["a"] = 10
+│   └── update()
+│         d.update({"b": 20})
+│
+├── 5. Removing Elements
+│   ├── pop()
+│   │     d.pop("a")
+│   ├── popitem()
+│   ├── del
+│   │     del d["b"]
+│   └── clear()
+│
+├── 6. Dictionary Methods
+│   ├── keys()
+│   ├── values()
+│   ├── items()
+│   ├── get()
+│   ├── update()
+│   ├── pop()
+│   ├── popitem()
+│   └── clear()
+│
+├── 7. Looping / Iteration
+│   ├── for key in d
+│   ├── for value in d.values()
+│   └── for k, v in d.items()
+│
+├── 8. Nested Dictionary
+│   ├── Dictionary inside dictionary
+│   │     d = {"a": {"x": 1}}
+│   └── Access nested values
+│
+├── 9. Dictionary Comprehension
+│   ├── Syntax
+│   │     {k:v for k,v in iterable}
+│   └── Example
+│         {x: x*x for x in range(5)}
+│
+├── 10. Copying
+│   ├── Shallow copy
+│   │     d.copy()
+│   └── Deep copy
+│         copy.deepcopy(d)
+│
+├── 11. Membership
+│   ├── in / not in (keys only)
+│   │     "a" in d
+│
+└── 12. Conversion
+    ├── dict → list
+    │     list(d.keys()), list(d.items())
+    ├── list → dict
+    │     dict(list_of_tuples)
+    └── dict → string (json)
