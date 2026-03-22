@@ -1,0 +1,28 @@
+                            
+                                             Accessing Dictionary in Python
+
+1.  Using Key , []
+person = {"name": "John", "age": 20}
+
+print(person["name"])   # Output: John
+print(person["age"])    # Output: 20
+
+~~ Directly use the key inside []
+
+NOTE :  If key does NOT exist →  Error (KeyError)
+
+
+2.  Using get() Method (Safer)
+person = {"name": "John", "age": 20}
+
+print(person.get("name"))   # John
+print(person.get("marks"))  # None 
+
+* ('none' is also a data type like boolean, list, integer etc.)
+
+NOTE : No error if key is missing
+
+****
+~~ With default value:
+print(person.get("marks", 0))   # Output: 0
+(cause key named 'marks' does not exist)

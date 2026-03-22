@@ -1,0 +1,27 @@
+
+                                                     Dictionary -  
+
+A dictionary in python is a data structure that stores keyvalue pairs and uses curly braces {}/ dictionary constructor 
+The 'KEYS' should be immutable in nature it can be string, tuple, boolean, integer, float but cannot be list because it is mutable 
+             [always unique, unordered this is mutable in nature]
+
+            
+info = {
+    "name": "shubman",
+    "marks": 9.2,
+    "subjects": ["english", "hindi"], 
+    3.14: "PI"
+}
+print(type(info))  -----------> dictionary
+
+To access a particular value ----:
+print(info["name"])
+
+TO CHANGE A PARTICULAR VALUE ----:
+info["marks"] = 9.6
+print(info["marks"])    ---->  9.6 
+
+--------------------------------------------------
+Internaly dictionary uses 'Hash table' to store things
+'Hash table' = it is a type of data structure which generates unique number for every key in the dictionary
+ 

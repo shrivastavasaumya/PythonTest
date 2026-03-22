@@ -1,0 +1,21 @@
+
+There are two ways to create a dictionary 
+ 
+ 1.) {} via curly braces
+
+ Example - 
+
+fruits = {
+
+"apple" : "red",
+"banana" : "yellow",
+"kiwi" : "brown"
+}
+
+                                        OR
+
+2.) dict() = Dictionary constructor
+
+Example -
+
+dict(apple =  "red", banana = "yellow", kiwi = "brown")

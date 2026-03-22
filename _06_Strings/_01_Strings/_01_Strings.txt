@@ -1,0 +1,25 @@
+                                                   STRING
+                                              -------------
+
+
+                                 Sequence of CHARACTERS enclosed within quotes
+                             
+1.)  can use both types of quotes single or double 
+2.)  Letters, Numbers, Special Symbols, Whitespace characters and unicode characters           
+    Example:                                                                                                                           
+    str1= 'Akshit @@&888uuuhnn  rhk 9pl(sd**)'  
+                                 
+
+# Anything under quotes will become string and will get printed as it is.
+example= print("1+2*3")                            print(1+2*3)
+          output= "1+2*3"                           output= 7
+ 
+                  
+                                                                                               
+                    # (unicode is a value assigned to a character a or A or B or k)                                                            
+                    print("\u0061") ---> a
+                    print("\U0001F600") ---> is of a smiling emoji             
+                    # Small'u'is followed by 4 digit unicode whereas capital 'U' is followed with 8 digit unicode 
+
+
+________________________________________________________________________________________________________________
