@@ -1,0 +1,19 @@
+                                   
+                                
+                                         Iterating Over Key–Value Pairs
+student = {
+    "name": "Rahul",
+    "age": 18,
+    "marks": 90
+}
+
+for key, value in student.items():
+    print(key, ":", value)
+
+# Output:
+
+name : Rahul
+age : 18
+marks : 90
+
+'LEFT REVISIT THE LECTURE'

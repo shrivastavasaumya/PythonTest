@@ -1,0 +1,47 @@
+
+Using | Operator (Python 3.9+)
+d1 = {"a": 1, "b": 2}
+d2 = {"b": 10, "c": 3}
+
+d3 = d1 | d2
+
+print(d3)
+
+👉 Output:
+
+{'a': 1, 'b': 10, 'c': 3}
+
+✔ Creates a new dictionary
+✔ Original dictionaries unchanged
+
+
+Also , if 
+d1 = {"a": 1, "b": 2}
+d2 = {"b": 10, "a": 3}
+
+d2 = d2 | d1  <OR>   d2 |= d1  -> case A
+
+d1 = d1 | d2         d1 |= d2  -> case B
+
+print(d2)
+
+# Output: {'b': 2, 'a': 1}   [d2 = d2 | d1 , taking this case]
+IN CASE OF TWO  VALUES OF A CHARACTER, THE VARIABLE MENTIONED AFTER '|'THIS WILL OVERWRITE THE VALUES
+Like, in this case 'd1' took the lead 
+
+
+----------------------------
+ setdefault() → Insert if Not Exists
+
+student = {"name": "Rahul"}
+
+student.setdefault("age", 18)
+print(student)
+
+# Output: {'name': 'Rahul', 'age': 18}
+
+~ If key exists → no change
+~ If not → adds key
+it returns and sets unlike .get()
+
+---------

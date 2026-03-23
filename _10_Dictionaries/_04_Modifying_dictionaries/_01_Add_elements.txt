@@ -1,0 +1,52 @@
+
+                                              Modifying Dictionaries in Python
+
+             A dictionary is **mutable**, which means you can **change, add, or remove elements** after creation.
+            
+
+ 1. Adding New Elements
+
+
+d = {"name": "John", "age": 20}
+
+d["city"] = "Delhi"   # adding new key-value
+print(d)
+
+~ Output:   {'name': 'John', 'age': 20, 'city': 'Delhi'}
+
+
+
+~ Output: {'a': 2, 'b': 4, 'c': 6}
+
+
+
+2. Using `get()` While Modifying (Safe Way)
+
+d = {"a": 1}
+
+d["b"] = d.get("b", 0) + 5
+print(d)
+
+~ Output: {'a': 1, 'b': 5}
+
+
+# Avoids error if key doesn’t exist
+
+
+
+3. Nested Dictionary Modification
+
+d = {"student": {"name": "John", "age": 20}}
+
+d["student"]["age"] = 25
+print(d)
+
+
+
+#  Quick Summary
+
+* Add → `d[key] = value`
+* Update → same syntax or `update()`
+* Remove → `pop()`, `del`, `popitem()`, `clear()`
+* Safe update → `get()`
+* Can modify inside loops and nested dictionaries

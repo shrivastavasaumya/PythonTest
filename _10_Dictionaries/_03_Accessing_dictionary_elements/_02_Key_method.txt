@@ -1,0 +1,21 @@
+
+
+2.  Using Key , []
+person = {"name": "John", "age": 20}
+
+print(person["name"])   # Output: John
+print(person["age"])    # Output: 20
+
+~~ Directly use the key inside []
+
+NOTE :  If key does NOT exist →  Error (KeyError)
+
+
+# IN A NESTED DICTIONARY 
+students = {
+    "s1": {"name": "Rahul", "age": 18},
+    "s2": {"name": "Amit", "age": 19},
+    "s3": {"name": "Neha", "age": 17}
+}
+
+print(students['s2']['age'])  # 19

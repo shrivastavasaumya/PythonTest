@@ -1,0 +1,37 @@
+
+1. Updating Existing Values
+
+
+d = {"name": "John", "age": 20}
+
+d["age"] = 25   # updating value
+print(d)
+
+~ Output: {'name': 'John', 'age': 25}
+
+
+
+2. Using `update()` Method
+
+
+d = {"name": "John", "age": 20}
+
+d.update({"age": 30, "city": "Mumbai"})
+print(d)
+
+ Output: {'name': 'John', 'age': 30, 'city': 'Mumbai'}
+
+
+# Can update multiple values at once
+# Adds new keys if not present
+
+
+
+3. Modifying Using Loop
+
+d = {"a": 1, "b": 2, "c": 3}
+
+for key in d:
+    d[key] = d[key] * 2
+
+print(d)

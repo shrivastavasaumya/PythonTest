@@ -1,0 +1,26 @@
+                                                                    Checking Key Existence
+
+                           In Python dictionaries, the in operator checks only keys, not values cause By default, a dictionary behaves like this.
+
+Example -
+
+student = {
+    "name": "Rahul",
+    "age": 18,
+    "marks": 90
+}
+
+if "name" in student:
+    print("Exists")
+
+
+
+
+3. How to Check Values?
+~ Use .values()
+print("Rahul" in student.values())  # True
+
+
+ 4. How to Check Both Key & Value?
+~ Using .items()
+print(("name", "Rahul") in student.items())  # True

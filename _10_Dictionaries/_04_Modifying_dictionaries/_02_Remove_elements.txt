@@ -1,0 +1,39 @@
+
+1. Removing Elements 
+ 
+A) `pop()`
+
+d = {"name": "John", "age": 20}
+
+d.pop("age", "NA") ----> used 'NA' as default to avoid error
+print(d) ---> # Error if not found else use fallback (default value)
+
+~ Removes specific key
+IT DOES RETURN SOMETHING
+
+
+B) `del`
+
+del d["name"] ---> # Error if not found else use fallback (default value)
+
+~ Deletes key directly
+IT DOES NOT RETURN ANYTHING
+
+
+C) `popitem()`
+
+d = {"a": 1, "b": 2}
+
+d.popitem()
+print(d)             # d = {"a": 1}
+ 
+~ Removes last inserted item
+[cause after Python 3.7, it maintains "insertion order" that is the order in which values are inserted 
+in the dictionary, earlier it used to remove random values from it with this command]
+
+
+D) `clear()`
+
+d.clear()
+
+~ Removes everything (empty dictionary)

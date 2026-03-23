@@ -1,0 +1,34 @@
+
+students = {
+    "101": {"name": "Rahul", "age": 18},
+    "102": {"name": "Amit", "age": 19},
+    "103": {"name": "Neha", "age": 17}
+}
+
+to take name of a particular key
+print(students["101"]["name"])
+# OUTPUT - Rahul
+
+for number, details in students.items():
+    for k, v in details.items():
+        print(k, v)
+
+# OUTPUT -
+name Rahul
+age 18
+name Amit
+age 19
+name Neha
+age 17
+
+for number, details in students.items():
+    for j in details.items():
+        print(j)
+
+# OUTPUT -
+('name', 'Rahul')
+('age', 18)
+('name', 'Amit')
+('age', 19)
+('name', 'Neha')
+('age', 17)

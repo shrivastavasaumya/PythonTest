@@ -1,0 +1,11 @@
+
+SYNTAX - values() → Get All Values
+
+Example - 
+
+student = {"name": "Rahul", "age": 18}
+print(student.values())
+
+~ Output:
+
+dict_values(['Rahul', 18])

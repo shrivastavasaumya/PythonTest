@@ -1,0 +1,26 @@
+
+
+| Method         | Purpose           |
+| -------------- | ----------------- |
+| `get()`        | Safe value access |
+| `keys()`       | All keys          |
+| `values()`     | All values        |
+| `items()`      | Key-value pairs   |
+| `update()`     | Add/modify        |
+| `pop()`        | Remove specific   |
+| `popitem()`    | Remove last       |
+| `clear()`      | Remove all        |
+| `copy()`       | Copy dictionary   |
+| `setdefault()` | Add if missing    |
+| `fromkeys()`   | Create new dict   |
+
+
+#        keys() → Get All Keys
+
+Example - 
+student = {"name": "Rahul", "age": 18}
+
+print(student.keys())
+
+# OUTPUT - dict_keys(['name', 'age'])
+

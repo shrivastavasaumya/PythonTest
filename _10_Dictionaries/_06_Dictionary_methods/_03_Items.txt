@@ -1,0 +1,13 @@
+
+items() → Key-Value Pairs
+
+Example -
+dict_items([('name', 'Rahul'), ('age', 18)])
+print(student.items())
+
+# Output: dict_items([('name', 'Rahul'), ('age', 18)])
+
+---> Useful for looping:
+
+for k, v in student.items():
+    print(k, v)

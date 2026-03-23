@@ -1,0 +1,23 @@
+
+A)                                        setdefault() → Insert if Not Exists
+
+student = {"name": "Rahul"}
+
+student.setdefault("age", 18)
+print(student)
+
+# Output: {'name': 'Rahul', 'age': 18}
+
+~ If key exists → no change
+~ If not → adds key
+it returns and sets unlike .get()
+
+
+B)                                       fromkeys() → Create New Dictionary
+
+keys = ["a", "b", "c"]
+
+new_dict = dict.fromkeys(keys, 0)
+print(new_dict)
+
+# Output: {'a': 0, 'b': 0, 'c': 0}

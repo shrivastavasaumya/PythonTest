@@ -1,0 +1,15 @@
+ 										Length Operator (len()) in Dictionary
+
+SYNTAX - print(len(student))
+
+The len() function returns the number of key–value pairs in a dictionary.
+
+student = {
+    "name": "Rahul",
+    "age": 18,
+    "marks": 90
+}
+
+print(len(student))   # 3
+
+~ It counts keys, not values.
