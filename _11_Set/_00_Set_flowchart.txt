@@ -1,0 +1,74 @@
+SETS
+│
+├── Definition
+│   ├── Unordered collection
+│   ├── No duplicate elements
+│   └── Mutable (can change)
+│
+├── Creation
+│   ├── Using {}
+│   │     s = {1, 2, 3}
+│   ├── Using set()
+│   │     s = set([1, 2, 3])
+│   └── Empty set
+│         s = set()   (NOT {})
+│
+├── Properties
+│   ├── Unordered (no indexing)
+│   ├── Unique elements only
+│   ├── Mutable (add/remove allowed)
+│   └── Elements must be immutable (int, str, tuple)
+│
+├── Accessing Elements
+│   ├── No indexing ( s[0])
+│   └── Use loop
+│         for x in s:
+│             print(x)
+│
+├── Adding Elements
+│   ├── add()
+│   │     s.add(10)
+│   └── update()
+│         s.update([4, 5])
+│
+├── Removing Elements
+│   ├── remove()  → error if not found
+│   ├── discard() → no error
+│   ├── pop()     → removes random element
+│   └── clear()   → removes all elements
+│
+├── Set Operations
+│   ├── Union
+│   │     s1 | s2   or s1.union(s2)
+│   ├── Intersection
+│   │     s1 & s2   or s1.intersection(s2)
+│   ├── Difference
+│   │     s1 - s2
+│   ├── Symmetric Difference
+│   │     s1 ^ s2
+│
+├── Set Methods
+│   ├── union()
+│   ├── intersection()
+│   ├── difference()
+│   ├── symmetric_difference()
+│   ├── issubset()
+│   ├── issuperset()
+│   └── copy()
+│
+├── Membership Operators
+│   ├── in
+│   │     if 2 in s:
+│   └── not in
+│
+├── Set Comprehension
+│   └── s = {x*x for x in range(5)}
+│
+├── Frozen Set
+│   ├── Immutable version of set
+│   └── fs = frozenset([1, 2, 3])
+│
+└── Use Cases
+    ├── Remove duplicates
+    ├── Fast membership testing
+    └── Mathematical operations

@@ -1,0 +1,33 @@
+									                   Sets
+                                                     ________
+
+                 Built-in data type which stores multiple items just like a list and tuple 
+
+	A)	Unlike list sets are - Unordered  
+	B)  Unindexed - can't get things using index
+	C)  Mutable 
+    D)  Uniqueness of element collection of (without repetition) they don't allow duplicates
+	E)  uses - {} curly braces
+	F)  Heterogenous things can be stored (string, integer, float, boolean)
+	G)  Should have immutable items in a set (cannot have list in it cause it is mutable)
+        Example - mixed = {1, "hello", 3.14, True, (1, 2, 3), [1, 2, 3]}
+															   ---|------->> this is a list, have to remove it
+				  mixed = {1, "hello", 3.14, True, (1, 2, 3)}
+
+
+
+
+																			
+										 **** Creating a set ****
+A) Set literals (using {} )
+Example - numbers = {1, 2, 3, 4, 5}
+
+
+B) set() constructor
+Can create a set using set constructor on any itertable (like a list, range, tuple, or string) 
+
+
+C) empty set
+   e = {}  # you cannot use this empty curly braces for empty set because it creates empty dictionary
+   e = set()  --> empty set
+
