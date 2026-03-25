@@ -1,0 +1,10 @@
+## 3. Difference ( − )
+
+~ Elements in A but not in B 
+
+
+A - B = {1, 2}
+B - A = {4, 5}
+
+print(A - B)
+print(B - A)

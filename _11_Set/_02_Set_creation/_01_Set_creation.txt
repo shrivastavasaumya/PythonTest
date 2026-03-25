@@ -1,0 +1,15 @@
+
+									
+										 **** Creating a set ****
+A) Set literals (using {} )
+Example - numbers = {1, 2, 3, 4, 5}
+
+
+B) set() constructor
+Can create a set using set constructor on any itertable (like a list, range, tuple, or string) 
+
+
+C) empty set
+   e = {}  # you cannot use this empty curly braces for empty set because it creates empty dictionary
+   e = set()  --> empty set
+

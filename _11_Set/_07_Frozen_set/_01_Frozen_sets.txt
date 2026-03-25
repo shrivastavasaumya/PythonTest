@@ -1,0 +1,35 @@
+
+                                               Frozen sets
+                                            ----------------
+         
+        
+     Sets are mutuble, but Frozen sets are immutable versions of set, Once created, you cannot modify it .
+    
+                                         It is a  read only set .
+    
+
+Can convert - 
+regular_set = {1, 2, 3, 4}
+frozen_set = frozenset(regular_set)
+
+
+Example -
+
+A = frozenset([1, 2, 3])
+
+# A.add(4)         # Error
+# A.remove(1)      # Error
+
+CAUSE NO MODIFICATIONS ARE ALLOWED 
+
+
+**** Allowed Operations ****
+
+~ You can still do read-only set operations:
+
+A = frozenset([1, 2, 3])
+B = frozenset([3, 4, 5])
+
+print(A | B)   # Union
+print(A & B)   # Intersection
+print(A - B)   # Difference

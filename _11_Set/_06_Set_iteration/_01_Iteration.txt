@@ -1,0 +1,27 @@
+                                       Iteration in sets
+                                     ----------------------
+
+Sets are indexed because of the unorderediness cause of that only one kind of loop works with sets , the elements one 
+not the indexed one.
+
+Sets are unordered, so when loop is applied chances are that the output can also be unordered, so use loop in those 
+sets where order does not matter
+
+Example -
+
+set_new = { 1, 2, 3, 5, 9, 8, 7, 10, 11}
+for i in set_new:
+    print(i)
+
+Output -
+1
+2
+3
+5
+7
+8
+9
+10
+11
+
+Notice here, that the output is unordered 

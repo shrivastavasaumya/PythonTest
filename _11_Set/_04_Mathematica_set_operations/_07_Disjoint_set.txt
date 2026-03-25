@@ -1,0 +1,67 @@
+# 7. Disjoint Sets
+
+~ No common elements exists between sets
+
+A = {1, 2}
+B = {3, 4}
+
+print(A.isdisjoint(B))  # True
+
+Funfact : if the length of an intersection of sets is = 0, than those sets will be recognized as disjoint sets
+          Also empty set is disjoint with any set
+
+
+
+Example -
+
+# 
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+print("Union:", A | B)                          # Union: {1, 2, 3, 4, 5}
+print("Intersection:", A & B)                   # Intersection: {3}
+print("Difference:", A - B)                     # Difference: {1, 2}
+print("Symmetric Difference:", A ^ B)           # Symmetric Difference: {1, 2, 4, 5
+
+
+                                                  OTHER WAY TO USE 
+                                Without modifying original set we are copying it
+
+Example -
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+temp = A.copy()
+temp.update(B)
+print("Union:", temp)
+
+temp = A.copy()
+temp.intersection_update(B)
+print("Intersection:", temp)
+
+temp = A.copy()
+temp.difference_update(B)
+print("Difference:", temp)
+
+temp = A.copy()
+temp.symmetric_difference_update(B)
+print("Symmetric Difference:", temp)
+
+# Output
+Union: {1, 2, 3, 4, 5}
+Intersection: {3}
+Difference: {1, 2}
+Symmetric Difference: {1, 2, 4, 5}
+
+
+  Quick Summary Table
+
+| Operation            | Symbol | Python  |    
+| -------------------- | ------ | ------- | 
+| Union                | ∪      | `A      | 
+| Intersection         | ∩      | `A & B` |    
+| Difference           | −      | `A - B` |    
+| Symmetric Difference | ⊕     | `A ^ B` |    
+
+
+

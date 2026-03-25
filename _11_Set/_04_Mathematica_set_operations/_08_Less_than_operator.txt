@@ -1,0 +1,17 @@
+## 8. <= operator
+
+This operator checks if the left set is a subset of ( or equal to ) the right set 
+
+set_a = {1, 2, 3}
+set_b = {1, 2, 3, 4, 5}
+set_c = { 1, 2}
+
+print( set_a <= set_b)   # True
+print( set_a <= set_a)   # True    each set is subset of its own
+print( set_c <= set_a)   # True     
+print( set_c < set_a)    # True
+print( set_a < set_a)    # False  [cause we have removed equality, and less than properly checks the equality]
+
+
+
+

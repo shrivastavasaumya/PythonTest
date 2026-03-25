@@ -1,0 +1,11 @@
+## 2. Intersection ( ∩ )
+
+~ Common elements in both sets
+
+
+A ∩ B = {3}
+
+print(A & B)
+# OR
+print(A.intersection(B))
+

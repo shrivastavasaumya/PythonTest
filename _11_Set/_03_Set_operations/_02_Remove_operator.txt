@@ -1,0 +1,21 @@
+
+Remove -
+
+A) remove(element) : removes element, raises keyerror if not found
+B) discard(element) : removes element, does nothing if not found
+C) pop() : removes (random) element and returns an arbitrary element
+D) clear() : removes all element
+
+
+ml = {1, 2, 3, 'a',' b', 'c'}
+
+ml.remove(4)
+print(ml)                   ml.remove(4)          KeyError: 4
+                            ~~~~~~~~~~~~
+ 
+ml.discard(4)
+print(ml)                   {1, 2, 3, 'a', 'c', ' b'}
+
+
+print(ml.pop())             b   # removed random value
+print(ml)                   {1, 2, 3, 'c', 'a'}

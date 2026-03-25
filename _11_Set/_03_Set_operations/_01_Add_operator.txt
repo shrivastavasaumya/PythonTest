@@ -1,0 +1,29 @@
+
+Add :
+
+Applicable only for                                     one number  use ==> (.add ())
+my_set = {1, 2, 3}
+my_set.add(4)
+print(my_set)
+# Output - {1, 2, 3, 4}
+
+
+
+
+For more than one number that is                        multiple use ==> (.update()) 
+....we have to give in iterable form. Example - list, tuple, etc
+my_set.update([5, 6, 7]) 
+print(my_set)
+# Output - {1, 2, 3, 4, 5, 6, 7}
+
+
+Example - 
+let's add 'abc' via both methods
+
+my_set = {1, 2, 3}
+my_set.add("abc")                           -------> .add() will treat it as a single value
+print(my_set) # Output - {1, 2, 3, 'abc'}
+
+
+my_set.update("abc")                       -------> .update() will treat it as multiple value
+print(my_set) # Output - {1, 2, 3, 'b', 'c', 'a'}

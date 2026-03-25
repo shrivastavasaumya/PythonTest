@@ -1,0 +1,11 @@
+## 5. Subset ( ⊆ )
+
+~ All elements of A are in B
+
+
+A = {1, 2}
+B = {1, 2, 3}
+
+print(A.issubset(B))   # True
+
+{kya 'a' k saare elements 'b' main hai}

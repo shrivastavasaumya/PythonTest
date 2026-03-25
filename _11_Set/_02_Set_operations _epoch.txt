@@ -1,0 +1,100 @@
+
+
+
+# 🔷 What is Epoch?
+
+An **epoch** is a **reference point in time** from which a system starts counting time.
+
+---
+
+## 🔶 In Computing (Most Common Use)
+
+👉 In most systems (like Unix/Linux, Python, etc.):
+
+**Epoch = January 1, 1970 (00:00:00 UTC)**
+
+This is called the **Unix epoch**
+
+---
+
+## 🔶 How it works
+
+Time is stored as:
+👉 **Number of seconds since the epoch**
+
+---
+
+## 🔶 Example
+
+```python
+import time
+
+print(time.time())
+```
+
+👉 Output:
+
+```
+1711350000.123
+```
+
+This means:
+👉 These many seconds have passed since Jan 1, 1970
+
+---
+
+## 🔶 Convert Epoch to Human Time
+
+```python
+import time
+
+t = time.time()
+print(time.ctime(t))
+```
+
+👉 Output:
+
+```
+Tue Mar 25 15:30:00 2026
+```
+
+---
+
+## 🔶 Convert Human Time → Epoch
+
+```python
+import time
+
+print(time.mktime(time.strptime("25 Mar 2026", "%d %b %Y")))
+```
+
+---
+
+## 🔷 Why Epoch is Used?
+
+* Easy to store time as numbers
+* Faster calculations
+* Standard across systems
+* Used in databases, APIs, logs
+
+---
+
+## 🔶 Real-Life Analogy
+
+Think of epoch like:
+👉 **“Day 0” of a calendar**
+
+Everything is counted from that point.
+
+---
+
+## 🔥 Quick Summary
+
+* Epoch = starting time reference
+* Unix epoch = Jan 1, 1970
+* Time stored as seconds since epoch
+* Widely used in programming
+
+---
+
+

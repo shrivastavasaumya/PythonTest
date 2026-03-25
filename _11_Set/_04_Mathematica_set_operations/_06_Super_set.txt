@@ -1,0 +1,8 @@
+## 6. Superset ( ⊇ )
+
+~ B contains all elements of A
+
+
+print(B.issuperset(A))  # True
+
+{ky 'b' baap hai 'a' ka}

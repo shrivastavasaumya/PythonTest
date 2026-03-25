@@ -1,0 +1,9 @@
+## 4. Symmetric Difference ( ⊕ )
+
+~ Elements in either set but NOT both
+
+A ⊕ B = {1, 2, 4, 5}
+
+print(A ^ B)
+# OR
+print(A.symmetric_difference(B))

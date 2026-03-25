@@ -1,0 +1,19 @@
+Mathematical Set Operation
+
+Assume-
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+
+## 1. Union ( ∪ )
+
+~ Combines all elements from both sets (no duplicates)
+
+
+A ∪ B = {1, 2, 3, 4, 5}
+
+print(A | B)
+# OR
+print(A.union(B))
+
+[NOTE :PIPE OPERATOR '|' IS USED ONLY ON SET]

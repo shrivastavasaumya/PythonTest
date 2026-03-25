@@ -1,0 +1,9 @@
+
+Membership operator
+
+fruits = {"apple", "banana", "chiku"}
+print("apple" in fruits)  -  # output True
+
+
+
+
