@@ -1,0 +1,14 @@
+4️.) Iteration (Looping)
+
+To Traverse each element
+
+t = (10, 20, 30)
+
+for i in t:
+    print(i)
+
+ Output:
+
+10
+20
+30

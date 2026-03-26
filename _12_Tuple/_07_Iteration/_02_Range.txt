@@ -1,0 +1,16 @@
+
+2. Using range() with index
+
+If you need index + value:
+
+t = (10, 20, 30, 40)
+
+for i in range(len(t)):
+    print(i, t[i])
+
+~ Output:
+
+0 10
+1 20
+2 30
+3 40

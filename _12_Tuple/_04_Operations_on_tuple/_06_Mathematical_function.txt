@@ -1,0 +1,9 @@
+6️.) Mathematical Functions (Numbers)
+
+This Works only if tuple has numbers
+
+t = (10, 20, 30)
+
+print(max(t))   # 30
+print(min(t))   # 10
+print(sum(t))   # 60

@@ -1,0 +1,25 @@
+4.) Reversed Tuple (Accessing in Reverse)
+
+~ Tuples don’t have a direct reverse() method (because they are immutable), but you can still access in reverse:
+
+=> Using slicing
+t = (10, 20, 30, 40)
+
+print(t[::-1])   # reverse
+
+=> Output:
+
+(40, 30, 20, 10)
+
+=> Explanation:
+
+start:end:step
+step = -1 → reverse direction
+~ Using reversed()
+t = (10, 20, 30)
+
+print(tuple(reversed(t)))
+
+=> Output:
+
+(30, 20, 10)

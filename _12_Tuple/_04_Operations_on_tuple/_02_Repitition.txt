@@ -1,0 +1,10 @@
+2️.)  Repetition (*)
+
+To Repeat elements multiple times
+
+t = (1, 2)
+print(t * 3)
+
+ Output:
+
+(1, 2, 1, 2, 1, 2)

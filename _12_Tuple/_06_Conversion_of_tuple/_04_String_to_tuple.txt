@@ -1,0 +1,8 @@
+## 3. String → Tuple
+
+
+s = "hello"
+
+t = tuple(s)
+print(t)   # ('h', 'e', 'l', 'l', 'o')
+

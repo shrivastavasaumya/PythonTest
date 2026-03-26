@@ -1,0 +1,6 @@
+
+
+                                                         ### Packing
+                                 Packing means putting multiple values into a single tuple.
+
+t = 1, 2, 3

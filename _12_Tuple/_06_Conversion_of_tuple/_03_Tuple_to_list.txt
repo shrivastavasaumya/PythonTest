@@ -1,0 +1,10 @@
+## 2. Tuple → List
+
+
+t = (4, 5, 6)
+
+l = list(t)
+print(l)   # [4, 5, 6]
+
+
+~ Used when you want to **modify data**

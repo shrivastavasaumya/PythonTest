@@ -1,0 +1,10 @@
+## 5. Set → Tuple
+
+
+s = {1, 2, 3}
+
+t = tuple(s)
+print(t)
+
+
+~ Order may change (sets are unordered)

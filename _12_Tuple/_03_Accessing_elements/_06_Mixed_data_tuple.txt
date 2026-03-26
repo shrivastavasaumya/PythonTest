@@ -1,0 +1,10 @@
+6.) Mixed Data Type Tuple
+
+~ Tuple can store different data types
+
+t = (10, "hello", 3.5, True)
+ Accessing Mixed Elements:
+print(t[0])   # 10 (int)
+print(t[1])   # hello (string)
+print(t[2])   # 3.5 (float)
+print(t[3])   # True (boolean)

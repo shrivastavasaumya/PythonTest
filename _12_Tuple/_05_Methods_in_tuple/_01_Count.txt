@@ -1,0 +1,13 @@
+                                            Tuple Methods in Python
+
+                      Tuples have **very few methods** because they are **immutable** (cannot be changed).
+
+## 1. count()
+
+ Counts how many times an element appears
+
+
+t = (1, 2, 3, 2, 2, 4)
+print(t.count(2))   # Output: 3
+
+--> Use when you want frequency of an element

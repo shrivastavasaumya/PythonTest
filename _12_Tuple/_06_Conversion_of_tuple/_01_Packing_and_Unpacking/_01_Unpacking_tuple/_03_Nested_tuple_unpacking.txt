@@ -1,0 +1,13 @@
+
+3. Nested Tuple Unpacking
+
+You can unpack inside tuples:
+
+t = (1, (2, 3))
+
+a, (b, c) = t
+
+print(a)  # 1
+print(b)  # 2
+print(c)  # 3
+

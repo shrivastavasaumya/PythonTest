@@ -1,0 +1,18 @@
+                                                      
+                                              ## Unpacking 
+
+          (tuple Unpacking allows you to assign tuple elements to individual variables in a single Operation)
+   The unpacking operator in tuples means assigning the elements of a tuple to multiple variables in a single line.
+
+a, b, c = t
+print(a, b, c)   # 1 2 3
+
+
+****  Important Rule
+
+The number of variables must match the number of elements:
+
+t = (1, 2)
+
+a, b = t      #  correct
+a, b, c = t   #  Error

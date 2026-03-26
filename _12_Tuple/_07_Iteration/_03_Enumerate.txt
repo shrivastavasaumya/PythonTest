@@ -1,0 +1,63 @@
+
+                                             enumerate() (Best way for index + value)
+
+
+enumerate() is used to loop through a sequence (like tuple, list, string) and get both index and value together.
+It returns tuple for each item.
+
+
+Syntax -
+enumerate(iterable, start=0)
+~ iterable → tuple, list, string, etc.
+~ start → index starting value (default = 0)
+
+
+
+Cleaner than range():
+
+t = (10, 20, 30, 40)
+
+for index, value in enumerate(t):
+    print(index, value)
+
+
+Example A :
+t = (10, 20, 30)
+
+for index, value in enumerate(t):
+    print(index, value)
+
+# Output:
+
+0 10
+1 20
+2 30
+
+
+Example B :
+
+Changing Start Index
+t = (10, 20, 30)
+
+for index, value in enumerate(t, start=1):
+    print(index, value)
+
+
+
+# Output:
+
+1 10
+2 20
+3 30
+
+
+🔹 Quick Summary (Precise)
+
+for item in tuple → simplest 
+for i in range(len(tuple)) → index-based
+enumerate() → index + value (best )
+while → manual control
+reversed() → backward iteration
+
+
+

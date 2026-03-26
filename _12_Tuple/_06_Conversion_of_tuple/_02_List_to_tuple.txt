@@ -1,0 +1,16 @@
+Tuple Conversions in Python
+
+                                  Tuples can be converted into other data types and vice versa.
+
+
+
+## 1. List → Tuple
+
+
+l = [1, 2, 3]
+
+t = tuple(l)
+print(t)   # (1, 2, 3)
+
+
+~ Used when you want **immutable data**

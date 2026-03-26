@@ -1,0 +1,10 @@
+7️.) Comparison of Tuples
+
+To Compare element by element
+
+t1 = (1, 2, 3)
+t2 = (1, 2, 4)
+
+print(t1 < t2)   # True
+
+Python compares from first element onwards

@@ -1,0 +1,29 @@
+
+                                     Membership Operator in Tuple
+
+Membership operators are used to check whether an element exists in a tuple or not.
+
+
+in → checks if element is present ✅
+not in → checks if element is NOT present ❌
+🔹 1. Using in
+t = (10, 20, 30, 40)
+
+print(20 in t)
+
+~ Output:
+
+True
+
+✔ Because 20 exists in the tuple
+
+🔹 2. Using not in
+t = (10, 20, 30, 40)
+
+print(50 not in t)
+
+~ Output:
+
+True
+
+✔ Because 50 is NOT in the tuple

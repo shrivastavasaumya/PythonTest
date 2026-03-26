@@ -1,0 +1,10 @@
+## 4. Tuple → String
+
+
+t = ('H', 'i')
+
+s = ''.join(t)
+print(s)   # Hi
+
+
+~ Works only if elements are strings

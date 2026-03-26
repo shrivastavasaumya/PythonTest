@@ -1,0 +1,20 @@
+ Operations on Tuple
+
+Assume:
+
+[ t1 = (10, 20, 30)      ]
+[ t2 = (40, 50)          ]
+
+____________________________________
+
+
+1️.) Concatenation (+)
+
+To Combine two tuples:
+
+t3 = t1 + t2
+print(t3)
+
+Output:
+
+(10, 20, 30, 40, 50)          ---> Creates a new tuple

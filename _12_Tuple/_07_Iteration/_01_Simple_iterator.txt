@@ -1,0 +1,20 @@
+
+Iterating through a tuple in Python means accessing each element one by one. 
+Since tuples are ordered and immutable, iteration is straightforward.
+
+
+1. Simple for loop
+
+Most common way:
+
+t = (10, 20, 30, 40)
+
+for item in t:
+    print(item)
+
+👉 Output:
+
+10
+20
+30
+40

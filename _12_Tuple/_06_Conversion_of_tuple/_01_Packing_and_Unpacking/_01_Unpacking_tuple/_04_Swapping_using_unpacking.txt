@@ -1,0 +1,23 @@
+
+4. Swapping Using Unpacking
+
+Very useful trick:
+
+a = 5
+b = 10
+
+a, b = b, a
+
+print(a, b)  # 10 5
+
+
+
+#  Quick Summary
+
+| Feature    | Description             |
+| ---------- | ----------------------- |
+| Methods    | `count()`, `index()`    |
+| Immutable  | Cannot modify elements  |
+| Conversion | tuple(), list(), join() |
+| Packing    | `t = 1,2,3`             |
+| Unpacking  | `a,b,c = t`             |

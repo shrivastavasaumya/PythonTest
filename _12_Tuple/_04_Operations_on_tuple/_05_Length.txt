@@ -1,0 +1,6 @@
+5️.) Length (len())
+
+To Count number of elements
+
+t = (10, 20, 30, 40)
+print(len(t))   # 4

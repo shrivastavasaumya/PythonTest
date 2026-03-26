@@ -1,0 +1,17 @@
+2️.) Negative Indexing
+
+~ Access elements from the end
+
+t = (10, 20, 30, 40, 50)
+
+print(t[-1])   # 50
+print(t[-2])   # 40
+
+ Concept:
+---------
+Starts from -1 (last element)
+
+=> Representation:
+
+Index:  -5  -4  -3  -2  -1
+Value:  10  20  30  40  50

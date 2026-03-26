@@ -1,0 +1,24 @@
+Assume:
+t = (10, 20, 30, 40, 50)
+
+
+1️.) Indexing (Normal Index)
+
+~ Access elements using position (starting from 0)
+
+print(t[0])   # 10
+print(t[1])   # 20
+
+ Concept:
+---------
+Index always starts from 0
+
+=> Formula:
+
+first element → index 0
+second element → index 1
+
+=> Representation:
+
+Index:   0   1   2   3   4
+Value:  10  20  30  40  50

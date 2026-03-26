@@ -1,0 +1,23 @@
+
+Dictionary - unordered , to store data in keyvalue pairs , this is mutable in nature
+uses {} , and keyvalue pairs separated by commas
+             always unique 
+    keys must be unique - no duplicate keys allowed
+    keys must be immutable - string, Numbers, tuple, can be keys
+            
+info = {
+    "name": "shubman",
+    "marks": 9.2,
+    "subjects": ["english", "hindi"],
+    3.14: "PI"
+}
+print(type(info))  -----------> dictionary
+
+To access a particular value ----:
+print(info["name"])
+
+TO CHANGE A PARTICULAR VALUE ----:
+info["marks"] = 9.6
+print(info["marks"])    ---->  9.6 
+
+

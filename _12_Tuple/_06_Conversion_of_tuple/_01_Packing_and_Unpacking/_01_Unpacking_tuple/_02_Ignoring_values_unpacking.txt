@@ -1,0 +1,11 @@
+
+2. Ignoring Values
+
+Use _ (UNDERSCORE) to ignore unwanted elements:
+
+t = (10, 20, 30)
+
+a, _, c = t
+
+print(a)  # 10
+print(c)  # 30

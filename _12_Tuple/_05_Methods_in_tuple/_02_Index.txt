@@ -1,0 +1,12 @@
+## 2. index()
+
+ Finds the position of an element
+
+
+t = (10, 20, 30, 40)
+
+print(t.index(30))   # Output: 2
+
+
+--> Returns first occurrence only
+--> Error if element not found

@@ -22,4 +22,3 @@ print(type(name))      -----> Tuple
 diff. b/w tuple and lists
  the structure of tuple is fixed but if tuple carries mutable objects like lists/ dictionaries inside it those objects can be modified
 ________________
-# enumerate - 
