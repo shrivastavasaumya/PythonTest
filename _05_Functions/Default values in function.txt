@@ -13,3 +13,74 @@
     output == 11
 
 
+
+Case - 1
+
+1. Basic Rule (Positional Arguments)
+
+Values are assigned based on position
+
+def add(a, b):
+    print(a, b)
+
+add(2, 3)
+
+~> a = 2, b = 3
+
+✔ Order matters
+❌ Names don’t matter here
+
+
+
+Case - 2
+
+ 2. Keyword Arguments
+
+Values are assigned by parameter name
+
+def add(a, b):
+    print(a, b)
+
+add(b=3, a=2)
+
+~> a = 2, b = 3
+
+✔ Order doesn’t matter
+✔ Names must match
+
+
+
+Case - 3
+ 3. Default Values
+
+If no value is passed, default is used
+
+def add(a, b=5):
+    print(a + b)
+
+add(2)
+
+~> b = 5 (default)
+
+✔ Default must come after non-default
+
+❌ Wrong:
+
+def add(a=2, b):   # ERROR
+
+
+
+Case - 4
+
+ 4. Mixing Positional + Keyword
+
+Rule: Positional first, then keyword
+
+def add(a, b):
+    print(a, b)
+
+~> add(2, b=3)   # ✔ valid
+
+❌ Wrong:
+
+add(a=2, 3)   # ERROR
