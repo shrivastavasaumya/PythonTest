@@ -38,4 +38,44 @@ def sukm(a,b):
 
 # hill(8,9)
 
+# print(len.__doc__)
+# print(abs.__doc__)
+# print(print.__doc__)
 
+# def sukm(a,b):
+#     '''sum the two values and squares the sum'''
+#     return(a+b)**2
+# print(sukm.__doc__)
+
+# def new_sum(a,b,c):
+#     return(sum([a,b,c]))
+
+# print(new_sum(4,5,1)) 
+
+# def main_outer():
+#     x = 100
+#     def outer():
+#         x = 10
+#         def inner():
+#             nonlocal x          
+#             x = 20
+#             print(f"inner function, x = {x}")
+#         print(f"before inner function, x = {x}")
+#         inner()
+#         print(f"after inner function, x = {x}")
+    
+#     outer()
+
+
+# # how to call
+# main_outer()
+
+# def square(x):
+#        return x ** 2
+
+# numbers = [1, 2, 3, 4, 5]
+# squared_numbers =map(square, numbers)
+# print(list(squared_numbers))
+
+students = [('charlie', 78) , ('alice', 85), ('bob', 90)]
+print(sorted(students))

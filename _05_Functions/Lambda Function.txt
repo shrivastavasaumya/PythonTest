@@ -5,6 +5,7 @@
                               |------- (this is an expression)
                             
     # Here we can have multiple parameters in this function but CAN ONLY HAVE ONE EXPRESSION 
+    Can use Ternary Operators
     Drawbacks == Can't be used for {complex tasks / multiple condition function / Loops/ multiple variable}
 
     # Can be helpful for small tasks {Multiplication/ division/averages/addition/subtraction}
@@ -20,4 +21,31 @@
 
    USAGE OF LAMBDA FUNCTION
 
-   1) In higher order functions [Takes function value in its parameter or returns a function from itself]
+   1) In higher order functions, that is filter(), map(), sorted() and reduce() 
+  (highter order functions are those functions which takes another function as argument or returns a function from itself)
+
+
+
+sorted() = use key
+
+students = [('charlie', 78) , ('alice', 85), ('bob', 90)]
+print(sorted(students, key = lambda x: x[1]))
+                                                                    {sorting on the basis of marks}
+[('charlie', 78), ('alice', 85), ('bob', 90)]
+
+
+students = [('charlie', 78) , ('alice', 85), ('bob', 90)]
+print(sorted(students))
+                                                                    {sorting on the basis of name}
+[('alice', 85), ('bob', 90), ('charlie', 78)] 
+
+
+                                          limitations of lambda functions
+                                        
+     A) can't give multiple statements ,takes only single expression
+     B) can't use if-elif-else , takes ternary Operators
+     C) don't  have doc string  (__doc__)
+     D) lambda needs no debugging needed because it does'nt takes multiple students like functions
+
+    
+                                        

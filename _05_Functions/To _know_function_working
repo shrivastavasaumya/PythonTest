@@ -1,0 +1,30 @@
+All the in-built functions in python works differently, so to know about there use and working 
+use - SYNTAX - print(bulit-in function name.__doc__)
+
+Example - 
+print(len.__doc__)                      # Return the number of items in a container.
+print(abs.__doc__)                      # Return the absolute value of the argument.
+
+print(print.__doc__)                   
+# output
+   Prints the values to a stream, or to sys.stdout by default.
+
+  sep
+    string inserted between values, default a space.
+  end
+    string appended after the last value, default a newline.
+  file
+    a file-like object (stream); defaults to the current sys.stdout.
+  flush
+    whether to forcibly flush the stream.
+
+
+
+    Similarly, if you want to add a documentation to your made function ---> use "multi-line string"/ triple quotes
+    ef sukm(a,b):
+    '''sum the two values and squares the sum'''    NOTE: DOCUMENTATION/INFO MUST BE WRITTEN IN THE 1ST LINE INSIDE FUNCTION
+    return(a+b)**2
+print(sukm.__doc__)
+
+# Output
+sum the two values and squares the sum

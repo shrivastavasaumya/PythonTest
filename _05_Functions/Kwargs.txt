@@ -1,0 +1,12 @@
+
+~ To grab positional arguments we use single '*' star
+and for keyword arguments we use '**' double star 
+the type will be = dictionary of the input 
+NAMING CONVENCTION GENERALLY == 'kwargs' 
+this is for pairs 
+
+**kwargs	def func(**kwargs)	Function definition	         Collects keyword arguments into dictionary 	            
+**	            func(**dict)	Function call	             Unpacks dictionary into keyword arguments	                
+*args       def func(*args)     Function definition          Collects multiple positional arguments into a tuple        
+*           func(*iterable)     Function call                Unpacks list/tuple into positional arguments        
+
