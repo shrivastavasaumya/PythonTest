@@ -1,0 +1,58 @@
+
+                                                               *args
+
+
+*args allows a function to accept a variable number of positional arguments, making code more flexible when the 
+number of inputs is unknown
+
+A) We have to use '*' (asterisk) for that before parameter
+    ~ To grab positional arguments we use single '*' star
+B) The type will be = tuple of the input
+
+
+NAMING CONVENCTION GENERALLY == 'args'
+def new_sum(*nums):
+    total = 0
+    for i in new_sum:
+        total += in
+    return total
+
+print(new_sum(1,2,3,4))    # 10
+__________________________________________________________________
+
+With a message ~~
+
+def new_sum(*nums , msg):
+    print(msg)
+    total = 0
+    for i in new_sum:
+        total += in
+    return total
+
+print(new_sum(1,2,3,4, msg = "This the final sum"))    # 10 This the final sum
+                       ---------------------------[explicitly mention '=' what to print otherwise it will come/accumlate 
+                                                    under the head of nums only and will raise error]
+                                                
+                                  Or
+
+def new_sum( msg, *nums ):
+
+print(new_sum( "This the final sum" 1,2,3,4))
+ [here we, used positional arguments not keyword arguments like the above case]
+
+
+Quick Examples
+1. *args (in function definition)
+def add(*nums):
+    print(nums)
+
+add(1, 2, 3)
+# Output: (1, 2, 3)
+
+
+2. Unpacking in function call
+def add(a, b, c):
+    print(a + b + c)
+
+values = [1, 2, 3]
+add(*values) #6

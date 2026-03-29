@@ -1,0 +1,24 @@
+
+                                                    LOCAL VARIABLE
+                                                    
+                                                                                                   
+LOCAL VARIABLE =   Variables created inside the function exist only within that function, destroyed when function ends
+
+In a nested def function if we want a local value -
+used - when you want to modify inner function from a outer function varible
+
+
+def main_outer():
+    x = 100
+    def outer():
+        x = 10
+        def inner():
+            nonlocal x           ------->  will take x = 10 [nearest]
+            x = 20
+            print(f"inner function, x = {x}")
+        print(f"before inner function, x = {x}")
+        inner_function()
+        print(f"after inner function, x = {x}")
+main_outer()
+
+    

@@ -1,0 +1,33 @@
+
+                                                        Recursion function
+
+A function called by itself.
+Recursion is when a function solves a big problem by solving a smaller version of the same problem and uses that result 
+to finish the job .
+
+
+def fact(n):
+    digit = 1
+    for i in range(1, n+1):
+        digit = (digit*i)
+    return digit
+
+a = fact(4)
+print(a)      # 24
+   
+# via recursion
+
+def fact(n):
+    if n == 1:   --|----> base condition
+        return 1  _|
+    return n * fact(n - 1)
+
+print(fact(5))  # 120
+
+
+==>      Base case = the condition under which the recursive function stops calling itself 
+
+==>      Call stack = call is linked with calling function  (function ka call)
+            and stack is linked with the heap of levels of calls (stack mtlb dher)
+        [inshort - calls ka dher]
+

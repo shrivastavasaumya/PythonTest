@@ -17,27 +17,4 @@ The "variable" which is in this example "work" is the "NAME OF THE FUNCTION"
 
 __________________________________________________________________________________________________________________________________________________________________________________
 
-                                          **************** FUNCTIONS WHICH TAKES INPUT WHENEVER IT IS CALLED  ****************
-
- The 'INPUTS' here are called "PARAMETERS"  and the 'OUTPUT' is called "RETURN"
-
-Example: 
-def sum(a, b):   -----> This function will always ask for the value of 'a' and 'b' == PARAMETERS === 'a' & 'b' are just placeholders here
-	s = a + b  ---> here 's' is just a name of operation, it could be anything
-	return s  ----> 'RETURN' is the output of the named function (here it is 's')
-
-
-    The assigned value of "a" and "b"  (here, example 3 , 4) ---> 
-
- #  "RETURN" helps to save/assign the output in a variable for future use, because "print" funtion just prints (only works) it does't return anything, it cannot 
-     be used as a variable for further operation
- # 'return' is used at last of the whole function because IT EXITS FROM THE FUNCTION
-
-
-
-
-
-
-
-
-
+                                       

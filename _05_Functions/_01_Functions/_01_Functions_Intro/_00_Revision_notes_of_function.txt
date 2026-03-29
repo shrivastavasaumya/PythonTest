@@ -1,0 +1,220 @@
+
+
+ 									FUNCTIONS IN PYTHON — TOPIC-WISE FLOWCHART
+
+
+
+## 1️⃣ FUNCTION BASICS
+
+
+START
+  ↓
+Need reusable code?
+  ↓
+YES
+  ↓
+Define Function (def)
+  ↓
+Give Name + Parameters
+  ↓
+Write Function Body
+  ↓
+(Optional) return value
+  ↓
+Call Function
+  ↓
+END
+```
+
+
+
+## 2️⃣ FUNCTION SYNTAX
+
+
+def function_name(parameters):
+    statements
+    return value
+
+Flow:
+Define → Store in memory → Call → Execute → Return
+```
+
+
+
+## 3️⃣ TYPES OF FUNCTIONS
+
+
+                 Functions
+                     ↓
+     -------------------------------------
+     ↓           ↓            ↓           ↓
+ Built-in    User-defined   Lambda   Recursive
+
+
+* Built-in → `print()`, `len()`
+* User-defined → created using `def`
+* Lambda → one-line function
+* Recursive → function calling itself
+
+
+
+## 4️⃣ PARAMETERS & ARGUMENTS
+
+
+             Parameters
+                 ↓
+   -----------------------------------
+   ↓         ↓         ↓         ↓
+Positional  Keyword  Default   Variable
+
+Flow:
+
+Call Function
+   ↓
+Arguments Passed
+   ↓
+Match with Parameters
+   ↓
+Execute Function
+```
+
+
+
+## 5️⃣ RETURN STATEMENT
+
+
+Function Execution
+      ↓
+Return present?
+   ↓        ↓
+ YES       NO
+ ↓          ↓
+Send value   Return None
+```
+
+
+
+## 6️⃣ FUNCTION CALL TYPES
+
+
+Function Call
+   ↓
+----------------------------
+↓            ↓             ↓
+Normal     With Return   Without Return
+```
+
+
+
+## 7️⃣ VARIABLE SCOPE
+
+
+             Scope
+               ↓
+      -------------------
+      ↓                 ↓
+   Local             Global
+      ↓                 ↓
+Inside function     Outside function
+```
+
+Flow:
+
+Call Function
+   ↓
+Check variable
+   ↓
+Local → use local
+Else → use global
+```
+
+
+
+## 8️⃣ NESTED FUNCTIONS
+
+
+Outer Function
+     ↓
+Inner Function Defined
+     ↓
+Inner Function Called
+     ↓
+Execution Happens
+```
+
+
+
+## 9️⃣ RECURSION
+
+
+Function Call
+   ↓
+Calls Itself
+   ↓
+Base Condition?
+   ↓        ↓
+ YES       NO
+ ↓          ↓
+Stop     Call again
+```
+
+
+
+## 🔟 LAMBDA FUNCTIONS
+
+
+Need short function?
+   ↓
+YES
+   ↓
+lambda arguments: expression
+   ↓
+Return result automatically
+```
+
+
+
+## 1️⃣1️⃣ FUNCTION WITH * AND **
+
+
+Arguments
+   ↓
+-------------------------
+↓                       ↓
+*args              **kwargs
+↓                       ↓
+Tuple              Dictionary
+```
+
+
+
+##  FINAL MASTER FLOW
+
+
+START
+  ↓
+Define Function
+  ↓
+Call Function
+  ↓
+Pass Arguments
+  ↓
+Match Parameters
+  ↓
+Execute Code
+  ↓
+Return Value (optional)
+  ↓
+END
+```
+
+
+## ✅ Quick Revision Points
+
+* `def` → define function
+* Call → executes function
+* `return` → gives output
+* Parameters = variables
+* Arguments = actual values
+* Scope = visibility of variables
+

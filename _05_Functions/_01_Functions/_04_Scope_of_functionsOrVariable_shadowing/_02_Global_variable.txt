@@ -1,0 +1,50 @@
+
+                                                        Variable shadowing
+
+It occurs when a variable defined in an inner scope (like a function) has the same name as a variable in an outer scope
+
+a = 1   # GLOBAL VARIABLE
+def fun():
+    a = 11   # LOCAL VARIABLE
+    print(f"value of a is {a}")    ---> 11
+
+fun()
+print(f"value of a is {a}")   --> 1
+
+GLOBAL VARIABLE =  Variables created outside all functions exist throughout the entire program
+LOCAL VARIABLE =   Variables created inside the function exist only within that function, destroyed when function ends                              
+ENCLOSING VARIABLE = Exist as long as there are references to them                      
+
+When a local Variable has same name as global variable == local variable shadows the global variable within the Function 
+
+
+
+
+but if we don’t have any local variable and want to use global variable 
+
+counter = 0
+def increment():
+    global counter              # declares that we want to use global counter
+    counter = counter + 1
+    print(counter)
+# 1
+
+
+If we want to reset a value in between
+
+counter = 0
+def increment():
+    global counter              # declares that we want to use global counter
+    counter = counter + 1
+    print(counter)
+
+def reset():
+    global counter
+    counter = 0
+    print('counter reset to 0')
+
+
+increment()   #1
+increment()   #2
+reset()       #counter reset to 0  [will reset]
+increment()   #1

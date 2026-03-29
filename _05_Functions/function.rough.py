@@ -77,5 +77,35 @@ def sukm(a,b):
 # squared_numbers =map(square, numbers)
 # print(list(squared_numbers))
 
-students = [('charlie', 78) , ('alice', 85), ('bob', 90)]
-print(sorted(students))
+# students = [('charlie', 78) , ('alice', 85), ('bob', 90)]
+# print(sorted(students))
+
+# def fact(n):
+#     digit = 1
+#     for i in range(1, n+1):
+#         digit = (digit*i)
+#     return digit
+
+# a = fact(4)
+# print(a)
+   
+# # via recursion
+
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     return n * fact(n - 1)
+
+# print(fact(5))
+
+def countdown(n):
+    if n == 0:
+        return
+    
+    countdown(n - 1)
+    print(n)
+countdown(6)
+
+# import sys
+# print(sys.getrecursionlimit())
+

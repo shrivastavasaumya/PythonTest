@@ -1,0 +1,18 @@
+
+Recursion limit = 1000
+
+import sys
+print(sys.getrecursionlimit())
+
+
+  Avoid recursion :
+
+A) Problem sie may exceed recursion depth (eg. factorial of 10,000)
+B) Performance is critical(since recursion adds overhead / spacing of function calls)
+C) An iterative solution is clearer and Simpler
+
+
+Use recursion when :
+
+A) Problem has a natural recursive definition(trees, backtracking)
+B) Code readability and clarity outweight Performance concerns

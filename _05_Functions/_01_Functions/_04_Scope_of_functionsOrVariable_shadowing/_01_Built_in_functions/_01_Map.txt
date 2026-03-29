@@ -1,3 +1,4 @@
+
                                                                   TYPES OF FUNCTIONS
                                                                  --------------------
                                                                            |
@@ -35,84 +36,21 @@ Here’s a **clear and precise comparison** of `map`, `filter`, and `reduce` in 
 
 ## 🔹 1. `map()`
 
-**Purpose:** Apply a function to *every element* of an iterable
+Purpose: Apply a function to *every element* of an iterable
 
-**Syntax:**
+Syntax: map(function, iterable)
 
-```python
-map(function, iterable)
-```
 
-**Returns:** A map object (convert to list if needed)
+Returns: A map object (convert to list if needed)
 
-**Example:**
+Example:
 
-```python
 nums = [1, 2, 3, 4]
 
 result = list(map(lambda x: x * 2, nums))
 print(result)   # [2, 4, 6, 8]
-```
 
-👉 Think: **"Transform all elements"**
 
----
+👉 Think: "Transform all elements"
 
-## 🔹 2. `filter()`
-
-**Purpose:** Select elements based on a condition (True/False)
-
-**Syntax:**
-
-```python
-filter(function, iterable)
-```
-
-**Returns:** A filter object
-
-**Example:**
-
-```python
-nums = [1, 2, 3, 4]
-
-result = list(filter(lambda x: x % 2 == 0, nums))
-print(result)   # [2, 4]
-```
-
-👉 Think: **"Keep only matching elements"**
-
----
-
-## 🔹 3. `reduce()`
-
-**Purpose:** Reduce iterable to a single value using cumulative operation
-repeatedly applies functionon the iterable to geta single value as the output
-
-**Syntax:**
-
-```python
-from functools import reduce
-reduce(function, iterable)
-```
-
-**Returns:** Single value
-
-**Example:**
-
-```python
-from functools import reduce
-def add(x, y):
-       return x + y
-nums = [1, 2, 3, 4]
-total = reduce(add, nums)
-print(total         # 10)
-```
-
-## 🧠 Simple Analogy
-
-* `map()` → Paint every object 🎨
-* `filter()` → Pick only good objects ✅
-* `reduce()` → Merge everything into one 🧩
-
----
 

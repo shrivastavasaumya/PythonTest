@@ -1,0 +1,37 @@
+
+                                                    Enclosing value
+
+nonlocal = nearest enclosing value of that variable 
+
+def main_outer():
+    x = 100
+    def outer():
+        x = 10
+        def inner():
+            nonlocal x          
+            x = 20
+            print(f"inner function, x = {x}")
+        print(f"before inner function, x = {x}")
+        inner()
+        print(f"after inner function, x = {x}")
+    
+    outer()          # call outer here
+
+
+# how to call
+main_outer()
+
+# output
+before inner function, x = 10
+inner function, x = 20
+after inner function, x = 20
+
+________________________________________________________________________
+
+def outer():
+    message = 'hello'
+    def inner():
+        return message    # uses a variable from outer
+    return inner
+f = outer()               # outer() is done now
+print(f())                # prints 'hello'

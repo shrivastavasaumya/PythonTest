@@ -1,0 +1,28 @@
+
+## 🔹 3. `reduce()`
+
+Purpose: Reduce iterable to a single value using cumulative operation
+repeatedly applies functionon the iterable to geta single value as the output
+
+Syntax:
+from functools import reduce
+reduce(function, iterable)
+
+
+Returns: Single value
+
+Example:
+
+from functools import reduce
+def add(x, y):
+       return x + y
+nums = [1, 2, 3, 4]
+total = reduce(add, nums)
+print(total         # 10)
+
+
+## 🧠 Simple Analogy
+
+* `map()` → Paint every object 🎨
+* `filter()` → Pick only good objects ✅
+* `reduce()` → Merge everything into one 🧩

@@ -1,0 +1,16 @@
+
+
+| Feature                | 🔁 Recursion                           | 🔄 Iteration                       |
+| ---------------------- | --------------------------------------- | ---------------------------------- |
+| **Definition**         | Function calls itself                   | Uses loops (`for`, `while`)        |
+| **Structure**          | Breaks problem into smaller subproblems | Repeats steps using loop control   |
+| **Stopping condition** | Needs a **base case**                   | Needs a **loop condition**         |
+| **Memory usage**       | High (uses call stack)                  | Low (no extra stack)               |
+| **Speed**              | Slower (function call overhead)         | Faster                             |
+| **Code readability**   | Cleaner for complex problems            | Simpler for basic repetition       |
+| **Risk**               | Stack overflow (RecursionError)         | Infinite loop (if condition wrong) |
+| **Best for**           | Trees, backtracking, divide & conquer   | Counting, simple repetition        |
+
+
+
+

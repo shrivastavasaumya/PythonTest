@@ -1,0 +1,36 @@
+
+                                                        **kwargs
+
+~ To grab positional arguments we use single '*' star
+~ For keyword arguments [=kwargs] we use '**' double star and this works for pairs 
+
+The type will be = dictionary of the input 
+NAMING CONVENCTION GENERALLY == 'kwargs' 
+
+
+Example - (A)
+def show(**kwargs):
+    print(kwargs)
+
+show(a=10, b=20, c=30)
+Output:
+{'a': 10, 'b': 20, 'c': 30}
+
+
+Example - (B)
+def show(**kwargs):
+    print(kwargs['a'])
+    print(kwargs['b'])
+
+show(a=5, b=15)
+Output:
+5
+15
+  
+______________________________________________________________________________________________________________________
+**kwargs	def func(**kwargs)	    Function definition	         Collects keyword arguments into dictionary 	            
+**	        func(**dict)		    Function call	             Unpacks dictionary into keyword arguments	                
+*args       def func(*args)     	Function definition          Collects multiple positional arguments into a tuple        
+*          	func(*iterable)     	Function call                Unpacks list/tuple into positional arguments        
+
+
