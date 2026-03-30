@@ -1,6 +1,7 @@
 This repository is designed to help beginners and intermediate learners understand Python step-by-step in a structured and detailed way.
 
-📌 About This Repository
+📌 About This Repository:
+
 This repository contains well-organized Python concepts, divided topic-wise with:
 
 ✅ Clear explanations
