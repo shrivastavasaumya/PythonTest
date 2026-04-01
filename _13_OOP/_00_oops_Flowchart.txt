@@ -1,0 +1,65 @@
+Start
+  ↓
+Define Class
+  ├── class ClassName:
+  └── Blueprint of object
+  ↓
+-----------------------------------
+| 1. Attributes (Variables)       |
+|   ├── Instance variables        |
+|   └── Class variables           |
+-----------------------------------
+  ↓
+-----------------------------------
+| 2. Methods (Functions)          |
+|   ├── __init__ (constructor)    |
+|   ├── Instance methods          |
+|   ├── Class methods (@classmethod)
+|   └── Static methods (@staticmethod)
+-----------------------------------
+  ↓
+Create Object
+  ├── obj = ClassName()
+  ↓
+Access Members
+  ├── obj.variable
+  └── obj.method()
+  ↓
+-----------------------------------
+| 3. OOP Concepts                |
+-----------------------------------
+  ↓
+  ├── Encapsulation
+  │     ├── Public
+  │     ├── Protected (_var)
+  │     └── Private (__var)
+  ↓
+  ├── Inheritance
+  │     ├── Single
+  │     ├── Multiple
+  │     ├── Multilevel
+  │     └── Hierarchical
+  ↓
+  ├── Polymorphism
+  │     ├── Method Overriding
+  │     └── Operator Overloading
+  ↓
+  └── Abstraction
+        ├── Abstract classes
+        └── abc module
+  ↓
+-----------------------------------
+| 4. Special Methods             |
+|   ├── __str__                  |
+|   ├── __repr__                 |
+|   └── __len__ etc.             |
+-----------------------------------
+  ↓
+-----------------------------------
+| 5. Advanced OOP                |
+|   ├── Composition              |
+|   ├── Aggregation              |
+|   └── Duck Typing              |
+-----------------------------------
+  ↓
+End

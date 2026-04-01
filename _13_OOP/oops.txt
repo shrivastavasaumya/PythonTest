@@ -1,0 +1,464 @@
+
+Classes allow you to create user-defined data structures
+Classes are blueprints of an object
+
+a) ATTRIBUTES
+C) BEHAVIOUR 
+
+
+object is an instance of class 
+it takes memory unlike class, because it takes input
+
+Object-oriented programming (OOP) in Python helps you structure your code by grouping related data and 
+behaviors into objects. You start by defining classes, which act as blueprints, and then create objects 
+from them. OOP simplifies modeling real-world concepts in your programs and enables you to build systems
+ that are more reusable and scalable.
+
+
+
+                                                 Object-Oriented Programming (OOP)
+
+
+# 🧠 Object-Oriented Programming (OOP) – Complete Notes
+
+## 🔹 1. What is OOP?
+
+Object-Oriented Programming is a programming paradigm that organizes code using **objects and classes** instead of 
+functions and logic.
+
+* Focus: **Data + Behavior together**
+* Real-world modeling (Car, Student, Bank Account)
+
+---
+
+## 🔹 2. Class and Object
+
+### ✅ Class
+
+* Blueprint/template for creating objects [ framework]
+
+class Student:
+    pass
+
+
+### ✅ Object
+
+* Instance of a class or [input of class]
+
+s1 = Student()
+
+
+## 🔹 3. Attributes and Methods
+
+### ✅ Attributes (Variables inside class)
+
+
+class Student:
+    name = "Saumya"
+
+
+### ✅ Methods (Functions inside class)
+
+class Student:
+    def greet(self):
+        print("Hello")
+
+
+---
+
+## 🔹 4. Constructor (`__init__`)     -METHOD
+
+construct/creates object for a function 
+to call ' _.init_' we use "()"
+* __init__ method is called automatically when object is created if not given 
+"self" parameter = it stores the current instance into class 
+                   a reference to the current object via calling the constructor
+                   Mandatory to write it in all instance methods
+                   
+class Student:
+    def __init__(self, name):
+        self.name = name    -> whatever value we will give, it will be stored in this parameter
+        self.marks = marks
+s1 = Student("Saumya", 9.8)
+
+print(s1.marks) # 9.8
+print(s1.name) # Saumya
+---
+
+## 🔹 5. `self` Keyword
+
+* Refers to **current object**
+* Used to access instance variables and methods
+
+
+class Test:
+    def show(self):
+        print(self)
+    
+
+---
+
+## 🔹 6. Types of Variables
+
+### 🟢 Instance Variables
+
+* Unique for each object
+
+
+self.name = name
+
+
+### 🔵 Class Variables
+
+* Shared by all objects
+
+class Student:
+    school = "ABC School"
+
+
+---
+
+## 🔹 7. Types of Methods
+
+### 1. Instance Method
+
+
+def display(self):
+    pass
+
+
+### 2. Class Method
+
+
+@classmethod
+def show(cls):
+    pass
+
+
+### 3. Static Method
+
+
+@staticmethod
+def info():
+    pass
+
+
+---
+
+## 🔹 8. Encapsulation
+
+* Wrapping data + methods together
+* Restrict access using **private variables**
+
+
+class Bank:
+    def __init__(self):
+        self.__balance = 1000   # private
+
+    def get_balance(self):
+        return self.__balance
+
+
+---
+
+## 🔹 9. Abstraction
+
+* Hiding implementation details
+* Showing only necessary features
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+
+---
+
+## 🔹 10. Inheritance
+
+* One class acquires properties of another
+
+
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    pass
+
+
+### Types of Inheritance:
+
+* Single
+* Multiple
+* Multilevel
+* Hierarchical
+* Hybrid
+
+---
+
+## 🔹 11. Polymorphism
+
+### 🟢 Method Overriding
+
+
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    def show(self):
+        print("Child")
+
+
+### 🔵 Operator Overloading
+
+
+print(2 + 3)       # addition
+print("a" + "b")   # concatenation
+
+
+---
+
+## 🔹 12. Data Hiding
+
+* Restrict direct access to variables
+
+
+self.__password
+
+
+---
+
+## 🔹 13. Access Modifiers
+
+| Type      | Syntax | Meaning                 |
+| --------- | ------ | ----------------------- |
+| Public    | `x`    | Accessible anywhere     |
+| Protected | `_x`   | Internal use            |
+| Private   | `__x`  | Not directly accessible |
+
+---
+
+## 🔹 14. Magic (Dunder) Methods
+
+* Special methods with `__`
+
+
+__init__     # constructor  
+__str__      # string representation  
+__len__      # length  
+
+
+---
+
+## 🔹 15. Composition vs Inheritance
+
+### 🟢 Inheritance → “is-a”
+
+* Dog is an Animal
+
+### 🔵 Composition → “has-a”
+
+* Car has an Engine
+
+---
+
+## 🔹 16. Advantages of OOP
+
+✔ Code reusability
+✔ Modularity
+✔ Easy maintenance
+✔ Real-world modeling
+
+---
+
+## 🔹 17. Disadvantages of OOP
+
+❌ Complex for beginners
+❌ More memory usage
+❌ Slower execution (sometimes)
+
+---
+
+# 🧾 Quick Summary
+
+| Concept       | Meaning         |
+| ------------- | --------------- |
+| Class         | Blueprint       |
+| Object        | Instance        |
+| Encapsulation | Data protection |
+| Inheritance   | Code reuse      |
+| Polymorphism  | Many forms      |
+| Abstraction   | Hide details    |
+
+
+                                             Class is distributed in 2 Types
+                                                /                     \
+                                               /                       \
+                                Properties / Attributes             Behavior/ Methods
+                              {VARIABLES}                                   {FUNCTION/FORMULA}
+
+
+
+                                                 Types of Constructors
+                                                /                     \
+                                               /                       \
+                                            DEFAULT                PARAMETERIZED
+                              {only 1 = the 'Self'}                      {'Self' + multiple}
+
+              ** In 1 class we cannot have multiple Constructors in Python like other languages
+                     That is it can only have one '__init__' only
+
+
+
+                                          Attributes is distributed in 2 Types
+                                                /                     \
+                                               /                       \
+                                            CLASS                     INSTANCE
+                                   {Belong to class}                 {Belong to object}
+                                 Common for all objects                 Unique/different
+
+
+Example - input from students from same college
+college name = CLASS {Common for all}
+marks, name = INSTANCE {different for all} 
+
+
+
+class Student:
+    college_name = "ABC college"   #class
+    
+    def __init__(self, name, gpa):
+        self.name = name           #instance
+        self.gpa = gpa
+
+stu1 = Student("Rahul", 9.2 )
+print(stu1.name)   # to access/invoke instance attributes we have to write object's name 
+# output = Rahul
+print(Student.name)   # what if we use 'class' name -----> ERROR cause 'Student' class doesn't have any 'name' attribute
+
+
+print(Student.college_name)    # 'class' attributes can be called from 'class names as well as object names' 
+print(stu1.college_name)   # [both are correct]
+# output = ABC college {same output for both}
+
+# what if both the 'class' and 'instance' have same attribute = the 'instance value' will get printed as it is prioritised 
+# cause 'instance' has unique value and 'class' has same value/common value
+
+
+ 
+
+                                                  Types OF methods
+                                                 /        |       \
+                                                /         |        \
+                                         INSTANCE       CLASS       Static
+
+
+| Feature         | Instance Method | Class Method   | Static Method     |
+| --------------- | --------------- | -------------- | ----------------- |
+| First Parameter | `self`          | `cls`          | None              |
+| Access Instance | ✅ Yes          | ❌ No         | ❌ No             |
+| Access Class    | ✅ Yes          | ✅ Yes        | ❌ No             |
+| Decorator       | ❌ None         | `@classmethod` | `@staticmethod`   |
+| Use Case        | Object data     | Class data     | Utility functions  |
+
+
+INSTANCE : -
+
+'self' parameter = complulsory
+they can access the class as well as the instance attributes
+no Decorator
+
+
+
+class laptop:
+    storage_type = 'ssd'
+
+    def __init__(self, RAM, storage):
+        self.RAM = RAM
+        self.srorage = storage
+
+    def get_info(self):
+        print(f"laptop has {self.RAM} RAM and {self.srorage} {self.storage_type}")
+                                                            ----------------------
+l1 = laptop('16gb', '512gb')                                                   |
+l2 = laptop('8gb', '256gb')                                                    |
+l1.get_info()        # output - laptop has 16gb RAM and 512gb ssd              |
+                                                                               |
+[ NOTICE - with the help of 'self' attribute we had accessed class attribute as well ]
+
+
+
+CLASS : -
+
+1st parameter = 'cls'
+classes can only call or access call attribute/methods, they cannot access instance attributes
+Decorator = @classmethod 
+
+
+
+
+ class laptop:
+    storage_type = 'ssd'
+
+    def __init__(self, RAM, storage):
+        self.RAM = RAM
+        self.srorage = storage
+
+    @classmethod        ------> Decorator {should be written on the top}
+    def get_storage_type(cls):
+        print(f"storage type = {cls.storage_type}")
+
+    def get_info(self):
+        print(f"laptop has {self.RAM} RAM and {self.srorage} {self.storage_type}")
+
+l1 = laptop('16gb', '512gb') 
+l2 = laptop('8gb', '256gb')
+laptop.get_storage_type()        # storage type = ssd = output
+li.get_storage_type()            # storage type = ssd = output  [class can be called with object's name cause of its priority]
+
+NOTE = but this is not the other way around, all objects name/methods/attributes cannot be called with class names
+classes can only call call attribute/methods
+
+
+Decorator - Decorator is a  function itself but it takes another function and Changes the behaviour of that function 
+and than returns it back (that is why it is written at the top of class method to initate the changing process)
+
+
+
+STATIC : -
+
+used = When we do not want to use instance or class method 
+No complulsory Parameter , no self parameter, no class parameter
+cannot access instance attribute nor class attribute
+Decorator used - @staticmethod
+they are standalone functions inside a class
+
+
+class laptop:
+    storage_type = 'ssd'
+
+    def __init__(self, RAM, storage):
+        self.RAM = RAM
+        self.srorage = storage
+
+    @classmethod
+    def get_storage_type(cls):
+        print(f"storage type = {cls.storage_type}")
+
+    def get_info(self):
+        print(f"laptop has {self.RAM} RAM and {self.srorage} {self.storage_type}")
+
+    @staticmethod
+    def cal_discount(price, discount):
+        final_price = price - (discount * price / 100)
+        print(f"discounted price = {final_price}")
+
+l1 = laptop('16gb', '512gb')
+l2 = laptop('8gb', '256gb')
+
+l1.cal_discount(40_000, 10)   # output = discounted price = 36000.0
+ 
