@@ -1,4 +1,3 @@
-
 Classes allow you to create user-defined data structures
 Classes are blueprints of an object
 
