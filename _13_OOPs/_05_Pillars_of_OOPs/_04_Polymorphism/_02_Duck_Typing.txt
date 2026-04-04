@@ -1,0 +1,30 @@
+Duck-typing Function -
+
+
+Duck Typing in Python is a concept where the type of an object is less important than the methods or behavior it has.
+
+~ The famous idea behind it is:
+“If it walks like a duck and quacks like a duck, it’s a duck.”
+
+
+Python doesn’t care what an object is, it cares what an object can do.
+If an object has the required method, Python will use it — even if the object belongs to a completely different class.
+
+~ if we have two classes with no relation and inheritance but both needs a function which works similar, in this case 
+  we can give same name to both these functions cause their workings are same and can be named as 'duck function'
+
+class Accountant:
+    def get_designation(self):    # a seperate class
+        print("designation = Accountant")
+
+class Teacher:
+    def get_designation(self):     # other class
+        print("designation = Teacher")
+                                   # but the work of function 'get_designation' is same = duck typing = so same name in both classes
+t1 = Teacher()
+t1.get_designation()
+# designation = Teacher
+
+t1 = Accountant()
+t1.get_designation()
+# designation = Accountant

@@ -1,0 +1,30 @@
+
+2. Parameterized Method
+
+A parameterized method takes additional arguments along with self.
+
+# Syntax
+class Demo:
+    def show(self, name):   # parameterized method
+        print(f"Hello {name}")
+
+obj = Demo()
+obj.show("Saumya")
+
+~ Key Point
+Takes input (like name)
+Behavior can change based on values
+
+Example -
+
+class Student:
+    def greet(self):   # default
+        print("Welcome Student")
+
+    def set_name(self, name):   # parameterized
+        print(f"Name is {name}")
+
+s = Student()
+s.greet()
+s.set_name("Rahul")       # output- Welcome Student
+                                    Name is Rahul

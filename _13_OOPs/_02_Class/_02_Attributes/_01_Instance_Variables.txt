@@ -1,0 +1,57 @@
+
+                                            Attributes is distributed in 2 Types
+                                                /                     \
+                                               /                       \
+                                            CLASS                     INSTANCE
+                                   {Belong to class}                 {Belong to object}
+                                 Common for all objects                 Unique/different
+
+Combined example -
+
+Example - input from students from same college
+college name = CLASS {Common for all}
+marks, name = INSTANCE {different for all} 
+
+
+
+class Student:
+    college_name = "ABC college"   #class
+    
+    def __init__(self, name, gpa):
+        self.name = name           #instance
+        self.gpa = gpa
+
+stu1 = Student("Rahul", 9.2 )
+print(stu1.name)   # to access/invoke instance attributes we have to write object's name 
+# output = Rahul
+print(Student.name)   # what if we use 'class' name -----> ERROR cause 'Student' class doesn't have any 'name' attribute
+
+
+print(Student.college_name)    # 'class' attributes can be called from 'class names as well as object names' 
+print(stu1.college_name)   # [both are correct]
+# output = ABC college {same output for both}
+
+# what if both the 'class' and 'instance' have same attribute = the 'instance value' will get printed as it is prioritised 
+# cause 'instance' has unique value and 'class' has same value/common value
+
+______________________________________________________________________________________________________________________________
+
+Instance Attributes -
+
+An instance attribute is a variable that is unique for each object.
+
+# Syntax
+class Student:
+    def __init__(self, name):
+        self.name = name   # instance attribute
+
+s1 = Student("Rahul")
+s2 = Student("Aman")
+
+print(s1.name)
+print(s2.name)
+
+~ Key Points
+Defined using self
+Different value for each object
+Stored separately for every object

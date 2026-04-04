@@ -1,0 +1,34 @@
+                                                        Abstraction
+
+                                  Hiding internal details and showing only essential features             
+
+Abstraction and data hiding both are different :=
+In data hiding = we just focus on level of accessability , we specify which data should be public, private or protected and hide the data 
+In Abstraction => which data should be hidden + which data we need to show 
+
+Abstract classes -> blueprint for other classes (through this we do not form/create any class or instance for itself, we just use it to 
+create other classes) This is a part of 'abc module' [Abstraction based classes module
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod       # ----> abstractmethod by default does not have implementation in parent/original class, this are those methods whose 
+    def make_sound(self): #       implementation is only after inheritance in the child class 
+        pass
+
+class Lion(Animal):
+    def make_sound(self):
+            print("Roar!")
+
+class Cow(Animal):
+    def make_sound(self):
+            print("Moo!")
+        
+cow = Cow()
+cow.make_sound()
+
+lion = Lion()
+lion.make_sound()
+
+# Moo!
+  Roar!

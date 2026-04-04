@@ -1,0 +1,46 @@
+
+Object is an instance of class 
+it takes memory unlike class, because it takes input
+
+An Instance (Object) is a real-world entity created from a class.
+
+~ Key Points
+Physical/real entity
+Has its own data (instance attributes)
+Stored in memory                                       
+                                                     Class v/s Object
+
+###  Class
+
+* Blueprint/template for creating objects [ framework]
+class Student:
+    pass
+
+
+###  Object
+
+* Instance of a class or [input of class]
+s1 = Student()
+
+
+Types of objects -
+-----------------
+
+1. Class Object
+
+A class itself is also an object in Python.
+
+~ Key Points -
+Created automatically when you define a class
+Stored in memory
+Can access class attributes & class methods
+Created once
+
+Example -
+class Student:
+    school = "ABC School"
+
+# Class object
+print(Student.school)   # accessing using class
+
+~ Here, Student itself is a class object

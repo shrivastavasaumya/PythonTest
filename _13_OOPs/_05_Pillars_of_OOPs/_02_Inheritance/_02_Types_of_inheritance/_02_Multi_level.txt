@@ -1,0 +1,25 @@
+                                                    Multi - level inheritance 
+
+Always use super() in multi-level inheritance constructors to make sure every class in the chain gets initialized properly. 
+Follows Python’s MRO (Method Resolution Order) automatically
+
+
+
+class employee:
+    start_time = '10 am'
+    end_time = '6 pm'
+
+class staff(employee):
+    def __init__(self, role):
+        self.role = role
+
+class accountant(staff):
+    def __init__(self,  salary, role) :
+        super().__init__(role)  # to run this we have to fulfill the requirements of the prior function cause of the Multi-level inheritance 
+        self.salary = salary #                for that use -> 'super()' calls/invoke the superior class or parent class constructor 1st
+
+acc1 = accountant(100000, "CA")
+print(acc1.role, acc1.salary, acc1.start_time, acc1.end_time)
+
+
+#  CA 100000 10 am 6 pm

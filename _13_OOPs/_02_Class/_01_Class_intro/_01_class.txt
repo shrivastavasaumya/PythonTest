@@ -1,0 +1,10 @@
+
+Classes allow you to create user-defined data structures
+Classes are blueprints of an object.
+
+
+                                              Class is distributed in 2 Types
+                                                /                     \
+                                               /                       \
+                                Properties / Attributes             Behavior/ Methods
+                              {VARIABLES}                                   {FUNCTION/FORMULA}

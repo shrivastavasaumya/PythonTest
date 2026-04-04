@@ -1,0 +1,28 @@
+
+2. Instance Object
+
+An instance object is created from a class.
+
+~ Key Points
+Created using constructor (ClassName())
+Each object has separate data
+Can access both instance + class attributes
+
+Example -
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+# Instance objects
+s1 = Student("Rahul")
+s2 = Student("Aman")
+
+print(s1.name)
+print(s2.name)
+
+
+Class Object → Blueprint file 
+Instance Object → Actual products 
+
+One-Line Summary-
+# Class is an object that creates other objects (instances)

@@ -1,0 +1,19 @@
+Data hiding attributes = want to hide sensitive, unnecessary or secret data from our users
+
+                                3 types of hiding attributes
+
+Public attributes = by DEFAULT all attributes are Public. They are inside and outside of class
+
+Protected attributes = can be accessed in classes as well as in sub-classes
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self._balance = balance   # protected
+
+acc1 = BankAccount("Rahul Kumar", 100000)
+
+print(acc1.name, acc1._balance)      # Rahul Kumar 100000
+NOTE : Despite being 'private' it was accessible, logically it should not be accessible outside class
+REASONING -> in python data hiding, this process is just a convention in it, is not happening with force [are not enforced]
+

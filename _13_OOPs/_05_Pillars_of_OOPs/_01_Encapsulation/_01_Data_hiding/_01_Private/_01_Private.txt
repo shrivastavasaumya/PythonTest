@@ -1,0 +1,45 @@
+Private attributes = can be accessed only inside the class
+making data private leads to "Data mangling" ---> we cannot access the data outside the class
+
+
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        self.__balance = balance   # private
+
+acc1 = BankAccount("Rahul Kumar", 100000)
+
+print(acc1.name, acc1._balance)      # error
+
+
+BUT IF YOU WANT TO ACCESS THE DATA OUTSIDE CLASS, THERE ARE 2 WAYS:
+A) GETTERS = To get the value
+B) SETTERS = To set the value
+
+
+
+____________________________
+
+
+
+acc1 = BankAccount("Rahul Kumar", 100000)
+acc1.set_balance(2000000)
+print(acc1.name, acc1.get_balance())   # Rahul Kumar 2000000
+
+
+Private variable is also not completely protected, we can access them also -
+But via this the concept of the data hiding gets rejected, because now the private data is accessible
+                                                    |
+                                                    |
+class BankAccount:                              <---|
+    def __init__(self, name, balance):
+        self.name = name
+        
+        self.__balance = balance   # private
+        
+
+
+acc1 = BankAccount("Rahul Kumar", 100000)
+
+print(acc1.name, acc1._BankAccount__balance)      # Rahul Kumar 100000

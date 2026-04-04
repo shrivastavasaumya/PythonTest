@@ -1,0 +1,32 @@
+
+                                                INHETRITANCE -
+
+Reusing attributes and methods from a parent /(base) class
+and to the one we give it to use (child class) /derived class
+
+class employee:      -->   parent class
+    start_time = '10 am'      
+    end_time = '6 pm'
+
+class teacher(employee):   --> to call parent class attributes we have to call it in a parenthesis
+    def __init__(self, subject):
+        self.subject = subject
+
+t1 = teacher("hindi")
+
+print(t1.subject, t1.start_time, t1.end_time)     # hindi 10 am 6 pm
+
+
+
+NOTE : -
+Data hiding in INHETRITANCE
+A) Protected = use this when we want to keep it protected and also want to share/give accessto the sub-class/ child class 
+
+B) Private = use this when we want to keep private and also don't want to give access to the sub-class or child-clas
+
+Types of INHETRITANCE :
+
+A) single - level inheritance   (explained above)
+B) Multi - level inheritance 
+C) Multiple inheritance
+D) Abstraction

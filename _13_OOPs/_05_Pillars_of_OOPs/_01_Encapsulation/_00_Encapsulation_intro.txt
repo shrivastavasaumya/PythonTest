@@ -1,0 +1,25 @@
+
+Pillars of OOPs:
+
+1) Encapsulation:
+wrapping data and functions into a single unit
+
+_________________________           ____________________________
+|   Object's             |         |   object's method's       |
+|     data               |   +     |  attribute and behaviour  |  = CLASS => Encapsulation
+|________________________|         |___________________________|
+
+
+
+
+
+Encapsulation in Python (OOP) is the concept of wrapping data (variables) and methods (functions) into a single
+unit (class) and restricting direct access to some of the object's components.
+
+Encapsulation = Data hiding + controlled access
+
+~ Why Encapsulation?
+Protects data from accidental changes
+Improves security
+Makes code modular and clean
+Allows controlled access using methods

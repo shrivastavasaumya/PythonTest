@@ -1,0 +1,12 @@
+                                                        Polymorphism
+                                                            
+                                                poly is many + morph is forms 
+Basic example is "function over-loading" -
+For instance = "+" 
+is used for 'string concatenation'
+and  addition
+
+Types of Polymorphism :-
+
+A) Function over-riding 
+B) Duck Typing

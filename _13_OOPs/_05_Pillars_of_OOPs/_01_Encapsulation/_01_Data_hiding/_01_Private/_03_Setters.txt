@@ -1,0 +1,13 @@
+
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        
+        self.__balance = balance   # private
+
+    def get_balance(self):
+        return self.__balance
+    
+    def set_balance(self, newBlance): ----> SETTER FUNCTION
+        self.__balance = newBlance
+        

@@ -1,0 +1,29 @@
+
+## 🔹 Constructor (`__init__`)     -METHOD
+
+construct/creates object for a function 
+to call ' _.init_' we use "()"
+* __init__ method is called automatically when object is created if not given 
+"self" parameter = it stores the current instance into class 
+                   a reference to the current object via calling the constructor
+                   Mandatory to write it in all instance methods
+                   
+class Student:
+    def __init__(self, name):
+        self.name = name    -> whatever value we will give, it will be stored in this parameter
+        self.marks = marks
+s1 = Student("Saumya", 9.8)
+
+print(s1.marks) # 9.8
+print(s1.name) # Saumya
+---
+
+## 🔹 `self` Keyword
+
+* Refers to **current object**
+* Used to access instance variables and methods
+
+
+class Test:
+    def show(self):
+        print(self)

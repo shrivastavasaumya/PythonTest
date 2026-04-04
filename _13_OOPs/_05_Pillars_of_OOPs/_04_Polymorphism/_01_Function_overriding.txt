@@ -1,0 +1,18 @@
+
+Function over-riding -
+works only where inheritance is involved. Redifing parent-class function in child-class function 
+
+Example -
+
+class Employee:
+    def get_designation(self):    # a parent-class function
+        print("designation = Employee")
+
+class Teacher(Employee):
+    def get_designation(self):     # over-riding it again in child class
+        print("designation = Teacher")
+
+t1 = Teacher()
+t1.get_designation()
+
+# designation = Teacher

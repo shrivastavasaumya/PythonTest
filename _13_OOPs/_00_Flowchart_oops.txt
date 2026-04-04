@@ -1,65 +1,51 @@
-Start
-  ↓
-Define Class
-  ├── class ClassName:
-  └── Blueprint of object
-  ↓
------------------------------------
-| 1. Attributes (Variables)       |
-|   ├── Instance variables        |
-|   └── Class variables           |
------------------------------------
-  ↓
------------------------------------
-| 2. Methods (Functions)          |
-|   ├── __init__ (constructor)    |
-|   ├── Instance methods          |
-|   ├── Class methods (@classmethod)
-|   └── Static methods (@staticmethod)
------------------------------------
-  ↓
-Create Object
-  ├── obj = ClassName()
-  ↓
-Access Members
-  ├── obj.variable
-  └── obj.method()
-  ↓
------------------------------------
-| 3. OOP Concepts                |
------------------------------------
-  ↓
-  ├── Encapsulation
-  │     ├── Public
-  │     ├── Protected (_var)
-  │     └── Private (__var)
-  ↓
-  ├── Inheritance
-  │     ├── Single
-  │     ├── Multiple
-  │     ├── Multilevel
-  │     └── Hierarchical
-  ↓
-  ├── Polymorphism
-  │     ├── Method Overriding
-  │     └── Operator Overloading
-  ↓
-  └── Abstraction
-        ├── Abstract classes
-        └── abc module
-  ↓
------------------------------------
-| 4. Special Methods             |
-|   ├── __str__                  |
-|   ├── __repr__                 |
-|   └── __len__ etc.             |
------------------------------------
-  ↓
------------------------------------
-| 5. Advanced OOP                |
-|   ├── Composition              |
-|   ├── Aggregation              |
-|   └── Duck Typing              |
------------------------------------
-  ↓
-End
+OOP (Object-Oriented Programming)
+│
+├── Class (Blueprint)
+│   │
+│   ├── Definition (class keyword)
+│   ├── Attributes (Variables)
+│   │   ├── Instance Variables
+│   │   └── Class Variables
+│   │
+│   ├── Methods (Functions inside class)
+│   │   ├── Instance Methods
+│   │   ├── Class Methods (@classmethod)
+│   │   └── Static Methods (@staticmethod)
+│   │
+│   ├── Constructor
+│   │   └── __init__()
+│   │
+│   └── Special (Magic/Dunder) Methods
+│       └── __str__(), __repr__(), etc.
+│
+├── Object (Instance of Class)
+│   │
+│   ├── Creation (object = ClassName())
+│   ├── Access
+│   │   ├── object.variable
+│   │   └── object.method()
+│   │
+│   └── Memory Concept
+│       └── Each object has separate data
+│
+├── self Keyword
+│   └── Refers to current object
+│
+├── Encapsulation (Data Hiding)
+│   ├── Public
+│   ├── Protected (_var)
+│   └── Private (__var)
+│
+├── Inheritance (Reusability)
+│   ├── Single
+│   ├── Multiple
+│   ├── Multilevel
+│   └── Hierarchical
+│
+├── Polymorphism (Many Forms)
+│   ├── Method Overloading (conceptual in Python)
+│   └── Method Overriding
+│
+└── Abstraction (Hiding Implementation)
+    ├── Abstract Classes
+    └── Abstract Methods

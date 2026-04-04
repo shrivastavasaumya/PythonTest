@@ -1,0 +1,34 @@
+
+                                                 Types of Constructors
+                                                /                     \
+                                               /                       \
+                                            DEFAULT                PARAMETERIZED
+                              {only 1 = the 'Self'}                      {'Self' + multiple}
+
+              ** In 1 class we cannot have multiple Constructors in Python like other languages
+                     That is it can only have one '__init__' only
+
+1. Default Method (No Parameters)
+
+A default method is a method that does not take extra arguments (only self).
+
+# Syntax
+class Demo:
+    def show(self):   # default method
+        print("Hello, this is a default method")
+
+obj = Demo()
+obj.show()
+
+~ Key Point
+Only self is present
+Works with fixed behavior
+No input from user
+
+
+| Feature     | Default Method | Parameterized Method     |
+| ----------- | -------------- | ------------------------ |
+| Parameters  | Only `self`    | `self + extra arguments` |
+| Input       | No             | Yes                      |
+| Flexibility | Fixed          | Dynamic                  |
+| Example     | `show()`       | `show(name)`             |

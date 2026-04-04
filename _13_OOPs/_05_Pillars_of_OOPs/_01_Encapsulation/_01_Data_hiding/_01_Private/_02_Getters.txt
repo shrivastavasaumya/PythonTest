@@ -1,0 +1,12 @@
+class BankAccount:
+    def __init__(self, name, balance):
+        self.name = name
+        
+        self.__balance = balance   # private
+
+    def get_balance(self): --> GETTER FUNCTION
+        return self.__balance
+
+acc1 = BankAccount("Rahul Kumar", 100000)
+
+print(acc1.name, acc1.get_balance())      # Rahul Kumar 100000

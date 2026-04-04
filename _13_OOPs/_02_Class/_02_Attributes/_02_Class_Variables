@@ -1,0 +1,29 @@
+
+1. Class Attributes
+
+A class attribute is a variable that is shared by all objects of the class.
+
+# Syntax
+class Student:
+    school = "ABC School"   # class attribute
+
+s1 = Student()
+s2 = Student()
+
+print(s1.school)
+print(s2.school)
+
+~ Key Points
+Defined inside class, outside methods
+Same value for all objects
+Stored only once
+
+
+
+| Feature | Class Attribute       | Instance Attribute        |
+| ------- | --------------------- | ------------------------- |
+| Defined | Inside class          | Inside constructor/method |
+| Keyword | No `self`             | Uses `self`               |
+| Sharing | Shared by all objects | Unique per object         |
+| Memory  | One copy              | Multiple copies           |
+| Example | `school`              | `name`                    |

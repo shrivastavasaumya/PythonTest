@@ -1,0 +1,27 @@
+
+                                                                Public
+Syntax = self.name
+Accessible anywhere
+
+
+
+Combined example -
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name          # public
+        self._roll = 101          # protected
+        self.__marks = marks      # private
+
+    def display(self):
+        print(f"Name: {self.name}")
+        print(f"Marks: {self.__marks}")
+
+s = Student("Aman", 90)
+
+print(s.name)        # ✅ Accessible
+print(s._roll)       # ⚠️ Accessible but not recommended
+# print(s.__marks)   # ❌ Error
+
+s.display()          # Access via method
