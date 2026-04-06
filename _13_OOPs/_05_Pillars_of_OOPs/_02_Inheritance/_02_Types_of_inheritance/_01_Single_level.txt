@@ -17,3 +17,9 @@ obj.display()                 # Output - Parent class
                                          Child class
 
 ~ Flow: Parent → Child
+
+
+
+Synonyms-
+Parent/Base/super class
+Child/Derived/sub class

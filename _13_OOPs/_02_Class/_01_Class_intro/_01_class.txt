@@ -8,3 +8,6 @@ Classes are blueprints of an object.
                                                /                       \
                                 Properties / Attributes             Behavior/ Methods
                               {VARIABLES}                                   {FUNCTION/FORMULA}
+
+
+

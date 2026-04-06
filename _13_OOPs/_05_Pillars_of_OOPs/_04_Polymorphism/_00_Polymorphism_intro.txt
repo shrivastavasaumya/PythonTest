@@ -1,12 +1,14 @@
                                                         Polymorphism
                                                             
                                                 poly is many + morph is forms 
-Basic example is "function over-loading" -
-For instance = "+" 
-is used for 'string concatenation'
-and  addition
+It refers to methods/functions/operators with the same name that can be executed on many objects or classes.
 
+                                
 Types of Polymorphism :-
 
 A) Function over-riding 
 B) Duck Typing
+C) Function overloading (not possible in Python)
+D) Function overloading  v/s Operator overloading
+
+

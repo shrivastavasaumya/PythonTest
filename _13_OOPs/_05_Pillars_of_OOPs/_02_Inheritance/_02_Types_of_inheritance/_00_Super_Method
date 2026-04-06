@@ -1,0 +1,12 @@
+
+                                                         super() in Python OOP
+
+super() is a built-in function used to call methods from the parent (superclass) inside a child (subclass).
+
+* reuse parent class code
+* avoid rewriting / code duplication
+* support multiple inheritance
+
+🔹 Syntax - super().method_name(arguments)
+
+super() follows MRO (Method Resolution Order).

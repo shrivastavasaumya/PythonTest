@@ -209,3 +209,100 @@ t1 = Accountant()
 t1.get_designation()
 # designation = Accountant
 
+# ____________________________________________
+
+class Father:
+    def drive(self):
+        print("Father will drive")
+
+class Mother:
+        def drive(self):
+            print("Mother will drive")
+
+class Child(Mother,Father):
+        pass
+
+ch1 = Child()
+ch1.drive()                # Mother will drive
+
+
+class Father:
+    def drive(self):
+        print("Father will drive")
+
+class Mother:
+        def drive(self):
+            print("Mother will drive")
+
+class Child(Father, Mother):
+        pass
+
+ch1 = Child()
+ch1.drive()          # Father will drive
+
+
+
+
+class Student:
+    def __init__(self, name, rollNo, marks):
+        self.set_name(name)
+        self.set_rollNo(rollNo)
+        self.set_marks(marks)
+
+    def get_name(self):
+        return self.__name
+
+    def get_rollNo(self):
+        return self.__roll_no
+
+    def get_marks(self):
+        return self.__marks
+
+    def set_name(self, name):
+        if name.strip() == "":
+            raise ValueError("Name cannot be empty")
+        self.__name = name
+
+    def set_rollNo(self, rollNo):
+        if not (1 <= rollNo <= 100):
+            raise ValueError("Roll number must be between 1 and 100")
+        self.__roll_no = rollNo
+
+    def set_marks(self, marks):
+        if marks < 0:
+            raise ValueError("Marks cannot be negative")
+        self.__marks = marks
+
+Student1 = Student( 'Kappa', 24, 85)
+print(Student1.get_marks())
+print(Student1.get_rollNo())
+print(Student1.get_name())
+--------------------
+class shape:
+    def __init__(self):
+        pass
+
+class area:
+    def area(self, p , q):
+        return (p*q)
+    
+class Circle( area):
+    def get_area(self):
+        return("Area of circle =" ,area)
+    
+class Rectangle( area):
+    def get_area(self):
+        return("Area of Rectangle =" ,area)
+    
+class Triangle( area):
+    def get_area(self):
+        return("Area of Triangle =" ,area)
+    
+
+#Circle , Rectangle , Triangle):
+        # self.Circle = Circle
+        # self.Rectangle = Rectangle
+        # self.Triangle = 
+        
+    
+Circle( 8, 9 )

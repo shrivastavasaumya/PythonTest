@@ -1,0 +1,52 @@
+
+Property Annotation in Python (OOP)
+
+In Python OOP, property annotation refers to using the built-in @property decorator to define methods that behave like attributes.
+
+It helps you:
+
+Control access to variables (encapsulation)
+Add validation logic
+Keep syntax clean (no need to call methods explicitly)
+
+
+Example -
+
+Getter using @property :-
+
+class Student:
+    def __init__(self, marks):
+        self._marks = marks   # private variable
+
+    @property
+    def marks(self):          # getter
+        return self._marks
+🔹 Usage
+s = Student(90)
+print(s.marks)   # no parentheses
+
+👉 Even though marks() is a method, it behaves like a variable.
+
+
+Setter using @property :-
+
+To modify the value with validation:
+
+class Student:
+    def __init__(self, marks):
+        self._marks = marks
+
+    @property
+    def marks(self):
+        return self._marks
+
+    @marks.setter
+    def marks(self, value):
+        if value < 0 or value > 100:
+            print("Invalid marks")
+        else:
+            self._marks = value
+🔹 Usage
+s = Student(80)
+s.marks = 95     # calls setter
+print(s.marks)

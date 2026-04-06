@@ -1,0 +1,53 @@
+MRO (Method Resolution Order) is the Order in which Python searches for a method when a method is called on an object.
+
+Used when -
+* Multiple Inheritance
+* Hybrid inheritance
+* with super()
+
+
+How to Check MRO :--> print(ClassName.__mro__)
+
+Python uses C3 Linearization to decide MRO:
+
+~~ Rules:
+
+Left to right priority
+Child before parent
+No repetition of classes
+Maintains consistent order
+
+
+Example of C3 Linearization -
+
+class Father:
+    def drive(self):
+        print("Father will drive")
+
+class Mother:
+        def drive(self):
+            print("Mother will drive")
+
+class Child(Mother,Father):        # Here, mother came 1st so it called that class 1st
+        pass
+
+ch1 = Child()
+ch1.drive()                # Mother will drive
+
+                                      
+                                      {Same example using left to right priority}
+
+
+class Father:
+    def drive(self):
+        print("Father will drive")
+
+class Mother:
+        def drive(self):
+            print("Mother will drive")
+
+class Child(Father, Mother):         # Here, Father came 1st so it called that class 1st
+        pass
+
+ch1 = Child()
+ch1.drive()          # Father will drive

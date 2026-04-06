@@ -1,0 +1,30 @@
+
+                                                             Composition vs Inheritance
+Inheritance → “is-a” relationship
+Composition → “has-a” relationship
+
+~ Composition is often preferred (flexible design)
+
+
+Composition → “has-a” relationship
+
+A class contains another class as an object
+
+==> Meaning: Class has a component
+
+ Example:
+class Engine:
+    def start(self):
+        print("Engine started")
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()   # Car HAS-A Engine
+
+    def start_car(self):
+        self.engine.start()
+
+c = Car()
+c.start_car()
+
+✔ Car uses Engine instead of inheriting it

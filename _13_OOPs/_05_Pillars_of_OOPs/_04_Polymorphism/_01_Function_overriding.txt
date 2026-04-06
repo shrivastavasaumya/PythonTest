@@ -1,5 +1,8 @@
 
 Function over-riding -
+
+OR ---> RUNTIME POLYMORPHISM
+
 works only where inheritance is involved. Redifing parent-class function in child-class function 
 
 Example -

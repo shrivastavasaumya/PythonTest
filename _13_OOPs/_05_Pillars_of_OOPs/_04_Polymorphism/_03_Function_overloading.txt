@@ -1,0 +1,39 @@
+
+C)
+Function overloading in Python : -
+
+It is achieved using flexible arguments, not multiple function definitions.
+
+Function overloading means:
+ Same function name, different number/type of arguments
+
+
+Python does not allow multiple functions with same name: or COMPILE TIME POLYMORPHISM
+def add(a, b):
+    return a + b
+
+def add(a, b, c):   # ❌ overwrites previous function
+    return a + b + c
+
+
+How Python Handles It (Alternatives)
+✅ 1. Default Arguments
+def add(a, b, c=0):
+    return a + b + c
+
+print(add(2, 3))       # 5
+print(add(2, 3, 4))    # 9
+
+👉 Works like overloading
+
+D)
+___________________________________________________________________________
+                                                                           |
+Function overloading & Operator over-loading both are different            |
+--------               --------                                            |
+                                                                           |
+Basic example is "Operator over-loading" -                                 |
+For instance = "+"                                                         |
+is used for 'string concatenation'                                         |
+and  addition                                                              |
+___________________________________________________________________________|
