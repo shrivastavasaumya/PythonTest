@@ -1,0 +1,39 @@
+
+File Operations :-
+                                                        MODES ~
+
+r       # reading [default]
+w       # writing, truncates (make something shorter) file first [it overwrites and can completely clean the file]
+           it works (overwrites) with entire data i.e from start to end
+
+x       # creates new & open for writing  [to deliberately create a new file]
+a       # writing, appends at end ( adds text at end) 
+b       # binary mode
+          
+t       # text mode [default] 
++       # opens disk file for update (r & w) 
+
+Fact - 
+1) if we use 'w' & 'a' with giving some data for a file and if that particular file doesn't exists, than it will create a new file 
+        by default
+
+2) diff b/w 'x' & 'w'
+if a file already exists than 'w' will truncate it and will overwrite the changes on that
+but 'x' will through a error that the file already exists [so that we unknowingly make unnecessary changes in an existing file]
+
+3) can use them with other modes also.     Example- rt (read in text mode)
+                                                    rb (read in binary mode)
+                                                    wt (write in text mode)
+                                                    wb (write in binary mode) 
+
+4) '+' can be used with multiple modes 
+                                                    {imagine things in terms of pointer}
+The pointer prints the text after the data which it adds
+
+r+   # read & write     [overwrites text at start, and will print remaining text, i.e the things after the pointer]
+
+w+   # write & read     [will delete whole old texts and then write ,will print 'blank space' 
+                        because the pointer is at the end : that means no text after this]
+
+a+   # append & read    [adds text at the end,and because the pointer is at the end : that means no text after this, 
+                            so it will print 'blank space']                 

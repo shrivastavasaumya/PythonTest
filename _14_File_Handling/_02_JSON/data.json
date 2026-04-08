@@ -1,0 +1,13 @@
+ 
+
+{
+    "name": "Draupdi",
+    "isTeacher": true,
+    "address": {
+        "city": "Bhopal",
+        "country":"India"
+},
+    "subjects": ["Python", "Javascript", "C++"]      
+}
+
+

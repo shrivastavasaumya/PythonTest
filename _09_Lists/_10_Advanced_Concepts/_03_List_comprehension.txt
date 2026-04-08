@@ -18,3 +18,5 @@ print(even)   # [2, 4]
 
 
  Purpose - Faster + cleaner than loops
+
+

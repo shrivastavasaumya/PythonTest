@@ -1,0 +1,5 @@
+This is a sample document
+for the topic of file input and output
+to understand how to open and close a file
+in python language and to learn 
+reading and overwriting on it 

@@ -1,0 +1,54 @@
+ 
+
+JSON =  Javascript Object Notation
+
+          |------[This 's' stands for string]
+                                                          __
+ json.loads()  = JSON string convert to Python object       \
+                                                             ----------- FOR STRINGS AND DICTIONARIES
+ json.dumps()  =  Python object to store in JSON string   __/
+
+              __  
+ json.load()    \
+                  ------------ FOR FILE
+ json.dumps() __/
+
+
+
+To convert a JSON file into Python file           (in same depository = file name
+                                                    other folder = absolute path)
+
+ Syntax :-
+
+import json 
+
+with open("json_file_name.json", "r") as f:
+    py_obj = json.load(f)
+    print(type(py_obj))
+
+----------------------------------------------------------------------------------------------------
+
+import json
+
+data = {
+    "name": "Arjun",
+    "isAlive": False,
+    "Medals_won": None
+}                                     [To overwrite in a JSON file]
+
+with open ("json_file_name.json", "w") as f:
+    json.dump(data , f, indent= 4, sort_keys = True)
+                        ---------------------------- {can add extra indent, order , etc to data }
+
+
+
+
+
+
+Naming diff b/w JSON and Python:
+
+   JSON                                              Python   
+arrays                                          list
+object                                          dictionary
+string                                          str
+null                                            none           
