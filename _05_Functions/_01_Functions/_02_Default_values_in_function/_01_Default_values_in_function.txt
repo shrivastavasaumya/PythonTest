@@ -64,7 +64,7 @@ add(2)
 
 ✔ Default must come after non-default
 
-❌ Wrong:
+❌ Wrong way :-
 
 def add(a=2, b):   # ERROR
 
@@ -81,6 +81,6 @@ def add(a, b):
 
 ~> add(2, b=3)   # ✔ valid
 
-❌ Wrong:
+❌ Wrong way :-
 
 add(a=2, 3)   # ERROR

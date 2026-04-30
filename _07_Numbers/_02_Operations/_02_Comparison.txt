@@ -7,12 +7,12 @@ Comparison operators are used to compare two numbers. They always return a Boole
 _________________________________________________________
 Operator |	Meaning	          |  Example   |  Result
 _________|________________________|____________|_________
-==	    Equal to	             5 == 5	True
-!=	    Not equal to	     5 != 3	True
->	    Greater than	     7 > 4	True
-<	    Less than	             2 < 6	True
->=	    Greater than or equal    5 >= 5	True
-<=	    Less than or equal	     3 <= 2	False
+==	    Equal to	             5 == 5	    True
+!=	    Not equal to	         5 != 3	    True
+>	    Greater than	         7 > 4	    True
+<	    Less than	             2 < 6	    True
+>=	    Greater than or equal    5 >= 5	    True
+<=	    Less than or equal	     3 <= 2	    False
 
 
 Example -

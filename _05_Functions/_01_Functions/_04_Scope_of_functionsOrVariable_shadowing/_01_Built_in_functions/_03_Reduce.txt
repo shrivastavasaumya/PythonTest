@@ -2,7 +2,7 @@
 ## 🔹 3. `reduce()`
 
 Purpose: Reduce iterable to a single value using cumulative operation
-repeatedly applies functionon the iterable to geta single value as the output
+repeatedly applies function on the iterable to get a single value as the output
 
 Syntax:
 from functools import reduce

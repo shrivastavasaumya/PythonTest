@@ -19,5 +19,5 @@ NOTE: Do not write in the form of
 if a == 6 or 7 or 9:
   print('lucky')
 else: 
-  print ('unlucky') -----> Wrong because here we have not any condition, we just had put the literal value of 'a'
-  And if we will any value in it it will give the output as 'lucky'
+  print ('unlucky') -----> Wrong because here we not have any condition, we just had put the literal value of 'a'
+  And if we will put any value in it, it will give the output as 'lucky'

@@ -15,7 +15,7 @@ Example 1: Simple List
 import copy
 
 original = [1, 2, 3]
-shallow = copy.copy(original)
+shallow = copy.copy(original)      # copy.copy(original) creates a shallow copy of the list.
 
 print(original)
 print(shallow)

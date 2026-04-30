@@ -9,7 +9,7 @@ print(person.get("marks"))  # None
 
 * ('none' is also a data type like boolean, list, integer etc.)
 
-NOTE : No error if key is missing
+NOTE : No error if key is missing, prints 'None' for it
 
 ****
 ~~ With default value:

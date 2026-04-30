@@ -6,7 +6,7 @@ ________________________________________________________________________________
 
 
                                                 if_score > 90:
-                                                    print('Excellent!')          (This is the way if you want to put both tha statements based on conditions)
+                                                    print('Excellent!')          (This is the way if you want to put both the statements based on conditions)
  
                                                 if score < 60:
                                                     print('study more')         

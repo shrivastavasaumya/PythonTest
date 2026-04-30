@@ -21,7 +21,7 @@ Have a nice day!
        
 But ****************       
      The 1st condition only is not satisfied, than the whole block will not be printed because of the inter-dependency of the conditions
-                             (if) temp = 5
+                             (if) temp = 11
                                   is_snowing = True
 
                                   if temp < 10:

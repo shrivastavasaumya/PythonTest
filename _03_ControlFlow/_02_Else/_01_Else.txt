@@ -28,14 +28,14 @@ else:
 password = input('Enter your password: ')
 if len(password) >= 8:
    print('Valid password')
-   else:                                                                                         [ ICORRECT INDENTATION]
+   else:                                                                                         [ INCORRECT INDENTATION]
    print('password is too short, must have 8 characters')
  
                                                                    OR
 password = input('Enter your password: ')
 if len(password) >= 8:
    print('Valid password')
-   else:                                                                                           [ ICORRECT INDENTATION]
+   else:                                                                                           [ INCORRECT INDENTATION]
        print('password is too short, must have 8 characters') 
 
 

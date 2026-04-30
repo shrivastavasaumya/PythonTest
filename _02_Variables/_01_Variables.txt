@@ -12,7 +12,7 @@
                            |                                  |                                      |                              |
                          NAME                               VALUE                               TYPE OF DATA                  MEMORY LOCATION
 
-                    
+                                                                                                                        [MNVT] --> trick
 Example:
  Person ="Ankit" (Ankit is a string for python so will be in quotes)                        |   x = 1
                                                                                             |   
